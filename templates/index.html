@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetAI - Intelligent Livestock Disease Prediction</title>
+    
+    <!-- External Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    
+    <style>
+        :root {
+            --primary-color: #667eea;
+            --secondary-color: #764ba2;
+            --accent-color: #f093fb;
+            --success-color: #4ecdc4;
+            --warning-color: #ffd93d;
+            --danger-color: #ff6b6b;
+            --dark-color: #2c3e50;
+            --light-color: #f8f9fa;
+            --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --gradient-success: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            --shadow-light: 0 10px 30px rgba(0,0,0,0.1);
+            --shadow-medium: 0 20px 60px rgba(0,0,0,0.15);
+            --border-radius: 20px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Animated Background */
+        .bg-animated {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            animation: gradientShift 15s ease infinite;
+        }
+
+        .bg-animated::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="white" opacity="0.05"/><circle cx="75" cy="75" r="1" fill="white" opacity="0.05"/><circle cx="25" cy="75" r="1" fill="white" opacity="0.05"/><circle cx="75" cy="25" r="1" fill="white" opacity="0.05"/><circle cx="50" cy="50" r="1" fill="white" opacity="0.05"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); }
+            25% { background: linear-gradient(135deg, #764ba2 0%, #f093fb 50%, #667eea 100%); }
+            50% { background: linear-gradient(135deg, #f093fb 0%, #667eea 50%, #764ba2 100%); }
+            75% { background: linear-gradient(135deg, #667eea 0%, #f093fb 50%, #764ba2 100%); }
+        }
+
+        /* Floating Particles */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: white;
+            border-radius: 50%;
+            opacity: 0.6;
+            animation: float 20s infinite linear;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 0.6; }
+            90% { opacity: 0.6; }
+            100% { transform: translateY(-100px) rotate(360deg); opacity: 0; }
+        }
+
+        /* Navigation */
+        .navbar-custom {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1rem 0;
+        }
+
+        .navbar-brand {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: white !important;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-weight: 500;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: var(--accent-color) !important;
+            transform: translateY(-2px);
+        }
+
+        /* Hero Section */
+        .hero-section {
+            padding: 6rem 0 4rem;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            background: linear-gradient(45deg, #fff, #f093fb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        /* Stats Cards */
+        .stats-container {
+            margin-bottom: 3rem;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            text-align: center;
+            color: white;
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-medium);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .stat-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+
+        /* Main Card */
+        .main-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-medium);
+            padding: 3rem 2.5rem;
+            margin-bottom: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .main-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--gradient-primary);
+        }
+
+        .card-header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .card-icon {
+            font-size: 4rem;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+        .card-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .card-subtitle {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+
+        /* Form Styling */
+        .form-group {
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+
+        .form-label {
+            font-weight: 600;
+            color: var(--dark-color);
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .form-control, .form-select {
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 0.75rem 1rem;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .form-control:focus, .form-select:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+            transform: translateY(-2px);
+        }
+
+        .input-group-text {
+            background: var(--gradient-primary);
+            color: white;
+            border: none;
+            border-radius: 12px 0 0 12px;
+        }
+
+        /* Buttons */
+        .btn-predict {
+            background: var(--gradient-primary);
+            border: none;
+            color: white;
+            font-weight: 600;
+            padding: 1rem 3rem;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-light);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-predict:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-medium);
+            color: white;
+        }
+
+        .btn-predict:active {
+            transform: translateY(-1px);
+        }
+
+        .btn-predict::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: all 0.6s ease;
+        }
+
+        .btn-predict:hover::before {
+            left: 100%;
+        }
+
+        /* Result Section */
+        .result-section {
+            margin-top: 2rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: var(--border-radius);
+            border-left: 5px solid var(--success-color);
+            display: none;
+            animation: slideInUp 0.5s ease-out;
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .result-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--success-color);
+            margin-bottom: 1rem;
+        }
+
+        .disease-result {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 1rem;
+        }
+
+        .confidence-meter {
+            margin: 1rem 0;
+        }
+
+        .confidence-bar {
+            height: 10px;
+            background: #e9ecef;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            background: var(--gradient-success);
+            transition: width 1s ease-out;
+            border-radius: 5px;
+        }
+
+        .result-details {
+            margin-top: 1.5rem;
+        }
+
+        .detail-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .detail-icon {
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+        }
+
+        .severity-critical { color: var(--danger-color); }
+        .severity-very-high { color: #ff4757; }
+        .severity-high { color: #ff8c00; }
+        .severity-moderate { color: var(--warning-color); }
+        .severity-low { color: var(--success-color); }
+
+        /* Loading Animation */
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.5rem;
+            }
+            
+            .main-card {
+                padding: 2rem 1.5rem;
+            }
+            
+            .btn-predict {
+                padding: 0.75rem 2rem;
+                font-size: 1rem;
+            }
+        }
+
+        /* Additional Animations */
+        .fade-in {
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        /* Toast Notifications */
+        .toast-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1050;
+        }
+
+        .toast {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-animated"></div>
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-heartbeat me-2"></i>VetAI
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prediction"><i class="fas fa-search me-1"></i>Predict</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dashboard"><i class="fas fa-chart-line me-1"></i>Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/features"><i class="fas fa-cogs me-1"></i>Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><i class="fas fa-info-circle me-1"></i>About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" data-aos="fade-up">
+        <div class="container">
+            <h1 class="hero-title">VetAI Disease Predictor</h1>
+            <p class="hero-subtitle">
+                Advanced AI-powered livestock disease prediction system with 83% accuracy
+            </p>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3 col-sm-6">
+                    <div class="stat-card">
+                        <i class="fas fa-database stat-icon"></i>
+                        <div class="stat-number" data-count="{{ total_animals }}">0</div>
+                        <div class="stat-label">Training Records</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="stat-card">
+                        <i class="fas fa-percentage stat-icon"></i>
+                        <div class="stat-number">83<span style="font-size: 1.5rem;">%</span></div>
+                        <div class="stat-label">Accuracy Rate</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="stat-card">
+                        <i class="fas fa-paw stat-icon"></i>
+                        <div class="stat-number">{{ animal_stats|length }}</div>
+                        <div class="stat-label">Animal Types</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="stat-card">
+                        <i class="fas fa-virus stat-icon"></i>
+                        <div class="stat-number">{{ disease_stats|length }}</div>
+                        <div class="stat-label">Disease Types</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Prediction Form -->
+    <section id="prediction" class="container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <div class="main-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                        <h2 class="card-title">Disease Prediction System</h2>
+                        <p class="card-subtitle">Enter livestock details to get instant disease prediction</p>
+                    </div>
+
+                    <form id="predictionForm" method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label" for="Animal">
+                                        <i class="fas fa-paw me-2"></i>Animal Type
+                                    </label>
+                                    <select class="form-select" id="Animal" name="Animal" required>
+                                        {% for Animal in Animals %}
+                                        <option value="{{ Animal }}">{{ Animal }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label" for="Age">
+                                        <i class="fas fa-calendar-alt me-2"></i>Age (years)
+                                    </label>
+                                    <input type="number" class="form-control" id="Age" name="Age" 
+                                           placeholder="Enter age" min="0" max="20" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="Temperature">
+                                <i class="fas fa-thermometer-half me-2"></i>Temperature (°C)
+                            </label>
+                            <input type="number" class="form-control" id="Temperature" name="Temperature" 
+                                   placeholder="Enter body temperature" step="0.1" min="35" max="45" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="Symptom_1">
+                                <i class="fas fa-exclamation-triangle me-2"></i>Primary Symptom
+                            </label>
+                            <select class="form-select" id="Symptom_1" name="Symptom 1" required>
+                                {% for Symptom_1 in Symptom_1s %}
+                                <option value="{{ Symptom_1 }}">{{ Symptom_1 }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="Symptom_2">
+                                <i class="fas fa-plus-circle me-2"></i>Secondary Symptom
+                            </label>
+                            <select class="form-select" id="Symptom_2" name="Symptom 2" required>
+                                {% for Symptom_2 in Symptom_2s %}
+                                <option value="{{ Symptom_2 }}">{{ Symptom_2 }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="Symptom_3">
+                                <i class="fas fa-plus-circle me-2"></i>Additional Symptom
+                            </label>
+                            <select class="form-select" id="Symptom_3" name="Symptom 3" required>
+                                {% for Symptom_3 in Symptom_3s %}
+                                <option value="{{ Symptom_3 }}">{{ Symptom_3 }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-predict btn-lg">
+                                <i class="fas fa-magic me-2"></i>
+                                <span id="btn-text">Predict Disease</span>
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Result Section -->
+                    <div class="result-section" id="resultSection">
+                        <div class="result-title">
+                            <i class="fas fa-check-circle me-2"></i>Prediction Results
+                        </div>
+                        
+                        <div class="disease-result" id="diseaseResult"></div>
+                        
+                        <div class="confidence-meter">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="fw-bold">Confidence Level</span>
+                                <span id="confidenceText" class="fw-bold text-success">0%</span>
+                            </div>
+                            <div class="confidence-bar">
+                                <div class="confidence-fill" id="confidenceFill" style="width: 0%"></div>
+                            </div>
+                        </div>
+
+                        <div class="result-details" id="resultDetails">
+                            <!-- Dynamic content will be inserted here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Predictions -->
+    {% if recent_predictions %}
+    <section class="container mb-5" data-aos="fade-up" data-aos-delay="300">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <div class="main-card">
+                    <h3 class="mb-4"><i class="fas fa-history me-2"></i>Recent Predictions</h3>
+                    <div class="row">
+                        {% for prediction in recent_predictions %}
+                        <div class="col-md-6 mb-3">
+                            <div class="detail-card">
+                                <h6 class="mb-2">{{ prediction.animal|title }} - {{ prediction.predicted_disease|title }}</h6>
+                                <small class="text-muted">{{ prediction.timestamp[:19] }}</small>
+                                <div class="mt-2">
+                                    <span class="badge bg-success">{{ prediction.confidence }}% confidence</span>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    <!-- Toast Container -->
+    <div class="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out-cubic',
+            once: true
+        });
+
+        // Create floating particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 50;
+
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 20 + 's';
+                particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Animate counter numbers
+        function animateCounters() {
+            const counters = document.querySelectorAll('[data-count]');
+            
+            counters.forEach(counter => {
+                const target = parseInt(counter.getAttribute('data-count'));
+                const increment = target / 50;
+                let current = 0;
+                
+                const updateCounter = () => {
+                    if (current < target) {
+                        current += increment;
+                        counter.textContent = Math.floor(current);
+                        requestAnimationFrame(updateCounter);
+                    } else {
+                        counter.textContent = target;
+                    }
+                };
+                
+                updateCounter();
+            });
+        }
+
+        // Form submission handler
+        document.getElementById('predictionForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const btnText = document.getElementById('btn-text');
+            const resultSection = document.getElementById('resultSection');
+            
+            // Show loading state
+            btnText.innerHTML = '<span class="loading-spinner me-2"></span>Predicting...';
+            resultSection.style.display = 'none';
+            
+            try {
+                const formData = new FormData(this);
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    displayResults(data);
+                    if (window.vetaiNotifications) {
+                        window.vetaiNotifications.prediction(`Disease identified: ${data.disease} with ${data.confidence}% confidence`);
+                    } else {
+                        showToast('Prediction completed successfully!', 'success');
+                    }
+                } else {
+                    throw new Error(data.error || 'Prediction failed');
+                }
+            } catch (error) {
+                if (window.vetaiNotifications) {
+                    window.vetaiNotifications.error('Prediction failed: ' + error.message);
+                } else {
+                    showToast('Error: ' + error.message, 'error');
+                }
+                console.error('Prediction error:', error);
+            } finally {
+                btnText.innerHTML = '<i class="fas fa-magic me-2"></i>Predict Disease';
+            }
+        });
+
+        function displayResults(data) {
+            const resultSection = document.getElementById('resultSection');
+            const diseaseResult = document.getElementById('diseaseResult');
+            const confidenceText = document.getElementById('confidenceText');
+            const confidenceFill = document.getElementById('confidenceFill');
+            const resultDetails = document.getElementById('resultDetails');
+            
+            // Display disease name
+            diseaseResult.textContent = data.disease.charAt(0).toUpperCase() + data.disease.slice(1);
+            
+            // Animate confidence meter
+            setTimeout(() => {
+                confidenceFill.style.width = data.confidence + '%';
+                confidenceText.textContent = data.confidence + '%';
+            }, 300);
+            
+            // Create severity class
+            const severityClass = 'severity-' + data.severity.toLowerCase().replace(' ', '-');
+            
+            // Display detailed results
+            resultDetails.innerHTML = `
+                <div class="detail-card">
+                    <h6><i class="fas fa-exclamation-triangle detail-icon ${severityClass}"></i>Severity Level</h6>
+                    <p class="mb-0 ${severityClass}">${data.severity}</p>
+                </div>
+                <div class="detail-card">
+                    <h6><i class="fas fa-pills detail-icon text-primary"></i>Recommended Treatment</h6>
+                    <p class="mb-0">${data.treatment}</p>
+                </div>
+                <div class="detail-card">
+                    <h6><i class="fas fa-shield-alt detail-icon text-success"></i>Prevention Tips</h6>
+                    <p class="mb-0">${data.prevention}</p>
+                </div>
+            `;
+            
+            // Show results with animation
+            resultSection.style.display = 'block';
+            resultSection.classList.add('fade-in');
+        }
+
+        function showToast(message, type) {
+            const toastContainer = document.querySelector('.toast-container');
+            const toastId = 'toast-' + Date.now();
+            
+            const icon = type === 'success' ? 'check-circle' : 'exclamation-triangle';
+            const bgClass = type === 'success' ? 'bg-success' : 'bg-danger';
+            
+            const toastHTML = `
+                <div id="${toastId}" class="toast" role="alert">
+                    <div class="toast-header ${bgClass} text-white">
+                        <i class="fas fa-${icon} me-2"></i>
+                        <strong class="me-auto">${type === 'success' ? 'Success' : 'Error'}</strong>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"></button>
+                    </div>
+                    <div class="toast-body">
+                        ${message}
+                    </div>
+                </div>
+            `;
+            
+            toastContainer.insertAdjacentHTML('beforeend', toastHTML);
+            
+            const toastElement = new bootstrap.Toast(document.getElementById(toastId));
+            toastElement.show();
+            
+            // Remove toast element after it's hidden
+            document.getElementById(toastId).addEventListener('hidden.bs.toast', function() {
+                this.remove();
+            });
+        }
+
+        // Initialize everything when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            createParticles();
+            setTimeout(animateCounters, 500);
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+    
+    <!-- VetAI Performance Enhancer -->
+    <script src="{{ url_for('static', filename='js/vetai-enhancer.js') }}"></script>
+    
+    <!-- VetAI Live Features -->
+    <script src="{{ url_for('static', filename='js/vetai-live.js') }}"></script>
+</body>
+</html>

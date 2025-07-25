@@ -1,0 +1,2501 @@
+,Animal,Age,Temperature,Symptom 1,Symptom 2,Symptom 3,Disease
+0,cow,3,103.1,depression,painless lumps,loss of appetite,pneumonia
+1,buffalo,13,104.5,painless lumps,loss of appetite,depression,lumpy virus
+2,sheep,1,100.5,depression,painless lumps,loss of appetite,lumpy virus
+3,cow,14,100.3,loss of appetite,swelling in limb,crackling sound,blackleg
+4,sheep,2,103.6,painless lumps,loss of appetite,depression,pneumonia
+5,goat,10,101.2,loss of appetite,blisters on gums,difficulty walking,foot and mouth
+6,sheep,6,103.3,loss of appetite,depression,painless lumps,lumpy virus
+7,goat,6,101.7,difficulty walking,blisters on tongue,loss of appetite,foot and mouth
+8,buffalo,9,102.5,depression,painless lumps,loss of appetite,lumpy virus
+9,goat,3,102.7,lameness,blisters on mouth,loss of appetite,foot and mouth
+10,sheep,1,104.1,painless lumps,depression,loss of appetite,pneumonia
+11,cow,11,103.9,depression,painless lumps,loss of appetite,lumpy virus
+12,goat,10,100.3,chills,swelling in extremities,shortness of breath,anthrax
+13,sheep,10,100.3,depression,swelling in limb,lameness,blackleg
+14,sheep,1,100.0,difficulty walking,sores on mouth,loss of appetite,foot and mouth
+15,sheep,6,103.1,crackling sound,lameness,depression,blackleg
+16,sheep,7,102.3,loss of appetite,sores on tongue,difficulty walking,foot and mouth
+17,buffalo,11,100.5,sores on gums,difficulty walking,loss of appetite,foot and mouth
+18,buffalo,15,100.3,fatigue,sweats,shortness of breath,anthrax
+19,cow,14,102.7,shortness of breath,sweats,chills,anthrax
+20,cow,1,103.7,depression,loss of appetite,painless lumps,lumpy virus
+21,sheep,1,102.3,loss of appetite,painless lumps,depression,lumpy virus
+22,cow,14,100.8,painless lumps,loss of appetite,depression,lumpy virus
+23,sheep,2,101.9,painless lumps,loss of appetite,depression,lumpy virus
+24,cow,7,101.9,chest discomfort,swelling in extremities,shortness of breath,anthrax
+25,goat,6,102.9,loss of appetite,painless lumps,depression,lumpy virus
+26,cow,12,100.3,loss of appetite,depression,painless lumps,lumpy virus
+27,sheep,10,103.4,depression,painless lumps,loss of appetite,pneumonia
+28,buffalo,1,101.3,shortness of breath,sweats,swelling in extremities,anthrax
+29,sheep,5,101.3,difficulty walking,blisters on gums,loss of appetite,foot and mouth
+30,cow,2,102.7,loss of appetite,sores on hooves,lameness,foot and mouth
+31,goat,1,101.7,chest discomfort,shortness of breath,chills,anthrax
+32,sheep,5,101.3,fatigue,sweats,swelling in extremities,anthrax
+33,sheep,10,102.9,loss of appetite,sores on mouth,difficulty walking,foot and mouth
+34,buffalo,10,104.4,swelling in limb,loss of appetite,crackling sound,blackleg
+35,sheep,3,101.9,loss of appetite,painless lumps,depression,pneumonia
+36,buffalo,14,102.9,loss of appetite,depression,painless lumps,lumpy virus
+37,goat,7,102.6,swelling in abdomen,shortness of breath,fatigue,anthrax
+38,cow,2,100.3,swelling in limb,crackling sound,difficulty walking,blackleg
+39,goat,6,100.1,swelling in abdomen,shortness of breath,chest discomfort,anthrax
+40,goat,6,103.3,painless lumps,loss of appetite,depression,lumpy virus
+41,sheep,10,100.5,sores on gums,loss of appetite,difficulty walking,foot and mouth
+42,cow,10,103.0,blisters on gums,loss of appetite,difficulty walking,foot and mouth
+43,sheep,3,103.3,painless lumps,loss of appetite,depression,pneumonia
+44,sheep,7,101.8,painless lumps,depression,loss of appetite,pneumonia
+45,buffalo,4,100.6,loss of appetite,depression,painless lumps,pneumonia
+46,sheep,8,102.3,painless lumps,depression,loss of appetite,pneumonia
+47,buffalo,3,104.7,painless lumps,loss of appetite,depression,pneumonia
+48,sheep,2,104.7,shortness of breath,chest discomfort,chills,anthrax
+49,buffalo,9,104.7,painless lumps,depression,loss of appetite,lumpy virus
+50,cow,2,100.2,painless lumps,loss of appetite,depression,lumpy virus
+51,goat,9,102.8,loss of appetite,depression,painless lumps,pneumonia
+52,buffalo,13,100.9,fatigue,shortness of breath,chills,anthrax
+53,sheep,4,100.3,loss of appetite,painless lumps,depression,lumpy virus
+54,cow,11,104.8,swelling in extremities,sweats,fatigue,anthrax
+55,goat,10,104.6,chest discomfort,chills,swelling in extremities,anthrax
+56,goat,3,101.4,depression,painless lumps,loss of appetite,pneumonia
+57,buffalo,5,104.3,fatigue,chills,chest discomfort,anthrax
+58,sheep,1,103.8,lameness,depression,swelling in limb,blackleg
+59,cow,11,104.2,loss of appetite,painless lumps,depression,pneumonia
+60,buffalo,13,103.6,crackling sound,depression,swelling in limb,blackleg
+61,goat,5,102.8,painless lumps,loss of appetite,depression,lumpy virus
+62,sheep,6,100.4,shortness of breath,swelling in abdomen,chills,anthrax
+63,sheep,3,103.2,depression,loss of appetite,painless lumps,lumpy virus
+64,buffalo,9,102.4,loss of appetite,painless lumps,depression,pneumonia
+65,goat,6,105.0,depression,lameness,loss of appetite,blackleg
+66,goat,9,103.7,loss of appetite,sores on gums,difficulty walking,foot and mouth
+67,cow,11,103.0,crackling sound,swelling in muscle,loss of appetite,blackleg
+68,sheep,2,103.0,painless lumps,loss of appetite,depression,lumpy virus
+69,goat,9,102.2,swelling in muscle,difficulty walking,crackling sound,blackleg
+70,sheep,9,104.4,loss of appetite,sores on tongue,difficulty walking,foot and mouth
+71,cow,2,104.8,swelling in muscle,loss of appetite,lameness,blackleg
+72,buffalo,2,101.3,blisters on hooves,lameness,loss of appetite,foot and mouth
+73,buffalo,15,101.4,depression,loss of appetite,painless lumps,pneumonia
+74,goat,6,104.5,loss of appetite,depression,painless lumps,lumpy virus
+75,buffalo,13,103.2,shortness of breath,fatigue,sweats,anthrax
+76,sheep,3,101.0,loss of appetite,sores on mouth,difficulty walking,foot and mouth
+77,cow,3,100.2,chest discomfort,sweats,swelling in extremities,anthrax
+78,buffalo,11,103.3,lameness,blisters on mouth,loss of appetite,foot and mouth
+79,sheep,8,102.8,loss of appetite,difficulty walking,blisters on mouth,foot and mouth
+80,buffalo,11,102.9,sores on gums,difficulty walking,loss of appetite,foot and mouth
+81,buffalo,5,103.8,lameness,blisters on mouth,loss of appetite,foot and mouth
+82,goat,3,103.8,chest discomfort,swelling in neck,chills,anthrax
+83,cow,12,104.8,painless lumps,loss of appetite,depression,pneumonia
+84,buffalo,1,102.2,painless lumps,depression,loss of appetite,lumpy virus
+85,buffalo,11,101.9,swelling in limb,crackling sound,loss of appetite,blackleg
+86,buffalo,8,101.8,loss of appetite,sores on tongue,difficulty walking,foot and mouth
+87,goat,8,100.9,depression,painless lumps,loss of appetite,lumpy virus
+88,sheep,6,100.4,blisters on tongue,loss of appetite,difficulty walking,foot and mouth
+89,goat,10,102.1,loss of appetite,lameness,crackling sound,blackleg
+90,sheep,3,104.9,depression,painless lumps,loss of appetite,pneumonia
+91,cow,12,101.6,depression,loss of appetite,painless lumps,lumpy virus
+92,goat,1,102.5,loss of appetite,depression,painless lumps,lumpy virus
+93,cow,5,100.2,sores on gums,difficulty walking,loss of appetite,foot and mouth
+94,sheep,9,101.0,loss of appetite,difficulty walking,sores on mouth,foot and mouth
+95,sheep,8,102.4,depression,loss of appetite,painless lumps,lumpy virus
+96,buffalo,12,102.6,sores on tongue,lameness,loss of appetite,foot and mouth
+97,buffalo,13,101.2,loss of appetite,difficulty walking,depression,blackleg
+98,cow,12,102.9,loss of appetite,painless lumps,depression,lumpy virus
+99,sheep,3,103.7,sweats,chills,shortness of breath,anthrax
+100,goat,4,103.8,loss of appetite,painless lumps,depression,pneumonia
+101,buffalo,12,100.4,shortness of breath,sweats,chills,anthrax
+102,buffalo,10,100.2,painless lumps,loss of appetite,depression,pneumonia
+103,cow,1,101.9,loss of appetite,depression,painless lumps,lumpy virus
+104,sheep,1,100.4,painless lumps,loss of appetite,depression,pneumonia
+105,sheep,8,101.5,loss of appetite,depression,painless lumps,pneumonia
+106,sheep,6,103.4,painless lumps,loss of appetite,depression,lumpy virus
+107,buffalo,13,101.2,painless lumps,depression,loss of appetite,pneumonia
+108,buffalo,9,101.2,depression,painless lumps,loss of appetite,lumpy virus
+109,goat,4,104.3,blisters on hooves,difficulty walking,loss of appetite,foot and mouth
+110,cow,9,101.3,crackling sound,lameness,depression,blackleg
+111,buffalo,2,104.5,depression,loss of appetite,painless lumps,pneumonia
+112,buffalo,15,100.4,swelling in muscle,crackling sound,loss of appetite,blackleg
+113,cow,11,102.1,sweats,fatigue,chills,anthrax
+114,cow,15,101.8,swelling in muscle,lameness,crackling sound,blackleg
+115,cow,4,103.0,depression,painless lumps,loss of appetite,lumpy virus
+116,cow,2,103.8,loss of appetite,depression,painless lumps,lumpy virus
+117,sheep,3,100.2,difficulty walking,crackling sound,swelling in limb,blackleg
+118,sheep,8,101.9,loss of appetite,painless lumps,depression,lumpy virus
+119,goat,5,102.6,difficulty walking,blisters on hooves,loss of appetite,foot and mouth
+120,sheep,6,100.2,crackling sound,difficulty walking,depression,blackleg
+121,sheep,8,100.9,lameness,sores on tongue,loss of appetite,foot and mouth
+122,goat,8,102.0,chills,fatigue,swelling in abdomen,anthrax
+123,cow,14,104.5,difficulty walking,blisters on hooves,loss of appetite,foot and mouth
+124,buffalo,3,101.3,painless lumps,loss of appetite,depression,lumpy virus
+125,buffalo,4,103.6,painless lumps,loss of appetite,depression,pneumonia
+126,sheep,4,101.0,shortness of breath,swelling in abdomen,fatigue,anthrax
+127,buffalo,10,102.0,blisters on tongue,difficulty walking,loss of appetite,foot and mouth
+128,buffalo,12,101.7,loss of appetite,painless lumps,depression,pneumonia
+129,cow,15,102.9,swelling in abdomen,chills,shortness of breath,anthrax
+130,cow,15,102.1,painless lumps,loss of appetite,depression,lumpy virus
+131,buffalo,14,102.6,sweats,fatigue,chest discomfort,anthrax
+132,buffalo,8,103.7,painless lumps,loss of appetite,depression,pneumonia
+133,cow,3,102.1,difficulty walking,blisters on gums,loss of appetite,foot and mouth
+134,cow,7,104.5,loss of appetite,painless lumps,depression,pneumonia
+135,sheep,8,104.0,fatigue,chills,chest discomfort,anthrax
+136,cow,5,101.2,depression,loss of appetite,painless lumps,pneumonia
+137,sheep,3,100.4,crackling sound,depression,difficulty walking,blackleg
+138,goat,1,102.4,painless lumps,depression,loss of appetite,lumpy virus
+139,cow,12,102.4,crackling sound,loss of appetite,difficulty walking,blackleg
+140,cow,5,100.2,loss of appetite,depression,painless lumps,pneumonia
+141,goat,2,102.0,depression,painless lumps,loss of appetite,lumpy virus
+142,goat,7,104.7,loss of appetite,lameness,blisters on tongue,foot and mouth
+143,cow,5,102.4,loss of appetite,difficulty walking,swelling in muscle,blackleg
+144,cow,4,102.2,painless lumps,depression,loss of appetite,pneumonia
+145,buffalo,13,104.4,difficulty walking,sores on gums,loss of appetite,foot and mouth
+146,goat,7,104.2,depression,loss of appetite,painless lumps,pneumonia
+147,cow,3,104.1,depression,painless lumps,loss of appetite,lumpy virus
+148,sheep,6,103.9,loss of appetite,depression,painless lumps,pneumonia
+149,sheep,9,100.5,loss of appetite,painless lumps,depression,pneumonia
+150,goat,2,101.1,loss of appetite,painless lumps,depression,pneumonia
+151,sheep,10,101.8,sweats,chest discomfort,chills,anthrax
+152,sheep,3,100.0,fatigue,chest discomfort,chills,anthrax
+153,sheep,3,103.5,swelling in limb,depression,crackling sound,blackleg
+154,goat,9,101.3,depression,loss of appetite,painless lumps,pneumonia
+155,cow,1,103.2,loss of appetite,depression,painless lumps,pneumonia
+156,buffalo,3,101.0,painless lumps,depression,loss of appetite,lumpy virus
+157,goat,6,101.0,chest discomfort,swelling in extremities,chills,anthrax
+158,sheep,5,101.1,loss of appetite,depression,painless lumps,pneumonia
+159,sheep,1,100.1,depression,loss of appetite,painless lumps,lumpy virus
+160,sheep,4,101.5,swelling in limb,depression,crackling sound,blackleg
+161,goat,4,101.0,sores on hooves,loss of appetite,lameness,foot and mouth
+162,goat,7,101.2,chest discomfort,chills,sweats,anthrax
+163,buffalo,1,101.8,sores on hooves,loss of appetite,difficulty walking,foot and mouth
+164,cow,2,100.7,loss of appetite,blisters on mouth,difficulty walking,foot and mouth
+165,goat,7,101.6,sweats,shortness of breath,chills,anthrax
+166,cow,13,104.1,sweats,fatigue,swelling in abdomen,anthrax
+167,buffalo,12,101.6,shortness of breath,chills,chest discomfort,anthrax
+168,buffalo,7,102.8,chest discomfort,shortness of breath,swelling in neck,anthrax
+169,sheep,1,100.3,loss of appetite,depression,painless lumps,pneumonia
+170,cow,14,102.0,painless lumps,loss of appetite,depression,lumpy virus
+171,cow,2,101.8,difficulty walking,sores on hooves,loss of appetite,foot and mouth
+172,sheep,5,100.1,chest discomfort,fatigue,swelling in neck,anthrax
+173,buffalo,10,100.0,loss of appetite,depression,painless lumps,lumpy virus
+174,goat,7,100.4,depression,lameness,swelling in muscle,blackleg
+175,cow,12,102.2,fatigue,sweats,shortness of breath,anthrax
+176,cow,12,102.9,fatigue,swelling in abdomen,chest discomfort,anthrax
+177,sheep,1,102.4,blisters on mouth,loss of appetite,difficulty walking,foot and mouth
+178,sheep,9,101.7,depression,painless lumps,loss of appetite,pneumonia
+179,goat,6,101.9,depression,painless lumps,loss of appetite,lumpy virus
+180,sheep,9,100.3,depression,painless lumps,loss of appetite,lumpy virus
+181,sheep,10,103.0,sweats,fatigue,chest discomfort,anthrax
+182,goat,6,100.1,blisters on hooves,loss of appetite,lameness,foot and mouth
+183,cow,6,102.4,lameness,swelling in muscle,depression,blackleg
+184,cow,10,104.4,loss of appetite,depression,painless lumps,lumpy virus
+185,sheep,10,104.4,swelling in extremities,chest discomfort,chills,anthrax
+186,cow,14,104.8,loss of appetite,crackling sound,lameness,blackleg
+187,sheep,8,100.4,depression,painless lumps,loss of appetite,lumpy virus
+188,buffalo,13,101.2,lameness,loss of appetite,sores on tongue,foot and mouth
+189,buffalo,1,102.3,sores on gums,lameness,loss of appetite,foot and mouth
+190,goat,3,103.4,painless lumps,loss of appetite,depression,pneumonia
+191,cow,11,101.9,difficulty walking,depression,crackling sound,blackleg
+192,sheep,3,101.3,loss of appetite,depression,painless lumps,lumpy virus
+193,buffalo,15,100.4,loss of appetite,painless lumps,depression,pneumonia
+194,sheep,2,102.0,swelling in abdomen,chills,shortness of breath,anthrax
+195,sheep,2,103.7,loss of appetite,blisters on gums,lameness,foot and mouth
+196,buffalo,3,102.1,fatigue,sweats,chills,anthrax
+197,cow,10,104.6,difficulty walking,loss of appetite,blisters on hooves,foot and mouth
+198,cow,3,101.4,shortness of breath,sweats,chills,anthrax
+199,buffalo,2,102.9,loss of appetite,depression,painless lumps,lumpy virus
+200,goat,3,101.4,fatigue,shortness of breath,chills,anthrax
+201,cow,1,102.8,sweats,chest discomfort,fatigue,anthrax
+202,goat,4,101.5,fatigue,shortness of breath,swelling in abdomen,anthrax
+203,cow,1,102.4,crackling sound,loss of appetite,depression,blackleg
+204,goat,5,102.5,painless lumps,depression,loss of appetite,lumpy virus
+205,cow,15,104.5,chest discomfort,sweats,chills,anthrax
+206,goat,8,102.4,loss of appetite,depression,painless lumps,pneumonia
+207,cow,7,100.8,crackling sound,depression,loss of appetite,blackleg
+208,goat,7,102.1,chest discomfort,sweats,chills,anthrax
+209,goat,8,104.3,swelling in extremities,fatigue,chest discomfort,anthrax
+210,goat,6,103.9,loss of appetite,painless lumps,depression,pneumonia
+211,cow,11,102.2,chest discomfort,swelling in neck,chills,anthrax
+212,goat,5,102.3,loss of appetite,painless lumps,depression,lumpy virus
+213,sheep,8,100.8,depression,lameness,crackling sound,blackleg
+214,sheep,8,104.2,sores on hooves,lameness,loss of appetite,foot and mouth
+215,buffalo,13,102.2,depression,painless lumps,loss of appetite,pneumonia
+216,cow,14,102.2,painless lumps,loss of appetite,depression,pneumonia
+217,cow,1,101.5,blisters on tongue,loss of appetite,lameness,foot and mouth
+218,goat,7,100.4,painless lumps,loss of appetite,depression,pneumonia
+219,goat,7,102.0,sweats,shortness of breath,chills,anthrax
+220,sheep,2,100.2,painless lumps,loss of appetite,depression,lumpy virus
+221,goat,6,100.5,depression,painless lumps,loss of appetite,lumpy virus
+222,goat,5,102.4,fatigue,chills,swelling in neck,anthrax
+223,cow,1,100.1,sweats,chills,swelling in abdomen,anthrax
+224,cow,9,101.1,loss of appetite,swelling in limb,crackling sound,blackleg
+225,buffalo,15,104.2,painless lumps,loss of appetite,depression,pneumonia
+226,sheep,4,101.9,painless lumps,depression,loss of appetite,pneumonia
+227,sheep,9,104.5,loss of appetite,blisters on hooves,lameness,foot and mouth
+228,buffalo,1,102.2,shortness of breath,sweats,chills,anthrax
+229,buffalo,1,103.0,blisters on mouth,lameness,loss of appetite,foot and mouth
+230,buffalo,11,103.7,shortness of breath,swelling in extremities,chest discomfort,anthrax
+231,sheep,8,102.8,difficulty walking,loss of appetite,depression,blackleg
+232,cow,10,101.2,painless lumps,depression,loss of appetite,pneumonia
+233,buffalo,7,103.7,loss of appetite,painless lumps,depression,pneumonia
+234,goat,6,102.0,fatigue,sweats,swelling in neck,anthrax
+235,buffalo,4,103.5,difficulty walking,sores on hooves,loss of appetite,foot and mouth
+236,sheep,6,101.9,blisters on tongue,lameness,loss of appetite,foot and mouth
+237,cow,7,102.4,blisters on hooves,difficulty walking,loss of appetite,foot and mouth
+238,sheep,9,104.3,lameness,sores on hooves,loss of appetite,foot and mouth
+239,goat,8,100.4,swelling in neck,sweats,fatigue,anthrax
+240,cow,3,102.1,painless lumps,loss of appetite,depression,pneumonia
+241,buffalo,11,104.8,painless lumps,loss of appetite,depression,lumpy virus
+242,buffalo,6,102.4,depression,painless lumps,loss of appetite,lumpy virus
+243,goat,9,103.8,sweats,chest discomfort,fatigue,anthrax
+244,buffalo,1,101.2,painless lumps,loss of appetite,depression,pneumonia
+245,cow,10,102.3,loss of appetite,difficulty walking,blisters on mouth,foot and mouth
+246,sheep,8,100.8,difficulty walking,blisters on hooves,loss of appetite,foot and mouth
+247,cow,1,102.8,painless lumps,loss of appetite,depression,pneumonia
+248,goat,1,100.8,loss of appetite,lameness,blisters on mouth,foot and mouth
+249,cow,3,100.6,crackling sound,loss of appetite,depression,blackleg
+250,goat,6,104.2,blisters on mouth,lameness,loss of appetite,foot and mouth
+251,sheep,8,103.7,painless lumps,depression,loss of appetite,pneumonia
+252,cow,13,104.0,lameness,loss of appetite,sores on mouth,foot and mouth
+253,cow,8,102.2,swelling in muscle,depression,lameness,blackleg
+254,goat,10,100.3,swelling in limb,loss of appetite,lameness,blackleg
+255,goat,5,102.2,depression,lameness,loss of appetite,blackleg
+256,cow,13,104.1,painless lumps,depression,loss of appetite,pneumonia
+257,goat,8,104.3,sores on mouth,loss of appetite,difficulty walking,foot and mouth
+258,cow,9,101.6,loss of appetite,sores on hooves,lameness,foot and mouth
+259,buffalo,1,100.2,loss of appetite,difficulty walking,sores on tongue,foot and mouth
+260,buffalo,4,100.0,loss of appetite,depression,painless lumps,pneumonia
+261,sheep,9,102.4,sores on tongue,loss of appetite,difficulty walking,foot and mouth
+262,goat,1,102.0,blisters on tongue,difficulty walking,loss of appetite,foot and mouth
+263,buffalo,11,102.7,fatigue,shortness of breath,swelling in neck,anthrax
+264,sheep,3,101.4,chills,chest discomfort,fatigue,anthrax
+265,cow,7,100.1,depression,loss of appetite,painless lumps,lumpy virus
+266,sheep,6,102.6,sweats,fatigue,swelling in extremities,anthrax
+267,goat,8,100.8,painless lumps,depression,loss of appetite,pneumonia
+268,buffalo,14,101.1,depression,loss of appetite,swelling in limb,blackleg
+269,sheep,10,101.9,painless lumps,loss of appetite,depression,pneumonia
+270,buffalo,1,101.7,lameness,loss of appetite,depression,blackleg
+271,cow,3,104.2,loss of appetite,lameness,crackling sound,blackleg
+272,sheep,5,101.3,lameness,swelling in limb,crackling sound,blackleg
+273,goat,7,102.8,painless lumps,depression,loss of appetite,lumpy virus
+274,buffalo,7,102.7,depression,painless lumps,loss of appetite,lumpy virus
+275,sheep,4,102.3,loss of appetite,depression,crackling sound,blackleg
+276,sheep,10,104.2,shortness of breath,fatigue,swelling in neck,anthrax
+277,buffalo,14,102.0,depression,crackling sound,swelling in muscle,blackleg
+278,buffalo,6,104.3,loss of appetite,depression,painless lumps,lumpy virus
+279,sheep,9,103.7,painless lumps,loss of appetite,depression,pneumonia
+280,sheep,3,100.4,loss of appetite,crackling sound,swelling in limb,blackleg
+281,buffalo,6,103.9,sores on tongue,lameness,loss of appetite,foot and mouth
+282,sheep,3,100.7,swelling in limb,crackling sound,loss of appetite,blackleg
+283,sheep,3,101.2,swelling in limb,depression,difficulty walking,blackleg
+284,sheep,2,102.9,fatigue,sweats,chest discomfort,anthrax
+285,cow,13,102.7,loss of appetite,painless lumps,depression,pneumonia
+286,sheep,8,103.5,depression,painless lumps,loss of appetite,lumpy virus
+287,goat,9,102.1,depression,difficulty walking,crackling sound,blackleg
+288,buffalo,6,101.2,swelling in abdomen,shortness of breath,fatigue,anthrax
+289,goat,2,103.9,lameness,sores on hooves,loss of appetite,foot and mouth
+290,sheep,7,104.1,loss of appetite,painless lumps,depression,lumpy virus
+291,sheep,10,102.8,loss of appetite,painless lumps,depression,lumpy virus
+292,cow,1,104.1,depression,painless lumps,loss of appetite,lumpy virus
+293,goat,1,103.6,sores on gums,loss of appetite,difficulty walking,foot and mouth
+294,buffalo,12,104.2,painless lumps,loss of appetite,depression,pneumonia
+295,sheep,10,105.0,fatigue,chest discomfort,sweats,anthrax
+296,sheep,1,104.6,depression,loss of appetite,painless lumps,lumpy virus
+297,sheep,2,104.5,painless lumps,depression,loss of appetite,lumpy virus
+298,cow,14,101.8,loss of appetite,depression,painless lumps,lumpy virus
+299,sheep,10,103.1,loss of appetite,depression,painless lumps,pneumonia
+300,buffalo,8,101.9,loss of appetite,painless lumps,depression,lumpy virus
+301,goat,8,100.2,depression,loss of appetite,painless lumps,lumpy virus
+302,buffalo,9,100.4,chills,sweats,shortness of breath,anthrax
+303,goat,3,102.0,loss of appetite,depression,swelling in muscle,blackleg
+304,sheep,4,103.9,loss of appetite,depression,painless lumps,lumpy virus
+305,buffalo,8,101.1,painless lumps,depression,loss of appetite,pneumonia
+306,cow,13,101.0,loss of appetite,depression,painless lumps,lumpy virus
+307,goat,8,101.5,chest discomfort,swelling in extremities,sweats,anthrax
+308,sheep,1,101.5,loss of appetite,blisters on gums,lameness,foot and mouth
+309,cow,14,102.0,depression,loss of appetite,swelling in limb,blackleg
+310,cow,12,100.9,shortness of breath,sweats,fatigue,anthrax
+311,buffalo,12,102.3,sores on tongue,loss of appetite,difficulty walking,foot and mouth
+312,goat,6,102.0,painless lumps,depression,loss of appetite,pneumonia
+313,buffalo,13,101.4,loss of appetite,blisters on hooves,difficulty walking,foot and mouth
+314,sheep,9,104.1,fatigue,shortness of breath,chills,anthrax
+315,buffalo,8,101.8,loss of appetite,painless lumps,depression,lumpy virus
+316,sheep,4,102.1,sweats,chills,shortness of breath,anthrax
+317,goat,9,103.8,depression,painless lumps,loss of appetite,pneumonia
+318,buffalo,11,103.7,shortness of breath,fatigue,sweats,anthrax
+319,goat,3,100.6,chills,shortness of breath,fatigue,anthrax
+320,goat,5,101.9,swelling in muscle,crackling sound,difficulty walking,blackleg
+321,cow,13,103.2,painless lumps,depression,loss of appetite,lumpy virus
+322,buffalo,11,102.5,fatigue,chills,sweats,anthrax
+323,cow,4,100.3,chest discomfort,chills,sweats,anthrax
+324,sheep,2,104.2,loss of appetite,depression,painless lumps,pneumonia
+325,sheep,2,101.4,loss of appetite,difficulty walking,blisters on gums,foot and mouth
+326,buffalo,3,103.8,chills,fatigue,shortness of breath,anthrax
+327,goat,10,104.0,depression,difficulty walking,loss of appetite,blackleg
+328,buffalo,3,100.4,difficulty walking,sores on gums,loss of appetite,foot and mouth
+329,cow,8,103.8,loss of appetite,painless lumps,depression,pneumonia
+330,cow,14,100.8,loss of appetite,painless lumps,depression,lumpy virus
+331,goat,8,101.9,painless lumps,depression,loss of appetite,pneumonia
+332,cow,8,101.1,lameness,loss of appetite,swelling in muscle,blackleg
+333,buffalo,5,102.6,depression,painless lumps,loss of appetite,lumpy virus
+334,goat,10,103.3,depression,loss of appetite,painless lumps,lumpy virus
+335,sheep,3,100.7,painless lumps,loss of appetite,depression,lumpy virus
+336,sheep,4,101.4,swelling in limb,lameness,loss of appetite,blackleg
+337,sheep,3,100.3,depression,loss of appetite,painless lumps,pneumonia
+338,goat,3,101.1,sores on gums,lameness,loss of appetite,foot and mouth
+339,buffalo,15,102.4,depression,painless lumps,loss of appetite,lumpy virus
+340,cow,2,103.8,shortness of breath,sweats,chest discomfort,anthrax
+341,buffalo,3,103.4,crackling sound,depression,loss of appetite,blackleg
+342,buffalo,1,100.6,blisters on tongue,difficulty walking,loss of appetite,foot and mouth
+343,goat,2,101.8,painless lumps,loss of appetite,depression,pneumonia
+344,cow,3,101.7,fatigue,chest discomfort,sweats,anthrax
+345,buffalo,5,103.3,crackling sound,swelling in limb,depression,blackleg
+346,cow,5,103.7,loss of appetite,painless lumps,depression,lumpy virus
+347,sheep,10,104.3,chills,shortness of breath,chest discomfort,anthrax
+348,cow,10,103.2,fatigue,shortness of breath,chills,anthrax
+349,cow,3,103.0,loss of appetite,painless lumps,depression,lumpy virus
+350,goat,1,101.3,swelling in muscle,loss of appetite,lameness,blackleg
+351,goat,6,104.9,loss of appetite,lameness,swelling in limb,blackleg
+352,cow,4,100.1,depression,crackling sound,swelling in muscle,blackleg
+353,buffalo,14,103.4,sweats,chills,fatigue,anthrax
+354,goat,10,104.4,fatigue,chills,chest discomfort,anthrax
+355,buffalo,13,102.7,blisters on tongue,loss of appetite,difficulty walking,foot and mouth
+356,goat,4,104.8,lameness,crackling sound,depression,blackleg
+357,cow,12,100.0,blisters on mouth,lameness,loss of appetite,foot and mouth
+358,goat,10,104.2,loss of appetite,lameness,sores on tongue,foot and mouth
+359,cow,8,101.2,depression,loss of appetite,painless lumps,lumpy virus
+360,cow,4,102.4,loss of appetite,depression,painless lumps,lumpy virus
+361,buffalo,10,102.4,loss of appetite,depression,crackling sound,blackleg
+362,sheep,1,100.3,loss of appetite,depression,painless lumps,lumpy virus
+363,goat,5,102.6,painless lumps,loss of appetite,depression,lumpy virus
+364,goat,10,101.3,crackling sound,swelling in muscle,difficulty walking,blackleg
+365,sheep,2,103.3,depression,loss of appetite,painless lumps,lumpy virus
+366,sheep,6,102.2,fatigue,swelling in abdomen,sweats,anthrax
+367,sheep,3,104.6,painless lumps,loss of appetite,depression,pneumonia
+368,goat,9,101.4,painless lumps,depression,loss of appetite,pneumonia
+369,buffalo,7,100.2,difficulty walking,swelling in limb,loss of appetite,blackleg
+370,cow,2,102.3,depression,painless lumps,loss of appetite,pneumonia
+371,buffalo,11,102.5,lameness,sores on mouth,loss of appetite,foot and mouth
+372,buffalo,5,104.9,fatigue,sweats,swelling in abdomen,anthrax
+373,sheep,10,102.1,depression,loss of appetite,painless lumps,pneumonia
+374,cow,14,101.4,blisters on hooves,loss of appetite,difficulty walking,foot and mouth
+375,buffalo,8,101.6,depression,loss of appetite,painless lumps,lumpy virus
+376,sheep,1,104.6,painless lumps,depression,loss of appetite,pneumonia
+377,cow,14,100.3,depression,painless lumps,loss of appetite,pneumonia
+378,cow,2,101.6,loss of appetite,painless lumps,depression,pneumonia
+379,goat,8,104.7,depression,painless lumps,loss of appetite,pneumonia
+380,sheep,7,101.0,chills,fatigue,shortness of breath,anthrax
+381,goat,3,101.9,loss of appetite,painless lumps,depression,pneumonia
+382,cow,10,102.8,swelling in neck,chest discomfort,shortness of breath,anthrax
+383,buffalo,7,102.8,shortness of breath,fatigue,sweats,anthrax
+384,buffalo,9,102.5,crackling sound,loss of appetite,difficulty walking,blackleg
+385,sheep,4,101.1,loss of appetite,depression,painless lumps,pneumonia
+386,cow,4,100.9,difficulty walking,depression,swelling in muscle,blackleg
+387,goat,6,100.2,blisters on mouth,loss of appetite,lameness,foot and mouth
+388,sheep,1,101.1,shortness of breath,swelling in neck,chest discomfort,anthrax
+389,cow,6,100.9,difficulty walking,loss of appetite,swelling in muscle,blackleg
+390,cow,7,104.5,depression,loss of appetite,painless lumps,pneumonia
+391,goat,5,100.6,swelling in limb,crackling sound,difficulty walking,blackleg
+392,sheep,9,101.7,sores on hooves,loss of appetite,lameness,foot and mouth
+393,buffalo,13,104.3,depression,painless lumps,loss of appetite,lumpy virus
+394,cow,4,104.8,depression,crackling sound,swelling in muscle,blackleg
+395,buffalo,5,100.1,chills,swelling in neck,shortness of breath,anthrax
+396,sheep,9,101.4,blisters on gums,difficulty walking,loss of appetite,foot and mouth
+397,cow,2,104.5,loss of appetite,painless lumps,depression,lumpy virus
+398,buffalo,3,104.0,blisters on hooves,lameness,loss of appetite,foot and mouth
+399,goat,10,100.4,lameness,blisters on mouth,loss of appetite,foot and mouth
+400,cow,14,102.4,depression,loss of appetite,painless lumps,lumpy virus
+401,goat,6,101.2,chills,chest discomfort,sweats,anthrax
+402,goat,6,102.4,loss of appetite,painless lumps,depression,lumpy virus
+403,cow,13,102.5,difficulty walking,swelling in muscle,crackling sound,blackleg
+404,goat,7,102.4,swelling in limb,loss of appetite,crackling sound,blackleg
+405,cow,10,100.9,shortness of breath,swelling in abdomen,chest discomfort,anthrax
+406,buffalo,7,103.0,depression,painless lumps,loss of appetite,pneumonia
+407,goat,4,103.8,blisters on gums,difficulty walking,loss of appetite,foot and mouth
+408,buffalo,2,101.6,loss of appetite,sores on tongue,difficulty walking,foot and mouth
+409,buffalo,10,100.6,painless lumps,loss of appetite,depression,pneumonia
+410,buffalo,5,102.1,painless lumps,depression,loss of appetite,lumpy virus
+411,goat,7,104.2,depression,loss of appetite,painless lumps,lumpy virus
+412,goat,3,101.0,depression,loss of appetite,painless lumps,pneumonia
+413,cow,14,101.3,chest discomfort,sweats,shortness of breath,anthrax
+414,buffalo,7,102.1,loss of appetite,sores on gums,difficulty walking,foot and mouth
+415,buffalo,11,102.3,depression,painless lumps,loss of appetite,pneumonia
+416,cow,5,101.3,shortness of breath,sweats,chest discomfort,anthrax
+417,buffalo,10,104.5,depression,loss of appetite,painless lumps,pneumonia
+418,cow,6,101.1,depression,crackling sound,loss of appetite,blackleg
+419,sheep,2,100.9,sweats,shortness of breath,swelling in extremities,anthrax
+420,goat,8,102.0,depression,painless lumps,loss of appetite,pneumonia
+421,sheep,9,101.3,chest discomfort,fatigue,shortness of breath,anthrax
+422,sheep,3,100.0,depression,loss of appetite,painless lumps,pneumonia
+423,sheep,9,102.0,difficulty walking,sores on hooves,loss of appetite,foot and mouth
+424,sheep,9,102.4,depression,painless lumps,loss of appetite,pneumonia
+425,sheep,3,103.3,sores on tongue,lameness,loss of appetite,foot and mouth
+426,buffalo,2,100.6,painless lumps,loss of appetite,depression,lumpy virus
+427,goat,4,104.8,sweats,shortness of breath,chest discomfort,anthrax
+428,goat,3,101.3,depression,painless lumps,loss of appetite,lumpy virus
+429,cow,8,104.5,loss of appetite,lameness,blisters on hooves,foot and mouth
+430,buffalo,9,101.9,swelling in extremities,fatigue,sweats,anthrax
+431,goat,6,100.4,shortness of breath,chest discomfort,fatigue,anthrax
+432,cow,15,102.1,depression,painless lumps,loss of appetite,pneumonia
+433,sheep,10,102.1,swelling in abdomen,sweats,fatigue,anthrax
+434,buffalo,1,101.1,swelling in muscle,loss of appetite,lameness,blackleg
+435,sheep,1,100.7,depression,painless lumps,loss of appetite,pneumonia
+436,buffalo,9,102.3,painless lumps,loss of appetite,depression,pneumonia
+437,goat,6,102.8,loss of appetite,lameness,blisters on tongue,foot and mouth
+438,cow,8,101.6,fatigue,shortness of breath,sweats,anthrax
+439,goat,1,103.8,depression,loss of appetite,painless lumps,pneumonia
+440,buffalo,9,100.9,fatigue,chills,swelling in neck,anthrax
+441,goat,5,100.2,shortness of breath,sweats,chest discomfort,anthrax
+442,buffalo,4,104.0,blisters on hooves,difficulty walking,loss of appetite,foot and mouth
+443,sheep,6,101.3,painless lumps,depression,loss of appetite,pneumonia
+444,cow,7,100.2,crackling sound,lameness,loss of appetite,blackleg
+445,goat,6,100.1,loss of appetite,painless lumps,depression,lumpy virus
+446,cow,5,101.1,painless lumps,depression,loss of appetite,lumpy virus
+447,goat,7,103.5,difficulty walking,loss of appetite,crackling sound,blackleg
+448,buffalo,5,103.2,loss of appetite,depression,painless lumps,lumpy virus
+449,buffalo,4,104.7,swelling in muscle,difficulty walking,crackling sound,blackleg
+450,goat,1,100.3,loss of appetite,depression,painless lumps,pneumonia
+451,cow,11,101.4,depression,loss of appetite,crackling sound,blackleg
+452,buffalo,3,101.9,depression,painless lumps,loss of appetite,lumpy virus
+453,buffalo,4,100.7,loss of appetite,depression,painless lumps,pneumonia
+454,goat,4,102.7,depression,painless lumps,loss of appetite,lumpy virus
+455,buffalo,4,104.6,loss of appetite,painless lumps,depression,pneumonia
+456,cow,14,101.1,depression,swelling in muscle,difficulty walking,blackleg
+457,cow,5,102.8,depression,painless lumps,loss of appetite,lumpy virus
+458,sheep,1,100.7,blisters on hooves,loss of appetite,lameness,foot and mouth
+459,buffalo,7,102.2,chest discomfort,shortness of breath,fatigue,anthrax
+460,cow,10,101.9,chest discomfort,swelling in abdomen,shortness of breath,anthrax
+461,buffalo,6,104.1,depression,painless lumps,loss of appetite,lumpy virus
+462,cow,14,102.8,loss of appetite,difficulty walking,blisters on hooves,foot and mouth
+463,buffalo,6,102.0,depression,loss of appetite,swelling in muscle,blackleg
+464,cow,9,103.6,loss of appetite,painless lumps,depression,lumpy virus
+465,sheep,6,102.3,lameness,depression,loss of appetite,blackleg
+466,goat,10,101.3,blisters on hooves,lameness,loss of appetite,foot and mouth
+467,goat,2,102.3,painless lumps,loss of appetite,depression,pneumonia
+468,goat,10,102.7,depression,painless lumps,loss of appetite,pneumonia
+469,goat,3,100.6,lameness,sores on mouth,loss of appetite,foot and mouth
+470,buffalo,11,102.0,fatigue,sweats,shortness of breath,anthrax
+471,buffalo,4,103.5,depression,loss of appetite,painless lumps,lumpy virus
+472,cow,2,102.5,loss of appetite,blisters on hooves,lameness,foot and mouth
+473,goat,3,103.0,chest discomfort,shortness of breath,chills,anthrax
+474,goat,8,101.6,painless lumps,loss of appetite,depression,lumpy virus
+475,buffalo,14,102.4,swelling in limb,lameness,loss of appetite,blackleg
+476,buffalo,7,104.4,lameness,blisters on mouth,loss of appetite,foot and mouth
+477,cow,7,103.6,depression,painless lumps,loss of appetite,lumpy virus
+478,sheep,6,101.5,loss of appetite,depression,painless lumps,lumpy virus
+479,goat,4,101.6,sores on hooves,loss of appetite,difficulty walking,foot and mouth
+480,buffalo,1,103.0,depression,difficulty walking,loss of appetite,blackleg
+481,goat,1,104.1,sores on tongue,difficulty walking,loss of appetite,foot and mouth
+482,sheep,3,100.8,swelling in limb,loss of appetite,lameness,blackleg
+483,buffalo,1,102.4,loss of appetite,painless lumps,depression,pneumonia
+484,buffalo,15,101.3,loss of appetite,painless lumps,depression,pneumonia
+485,cow,15,101.6,depression,painless lumps,loss of appetite,pneumonia
+486,sheep,4,101.8,crackling sound,swelling in muscle,loss of appetite,blackleg
+487,buffalo,15,104.4,loss of appetite,depression,painless lumps,pneumonia
+488,sheep,10,104.4,fatigue,chest discomfort,sweats,anthrax
+489,goat,10,102.6,sores on mouth,loss of appetite,lameness,foot and mouth
+490,goat,2,101.7,chills,chest discomfort,fatigue,anthrax
+491,sheep,9,102.7,depression,loss of appetite,crackling sound,blackleg
+492,goat,2,100.3,chest discomfort,shortness of breath,chills,anthrax
+493,cow,6,102.8,depression,loss of appetite,painless lumps,pneumonia
+494,cow,14,100.0,lameness,loss of appetite,depression,blackleg
+495,sheep,8,103.0,painless lumps,loss of appetite,depression,lumpy virus
+496,cow,5,102.7,loss of appetite,lameness,sores on hooves,foot and mouth
+497,sheep,10,103.5,painless lumps,depression,loss of appetite,pneumonia
+498,sheep,1,103.7,depression,loss of appetite,painless lumps,pneumonia
+499,goat,3,102.5,loss of appetite,depression,painless lumps,lumpy virus
+500,goat,8,103.3,loss of appetite,blisters on hooves,lameness,foot and mouth
+501,buffalo,12,102.2,sweats,chest discomfort,shortness of breath,anthrax
+502,cow,1,103.4,shortness of breath,sweats,chills,anthrax
+503,sheep,7,101.3,loss of appetite,painless lumps,depression,pneumonia
+504,cow,12,100.7,crackling sound,loss of appetite,depression,blackleg
+505,goat,4,102.5,shortness of breath,sweats,swelling in neck,anthrax
+506,cow,11,102.1,loss of appetite,depression,painless lumps,lumpy virus
+507,goat,2,102.8,swelling in muscle,loss of appetite,difficulty walking,blackleg
+508,cow,7,102.5,depression,loss of appetite,painless lumps,pneumonia
+509,cow,8,103.9,difficulty walking,depression,loss of appetite,blackleg
+510,buffalo,15,100.2,loss of appetite,painless lumps,depression,lumpy virus
+511,goat,10,100.0,painless lumps,depression,loss of appetite,pneumonia
+512,sheep,3,101.2,loss of appetite,painless lumps,depression,lumpy virus
+513,goat,10,101.9,painless lumps,loss of appetite,depression,pneumonia
+514,sheep,3,102.5,difficulty walking,sores on tongue,loss of appetite,foot and mouth
+515,cow,14,103.1,painless lumps,loss of appetite,depression,lumpy virus
+516,goat,10,100.9,loss of appetite,depression,crackling sound,blackleg
+517,buffalo,2,100.3,loss of appetite,depression,painless lumps,pneumonia
+518,sheep,4,102.5,depression,loss of appetite,painless lumps,pneumonia
+519,goat,10,102.1,depression,loss of appetite,swelling in muscle,blackleg
+520,cow,14,100.5,loss of appetite,painless lumps,depression,lumpy virus
+521,sheep,7,103.2,sores on tongue,difficulty walking,loss of appetite,foot and mouth
+522,cow,12,101.8,depression,painless lumps,loss of appetite,lumpy virus
+523,goat,10,100.3,loss of appetite,depression,painless lumps,pneumonia
+524,cow,10,102.8,depression,painless lumps,loss of appetite,lumpy virus
+525,goat,8,104.3,loss of appetite,depression,swelling in muscle,blackleg
+526,sheep,2,100.2,shortness of breath,sweats,chills,anthrax
+527,sheep,9,102.9,depression,painless lumps,loss of appetite,lumpy virus
+528,cow,14,100.2,lameness,loss of appetite,blisters on mouth,foot and mouth
+529,cow,13,104.9,swelling in extremities,fatigue,sweats,anthrax
+530,buffalo,8,101.6,loss of appetite,painless lumps,depression,lumpy virus
+531,buffalo,12,101.4,blisters on mouth,loss of appetite,difficulty walking,foot and mouth
+532,sheep,1,100.9,crackling sound,depression,difficulty walking,blackleg
+533,buffalo,15,104.6,depression,painless lumps,loss of appetite,pneumonia
+534,sheep,4,103.0,chest discomfort,chills,shortness of breath,anthrax
+535,buffalo,13,101.4,painless lumps,depression,loss of appetite,pneumonia
+536,buffalo,14,104.1,painless lumps,loss of appetite,depression,lumpy virus
+537,buffalo,14,104.7,difficulty walking,loss of appetite,sores on tongue,foot and mouth
+538,buffalo,10,100.1,lameness,loss of appetite,sores on hooves,foot and mouth
+539,buffalo,13,102.1,chest discomfort,sweats,fatigue,anthrax
+540,buffalo,15,101.1,painless lumps,depression,loss of appetite,lumpy virus
+541,sheep,3,102.8,sores on tongue,loss of appetite,difficulty walking,foot and mouth
+542,sheep,4,101.3,shortness of breath,sweats,fatigue,anthrax
+543,buffalo,12,103.6,depression,loss of appetite,painless lumps,lumpy virus
+544,goat,8,103.5,shortness of breath,chills,chest discomfort,anthrax
+545,buffalo,5,101.1,loss of appetite,difficulty walking,depression,blackleg
+546,cow,13,101.4,depression,painless lumps,loss of appetite,pneumonia
+547,goat,8,100.9,depression,painless lumps,loss of appetite,pneumonia
+548,cow,9,103.7,chest discomfort,swelling in neck,shortness of breath,anthrax
+549,sheep,9,100.1,blisters on mouth,difficulty walking,loss of appetite,foot and mouth
+550,sheep,5,102.7,difficulty walking,loss of appetite,depression,blackleg
+551,sheep,1,100.8,depression,painless lumps,loss of appetite,pneumonia
+552,goat,3,103.2,chills,shortness of breath,fatigue,anthrax
+553,buffalo,15,100.3,loss of appetite,crackling sound,swelling in muscle,blackleg
+554,sheep,7,100.3,difficulty walking,blisters on hooves,loss of appetite,foot and mouth
+555,goat,7,102.8,loss of appetite,painless lumps,depression,lumpy virus
+556,sheep,3,101.1,loss of appetite,blisters on mouth,difficulty walking,foot and mouth
+557,goat,2,101.7,depression,crackling sound,lameness,blackleg
+558,cow,4,103.9,depression,painless lumps,loss of appetite,pneumonia
+559,sheep,4,102.8,depression,painless lumps,loss of appetite,lumpy virus
+560,sheep,4,102.9,swelling in limb,crackling sound,depression,blackleg
+561,sheep,10,103.6,sweats,chills,fatigue,anthrax
+562,sheep,9,102.1,painless lumps,depression,loss of appetite,pneumonia
+563,goat,6,101.6,chills,sweats,swelling in neck,anthrax
+564,cow,14,101.5,lameness,blisters on hooves,loss of appetite,foot and mouth
+565,buffalo,6,102.1,blisters on tongue,difficulty walking,loss of appetite,foot and mouth
+566,cow,1,103.6,difficulty walking,swelling in limb,loss of appetite,blackleg
+567,cow,12,100.0,swelling in neck,chest discomfort,fatigue,anthrax
+568,buffalo,9,104.7,chest discomfort,sweats,shortness of breath,anthrax
+569,goat,7,102.1,fatigue,sweats,swelling in neck,anthrax
+570,goat,8,100.9,loss of appetite,lameness,sores on gums,foot and mouth
+571,cow,8,103.2,painless lumps,depression,loss of appetite,lumpy virus
+572,cow,6,100.9,loss of appetite,depression,painless lumps,lumpy virus
+573,buffalo,6,102.1,depression,painless lumps,loss of appetite,lumpy virus
+574,cow,4,100.7,depression,loss of appetite,painless lumps,pneumonia
+575,sheep,7,102.0,depression,loss of appetite,painless lumps,pneumonia
+576,goat,9,100.8,difficulty walking,sores on hooves,loss of appetite,foot and mouth
+577,goat,7,103.0,painless lumps,depression,loss of appetite,lumpy virus
+578,buffalo,15,101.6,painless lumps,depression,loss of appetite,pneumonia
+579,sheep,1,100.6,depression,loss of appetite,painless lumps,lumpy virus
+580,goat,6,103.7,loss of appetite,depression,painless lumps,lumpy virus
+581,buffalo,4,101.8,chills,sweats,shortness of breath,anthrax
+582,sheep,1,102.0,depression,loss of appetite,painless lumps,pneumonia
+583,sheep,7,101.7,blisters on tongue,lameness,loss of appetite,foot and mouth
+584,buffalo,15,100.5,depression,loss of appetite,painless lumps,pneumonia
+585,sheep,8,100.0,painless lumps,depression,loss of appetite,lumpy virus
+586,cow,13,101.3,loss of appetite,crackling sound,depression,blackleg
+587,cow,10,100.2,depression,loss of appetite,painless lumps,lumpy virus
+588,sheep,3,101.2,swelling in limb,depression,crackling sound,blackleg
+589,buffalo,1,103.9,fatigue,chills,shortness of breath,anthrax
+590,sheep,1,100.3,sweats,swelling in neck,chest discomfort,anthrax
+591,buffalo,14,101.7,blisters on tongue,difficulty walking,loss of appetite,foot and mouth
+592,sheep,10,102.4,swelling in muscle,crackling sound,loss of appetite,blackleg
+593,buffalo,8,104.5,depression,loss of appetite,painless lumps,lumpy virus
+594,goat,5,101.7,loss of appetite,depression,painless lumps,pneumonia
+595,buffalo,4,103.0,painless lumps,depression,loss of appetite,pneumonia
+596,buffalo,6,102.3,loss of appetite,difficulty walking,sores on gums,foot and mouth
+597,sheep,8,101.0,depression,loss of appetite,painless lumps,lumpy virus
+598,sheep,3,102.6,difficulty walking,loss of appetite,sores on gums,foot and mouth
+599,sheep,1,101.7,chest discomfort,fatigue,shortness of breath,anthrax
+600,goat,1,100.5,loss of appetite,painless lumps,depression,pneumonia
+601,goat,2,101.7,chest discomfort,sweats,chills,anthrax
+602,sheep,8,102.3,depression,loss of appetite,crackling sound,blackleg
+603,cow,8,102.2,painless lumps,loss of appetite,depression,pneumonia
+604,cow,9,102.2,sores on gums,loss of appetite,lameness,foot and mouth
+605,sheep,4,103.9,sweats,chest discomfort,fatigue,anthrax
+606,goat,3,102.1,loss of appetite,painless lumps,depression,lumpy virus
+607,cow,12,103.8,crackling sound,depression,loss of appetite,blackleg
+608,goat,3,101.5,crackling sound,loss of appetite,depression,blackleg
+609,buffalo,3,100.4,sores on tongue,loss of appetite,lameness,foot and mouth
+610,sheep,6,104.1,depression,loss of appetite,painless lumps,pneumonia
+611,buffalo,15,102.1,swelling in extremities,chest discomfort,fatigue,anthrax
+612,sheep,9,102.2,blisters on tongue,difficulty walking,loss of appetite,foot and mouth
+613,sheep,2,102.7,fatigue,shortness of breath,swelling in abdomen,anthrax
+614,buffalo,12,101.8,painless lumps,loss of appetite,depression,pneumonia
+615,goat,10,102.6,swelling in extremities,shortness of breath,sweats,anthrax
+616,cow,4,101.2,painless lumps,loss of appetite,depression,lumpy virus
+617,cow,1,101.7,blisters on hooves,lameness,loss of appetite,foot and mouth
+618,cow,13,101.5,painless lumps,depression,loss of appetite,pneumonia
+619,sheep,7,102.2,depression,loss of appetite,painless lumps,pneumonia
+620,goat,3,102.7,loss of appetite,painless lumps,depression,lumpy virus
+621,goat,9,101.9,depression,painless lumps,loss of appetite,lumpy virus
+622,goat,1,104.0,sweats,chest discomfort,chills,anthrax
+623,sheep,3,102.5,loss of appetite,depression,painless lumps,pneumonia
+624,cow,15,103.6,lameness,depression,crackling sound,blackleg
+625,cow,6,101.1,sweats,chills,shortness of breath,anthrax
+626,cow,5,100.9,sweats,chest discomfort,chills,anthrax
+627,sheep,6,102.4,fatigue,chills,shortness of breath,anthrax
+628,sheep,8,101.9,swelling in limb,crackling sound,loss of appetite,blackleg
+629,sheep,10,102.9,loss of appetite,sores on gums,lameness,foot and mouth
+630,goat,3,100.1,painless lumps,loss of appetite,depression,pneumonia
+631,goat,3,100.1,swelling in muscle,crackling sound,loss of appetite,blackleg
+632,buffalo,4,100.6,loss of appetite,lameness,sores on gums,foot and mouth
+633,buffalo,3,102.9,loss of appetite,depression,painless lumps,pneumonia
+634,sheep,6,102.0,swelling in limb,crackling sound,difficulty walking,blackleg
+635,cow,14,101.9,shortness of breath,fatigue,chills,anthrax
+636,buffalo,7,103.3,chills,sweats,fatigue,anthrax
+637,cow,5,102.6,chest discomfort,sweats,fatigue,anthrax
+638,buffalo,13,104.8,depression,painless lumps,loss of appetite,lumpy virus
+639,sheep,1,102.3,shortness of breath,fatigue,swelling in extremities,anthrax
+640,cow,6,104.8,difficulty walking,blisters on mouth,loss of appetite,foot and mouth
+641,buffalo,2,103.1,chest discomfort,fatigue,shortness of breath,anthrax
+642,sheep,8,100.8,shortness of breath,chest discomfort,chills,anthrax
+643,goat,2,104.2,depression,painless lumps,loss of appetite,pneumonia
+644,buffalo,6,100.9,lameness,depression,loss of appetite,blackleg
+645,cow,15,103.9,loss of appetite,depression,painless lumps,pneumonia
+646,cow,3,104.1,swelling in muscle,lameness,loss of appetite,blackleg
+647,buffalo,3,102.8,chills,swelling in abdomen,sweats,anthrax
+648,goat,5,100.1,difficulty walking,swelling in muscle,depression,blackleg
+649,goat,1,102.8,painless lumps,depression,loss of appetite,pneumonia
+650,goat,4,104.8,loss of appetite,depression,painless lumps,pneumonia
+651,sheep,7,104.9,painless lumps,depression,loss of appetite,lumpy virus
+652,buffalo,7,102.1,depression,swelling in limb,crackling sound,blackleg
+653,buffalo,3,100.7,chills,shortness of breath,fatigue,anthrax
+654,buffalo,8,102.7,depression,lameness,crackling sound,blackleg
+655,buffalo,5,100.0,loss of appetite,swelling in muscle,lameness,blackleg
+656,cow,11,102.0,loss of appetite,crackling sound,swelling in muscle,blackleg
+657,buffalo,14,101.5,swelling in abdomen,sweats,shortness of breath,anthrax
+658,goat,1,100.3,lameness,loss of appetite,sores on tongue,foot and mouth
+659,goat,10,100.9,loss of appetite,depression,painless lumps,lumpy virus
+660,sheep,1,102.1,loss of appetite,sores on mouth,difficulty walking,foot and mouth
+661,cow,10,104.0,sweats,swelling in extremities,chills,anthrax
+662,buffalo,12,102.7,loss of appetite,sores on hooves,lameness,foot and mouth
+663,buffalo,10,102.4,fatigue,swelling in extremities,chest discomfort,anthrax
+664,buffalo,13,100.7,painless lumps,loss of appetite,depression,lumpy virus
+665,cow,5,101.2,lameness,loss of appetite,sores on hooves,foot and mouth
+666,goat,8,101.3,painless lumps,depression,loss of appetite,lumpy virus
+667,buffalo,4,103.5,loss of appetite,sores on mouth,lameness,foot and mouth
+668,sheep,10,100.4,depression,painless lumps,loss of appetite,lumpy virus
+669,sheep,7,100.7,difficulty walking,sores on hooves,loss of appetite,foot and mouth
+670,sheep,1,101.8,shortness of breath,fatigue,sweats,anthrax
+671,cow,14,102.0,chest discomfort,fatigue,sweats,anthrax
+672,goat,6,105.0,difficulty walking,crackling sound,swelling in muscle,blackleg
+673,cow,9,100.7,shortness of breath,sweats,swelling in abdomen,anthrax
+674,goat,7,102.8,sores on mouth,loss of appetite,difficulty walking,foot and mouth
+675,buffalo,12,104.0,chills,shortness of breath,swelling in extremities,anthrax
+676,cow,2,102.6,painless lumps,loss of appetite,depression,lumpy virus
+677,sheep,5,101.9,sores on hooves,difficulty walking,loss of appetite,foot and mouth
+678,cow,3,105.0,swelling in limb,difficulty walking,depression,blackleg
+679,sheep,3,100.3,loss of appetite,blisters on gums,difficulty walking,foot and mouth
+680,buffalo,3,104.9,painless lumps,loss of appetite,depression,lumpy virus
+681,sheep,3,104.8,painless lumps,loss of appetite,depression,lumpy virus
+682,cow,6,101.3,sweats,chest discomfort,swelling in extremities,anthrax
+683,buffalo,11,101.4,sweats,fatigue,chills,anthrax
+684,sheep,3,101.3,loss of appetite,painless lumps,depression,pneumonia
+685,buffalo,8,101.4,loss of appetite,sores on gums,lameness,foot and mouth
+686,cow,11,102.1,painless lumps,depression,loss of appetite,pneumonia
+687,sheep,2,104.7,loss of appetite,depression,painless lumps,pneumonia
+688,goat,4,100.7,loss of appetite,painless lumps,depression,lumpy virus
+689,sheep,7,100.5,swelling in limb,depression,loss of appetite,blackleg
+690,sheep,10,101.2,swelling in muscle,crackling sound,lameness,blackleg
+691,goat,1,103.0,sores on mouth,difficulty walking,loss of appetite,foot and mouth
+692,sheep,7,100.2,crackling sound,lameness,loss of appetite,blackleg
+693,cow,11,100.8,swelling in limb,crackling sound,loss of appetite,blackleg
+694,buffalo,9,102.9,chills,fatigue,sweats,anthrax
+695,goat,1,104.8,blisters on hooves,lameness,loss of appetite,foot and mouth
+696,sheep,4,100.3,loss of appetite,painless lumps,depression,pneumonia
+697,cow,7,102.0,loss of appetite,depression,painless lumps,pneumonia
+698,cow,11,102.4,shortness of breath,chest discomfort,swelling in extremities,anthrax
+699,sheep,9,101.0,depression,crackling sound,difficulty walking,blackleg
+700,goat,10,102.4,chills,chest discomfort,fatigue,anthrax
+701,buffalo,12,102.1,loss of appetite,sores on mouth,difficulty walking,foot and mouth
+702,goat,1,100.2,loss of appetite,depression,painless lumps,lumpy virus
+703,buffalo,4,104.8,loss of appetite,lameness,sores on mouth,foot and mouth
+704,sheep,3,101.8,painless lumps,loss of appetite,depression,lumpy virus
+705,sheep,4,100.6,lameness,sores on tongue,loss of appetite,foot and mouth
+706,buffalo,4,101.6,depression,loss of appetite,crackling sound,blackleg
+707,cow,12,101.2,loss of appetite,blisters on hooves,difficulty walking,foot and mouth
+708,cow,3,101.4,difficulty walking,loss of appetite,blisters on hooves,foot and mouth
+709,sheep,3,100.6,loss of appetite,lameness,sores on hooves,foot and mouth
+710,cow,3,100.2,loss of appetite,lameness,sores on hooves,foot and mouth
+711,buffalo,15,100.1,lameness,crackling sound,swelling in limb,blackleg
+712,sheep,1,100.1,loss of appetite,difficulty walking,blisters on tongue,foot and mouth
+713,cow,3,101.4,lameness,depression,loss of appetite,blackleg
+714,goat,9,102.6,sores on hooves,loss of appetite,lameness,foot and mouth
+715,buffalo,14,104.5,painless lumps,loss of appetite,depression,pneumonia
+716,sheep,10,104.5,loss of appetite,painless lumps,depression,pneumonia
+717,buffalo,15,104.9,swelling in abdomen,chills,shortness of breath,anthrax
+718,sheep,3,101.8,depression,painless lumps,loss of appetite,pneumonia
+719,sheep,4,104.9,painless lumps,loss of appetite,depression,lumpy virus
+720,buffalo,2,101.3,painless lumps,loss of appetite,depression,pneumonia
+721,buffalo,15,104.6,loss of appetite,depression,painless lumps,pneumonia
+722,goat,5,102.9,loss of appetite,painless lumps,depression,lumpy virus
+723,buffalo,10,101.3,lameness,swelling in muscle,crackling sound,blackleg
+724,buffalo,1,100.8,blisters on hooves,loss of appetite,lameness,foot and mouth
+725,goat,5,101.7,painless lumps,depression,loss of appetite,pneumonia
+726,buffalo,2,101.6,depression,lameness,crackling sound,blackleg
+727,cow,11,100.3,depression,loss of appetite,painless lumps,pneumonia
+728,cow,1,100.1,painless lumps,depression,loss of appetite,lumpy virus
+729,cow,10,102.9,chest discomfort,sweats,fatigue,anthrax
+730,buffalo,14,103.1,painless lumps,depression,loss of appetite,pneumonia
+731,goat,3,104.2,difficulty walking,blisters on mouth,loss of appetite,foot and mouth
+732,goat,4,103.7,loss of appetite,depression,difficulty walking,blackleg
+733,goat,5,100.6,lameness,depression,swelling in muscle,blackleg
+734,cow,3,101.1,painless lumps,depression,loss of appetite,pneumonia
+735,cow,1,100.6,loss of appetite,sores on hooves,lameness,foot and mouth
+736,goat,4,100.5,depression,painless lumps,loss of appetite,pneumonia
+737,buffalo,4,104.5,chills,shortness of breath,swelling in neck,anthrax
+738,buffalo,15,104.1,difficulty walking,loss of appetite,blisters on mouth,foot and mouth
+739,buffalo,9,103.3,difficulty walking,depression,crackling sound,blackleg
+740,cow,1,105.0,depression,painless lumps,loss of appetite,lumpy virus
+741,sheep,3,101.1,painless lumps,depression,loss of appetite,lumpy virus
+742,goat,6,102.7,depression,loss of appetite,painless lumps,lumpy virus
+743,buffalo,12,102.0,depression,crackling sound,loss of appetite,blackleg
+744,cow,1,103.6,loss of appetite,sores on tongue,difficulty walking,foot and mouth
+745,sheep,7,103.5,painless lumps,depression,loss of appetite,lumpy virus
+746,sheep,9,102.9,chills,sweats,chest discomfort,anthrax
+747,sheep,8,103.7,shortness of breath,chills,fatigue,anthrax
+748,cow,2,104.9,depression,painless lumps,loss of appetite,lumpy virus
+749,goat,9,104.6,swelling in limb,depression,loss of appetite,blackleg
+750,cow,6,103.9,loss of appetite,sores on hooves,lameness,foot and mouth
+751,cow,3,101.0,difficulty walking,depression,loss of appetite,blackleg
+752,cow,7,104.9,depression,painless lumps,loss of appetite,lumpy virus
+753,cow,3,101.9,painless lumps,loss of appetite,depression,pneumonia
+754,buffalo,3,102.2,crackling sound,difficulty walking,loss of appetite,blackleg
+755,buffalo,7,100.4,painless lumps,loss of appetite,depression,pneumonia
+756,cow,4,101.6,painless lumps,depression,loss of appetite,pneumonia
+757,goat,4,103.0,depression,difficulty walking,crackling sound,blackleg
+758,cow,4,100.7,chest discomfort,chills,sweats,anthrax
+759,cow,14,101.6,painless lumps,loss of appetite,depression,lumpy virus
+760,cow,7,101.4,difficulty walking,swelling in muscle,loss of appetite,blackleg
+761,sheep,1,102.7,swelling in muscle,lameness,depression,blackleg
+762,cow,12,102.5,difficulty walking,blisters on tongue,loss of appetite,foot and mouth
+763,cow,8,103.8,painless lumps,loss of appetite,depression,pneumonia
+764,sheep,6,104.5,loss of appetite,depression,painless lumps,pneumonia
+765,sheep,1,100.9,loss of appetite,lameness,sores on gums,foot and mouth
+766,cow,9,101.6,loss of appetite,depression,painless lumps,pneumonia
+767,sheep,8,101.1,lameness,blisters on gums,loss of appetite,foot and mouth
+768,buffalo,15,103.2,loss of appetite,painless lumps,depression,pneumonia
+769,goat,3,103.0,crackling sound,loss of appetite,lameness,blackleg
+770,cow,6,104.0,crackling sound,swelling in limb,lameness,blackleg
+771,goat,6,102.7,swelling in muscle,crackling sound,depression,blackleg
+772,buffalo,14,102.2,depression,painless lumps,loss of appetite,pneumonia
+773,buffalo,3,100.2,loss of appetite,depression,painless lumps,lumpy virus
+774,goat,5,103.8,shortness of breath,chills,chest discomfort,anthrax
+775,buffalo,1,102.2,fatigue,sweats,shortness of breath,anthrax
+776,cow,14,101.4,loss of appetite,depression,painless lumps,lumpy virus
+777,cow,8,104.7,crackling sound,swelling in limb,depression,blackleg
+778,goat,1,101.1,depression,loss of appetite,difficulty walking,blackleg
+779,buffalo,14,100.5,painless lumps,loss of appetite,depression,pneumonia
+780,goat,10,100.2,loss of appetite,painless lumps,depression,lumpy virus
+781,sheep,4,100.7,loss of appetite,painless lumps,depression,lumpy virus
+782,sheep,9,104.1,fatigue,chills,chest discomfort,anthrax
+783,cow,11,100.6,loss of appetite,difficulty walking,depression,blackleg
+784,sheep,3,102.5,blisters on mouth,difficulty walking,loss of appetite,foot and mouth
+785,cow,4,100.2,loss of appetite,lameness,blisters on mouth,foot and mouth
+786,goat,10,103.0,loss of appetite,painless lumps,depression,lumpy virus
+787,cow,7,103.6,chest discomfort,shortness of breath,sweats,anthrax
+788,cow,8,100.5,depression,loss of appetite,lameness,blackleg
+789,sheep,3,104.3,difficulty walking,loss of appetite,swelling in limb,blackleg
+790,sheep,3,103.4,painless lumps,depression,loss of appetite,lumpy virus
+791,cow,14,104.0,swelling in neck,chest discomfort,sweats,anthrax
+792,sheep,4,101.2,painless lumps,depression,loss of appetite,pneumonia
+793,buffalo,6,103.5,depression,painless lumps,loss of appetite,lumpy virus
+794,sheep,5,102.7,lameness,blisters on hooves,loss of appetite,foot and mouth
+795,cow,7,103.8,loss of appetite,depression,painless lumps,pneumonia
+796,buffalo,2,100.6,painless lumps,depression,loss of appetite,pneumonia
+797,buffalo,14,100.7,loss of appetite,depression,painless lumps,pneumonia
+798,buffalo,14,102.9,depression,loss of appetite,painless lumps,pneumonia
+799,goat,1,101.2,difficulty walking,loss of appetite,blisters on gums,foot and mouth
+800,cow,8,101.3,crackling sound,lameness,swelling in muscle,blackleg
+801,sheep,2,101.4,loss of appetite,difficulty walking,blisters on hooves,foot and mouth
+802,goat,8,101.4,chest discomfort,shortness of breath,fatigue,anthrax
+803,buffalo,3,102.1,chest discomfort,sweats,fatigue,anthrax
+804,goat,1,100.6,sores on hooves,lameness,loss of appetite,foot and mouth
+805,buffalo,9,102.3,swelling in limb,depression,loss of appetite,blackleg
+806,cow,2,104.1,loss of appetite,lameness,blisters on hooves,foot and mouth
+807,cow,6,103.1,lameness,sores on gums,loss of appetite,foot and mouth
+808,buffalo,10,100.8,loss of appetite,painless lumps,depression,lumpy virus
+809,goat,4,102.1,swelling in limb,crackling sound,difficulty walking,blackleg
+810,goat,3,101.8,loss of appetite,swelling in limb,depression,blackleg
+811,goat,8,105.0,depression,loss of appetite,painless lumps,lumpy virus
+812,buffalo,10,100.8,loss of appetite,lameness,blisters on mouth,foot and mouth
+813,buffalo,2,102.6,lameness,blisters on hooves,loss of appetite,foot and mouth
+814,goat,5,104.8,depression,painless lumps,loss of appetite,pneumonia
+815,cow,7,104.9,depression,lameness,loss of appetite,blackleg
+816,cow,2,104.8,depression,painless lumps,loss of appetite,pneumonia
+817,buffalo,4,100.9,depression,loss of appetite,painless lumps,pneumonia
+818,cow,6,102.8,depression,painless lumps,loss of appetite,pneumonia
+819,buffalo,13,101.8,loss of appetite,difficulty walking,blisters on mouth,foot and mouth
+820,cow,3,100.9,depression,difficulty walking,swelling in limb,blackleg
+821,cow,1,102.3,painless lumps,depression,loss of appetite,lumpy virus
+822,sheep,10,100.7,lameness,blisters on mouth,loss of appetite,foot and mouth
+823,buffalo,8,103.3,shortness of breath,swelling in abdomen,fatigue,anthrax
+824,sheep,7,101.5,sweats,swelling in extremities,chills,anthrax
+825,sheep,2,101.1,crackling sound,swelling in limb,loss of appetite,blackleg
+826,goat,6,100.5,loss of appetite,depression,painless lumps,lumpy virus
+827,sheep,1,102.2,loss of appetite,sores on tongue,lameness,foot and mouth
+828,cow,7,101.3,chest discomfort,shortness of breath,sweats,anthrax
+829,buffalo,9,100.1,loss of appetite,sores on tongue,lameness,foot and mouth
+830,goat,6,103.1,difficulty walking,loss of appetite,sores on gums,foot and mouth
+831,sheep,9,103.6,depression,swelling in muscle,lameness,blackleg
+832,cow,5,101.2,crackling sound,loss of appetite,depression,blackleg
+833,cow,4,101.4,swelling in muscle,difficulty walking,loss of appetite,blackleg
+834,sheep,10,102.0,lameness,sores on gums,loss of appetite,foot and mouth
+835,sheep,4,103.6,difficulty walking,swelling in muscle,depression,blackleg
+836,sheep,4,103.5,fatigue,sweats,chest discomfort,anthrax
+837,goat,6,101.5,sweats,swelling in abdomen,shortness of breath,anthrax
+838,buffalo,11,101.2,chest discomfort,fatigue,shortness of breath,anthrax
+839,cow,15,100.7,lameness,depression,loss of appetite,blackleg
+840,buffalo,14,104.1,sores on mouth,loss of appetite,lameness,foot and mouth
+841,goat,1,102.2,sores on mouth,loss of appetite,difficulty walking,foot and mouth
+842,sheep,3,100.2,swelling in extremities,fatigue,sweats,anthrax
+843,cow,10,103.6,depression,loss of appetite,painless lumps,lumpy virus
+844,goat,8,103.6,depression,painless lumps,loss of appetite,lumpy virus
+845,goat,8,102.1,painless lumps,depression,loss of appetite,pneumonia
+846,cow,8,102.3,depression,loss of appetite,painless lumps,pneumonia
+847,cow,10,103.9,sweats,fatigue,shortness of breath,anthrax
+848,buffalo,14,100.1,chills,chest discomfort,sweats,anthrax
+849,buffalo,14,101.5,loss of appetite,depression,painless lumps,lumpy virus
+850,goat,5,102.2,blisters on mouth,loss of appetite,difficulty walking,foot and mouth
+851,sheep,4,100.6,loss of appetite,crackling sound,lameness,blackleg
+852,goat,7,101.3,depression,crackling sound,loss of appetite,blackleg
+853,cow,14,102.8,painless lumps,depression,loss of appetite,lumpy virus
+854,sheep,3,104.0,loss of appetite,depression,painless lumps,lumpy virus
+855,sheep,2,101.1,painless lumps,loss of appetite,depression,lumpy virus
+856,cow,14,104.8,sores on gums,loss of appetite,difficulty walking,foot and mouth
+857,sheep,4,102.9,chest discomfort,chills,swelling in neck,anthrax
+858,goat,4,101.1,loss of appetite,depression,painless lumps,lumpy virus
+859,cow,9,103.7,difficulty walking,depression,loss of appetite,blackleg
+860,buffalo,4,102.7,loss of appetite,painless lumps,depression,lumpy virus
+861,cow,3,101.1,depression,painless lumps,loss of appetite,pneumonia
+862,buffalo,3,102.6,painless lumps,depression,loss of appetite,lumpy virus
+863,cow,8,104.1,loss of appetite,crackling sound,depression,blackleg
+864,sheep,6,104.5,painless lumps,depression,loss of appetite,lumpy virus
+865,sheep,9,101.5,lameness,swelling in limb,loss of appetite,blackleg
+866,goat,6,102.8,painless lumps,depression,loss of appetite,pneumonia
+867,sheep,2,104.2,shortness of breath,sweats,chest discomfort,anthrax
+868,buffalo,12,101.1,lameness,crackling sound,swelling in limb,blackleg
+869,buffalo,4,105.0,loss of appetite,difficulty walking,blisters on tongue,foot and mouth
+870,goat,3,101.8,shortness of breath,chest discomfort,swelling in extremities,anthrax
+871,buffalo,13,102.8,difficulty walking,crackling sound,loss of appetite,blackleg
+872,buffalo,7,104.1,painless lumps,loss of appetite,depression,lumpy virus
+873,cow,8,100.2,blisters on tongue,lameness,loss of appetite,foot and mouth
+874,goat,5,103.2,loss of appetite,painless lumps,depression,pneumonia
+875,buffalo,15,103.4,loss of appetite,painless lumps,depression,pneumonia
+876,goat,4,104.1,depression,painless lumps,loss of appetite,lumpy virus
+877,goat,9,104.9,loss of appetite,depression,painless lumps,lumpy virus
+878,buffalo,9,103.2,depression,painless lumps,loss of appetite,pneumonia
+879,buffalo,12,100.3,loss of appetite,difficulty walking,sores on gums,foot and mouth
+880,cow,15,102.6,painless lumps,depression,loss of appetite,pneumonia
+881,buffalo,9,103.5,depression,painless lumps,loss of appetite,lumpy virus
+882,cow,5,102.1,depression,loss of appetite,painless lumps,lumpy virus
+883,buffalo,2,101.6,loss of appetite,depression,painless lumps,pneumonia
+884,cow,5,104.9,sweats,chest discomfort,fatigue,anthrax
+885,buffalo,3,101.1,fatigue,swelling in abdomen,sweats,anthrax
+886,goat,5,101.7,sores on mouth,loss of appetite,difficulty walking,foot and mouth
+887,sheep,5,100.3,depression,painless lumps,loss of appetite,lumpy virus
+888,sheep,5,100.1,loss of appetite,difficulty walking,sores on mouth,foot and mouth
+889,sheep,7,101.0,painless lumps,loss of appetite,depression,lumpy virus
+890,buffalo,5,101.6,chest discomfort,shortness of breath,chills,anthrax
+891,cow,15,101.7,chills,sweats,shortness of breath,anthrax
+892,buffalo,9,102.4,loss of appetite,crackling sound,lameness,blackleg
+893,cow,13,104.8,depression,loss of appetite,painless lumps,pneumonia
+894,goat,7,103.9,swelling in limb,lameness,loss of appetite,blackleg
+895,buffalo,5,101.2,swelling in extremities,chest discomfort,shortness of breath,anthrax
+896,goat,5,102.1,loss of appetite,difficulty walking,sores on hooves,foot and mouth
+897,buffalo,15,101.0,loss of appetite,swelling in limb,crackling sound,blackleg
+898,goat,2,103.6,loss of appetite,painless lumps,depression,pneumonia
+899,buffalo,6,102.5,loss of appetite,depression,swelling in limb,blackleg
+900,sheep,9,102.0,loss of appetite,painless lumps,depression,lumpy virus
+901,cow,4,101.8,painless lumps,loss of appetite,depression,pneumonia
+902,goat,4,102.1,loss of appetite,depression,painless lumps,pneumonia
+903,goat,3,104.7,difficulty walking,loss of appetite,blisters on tongue,foot and mouth
+904,sheep,9,103.4,sweats,chills,shortness of breath,anthrax
+905,cow,15,102.0,shortness of breath,chest discomfort,swelling in extremities,anthrax
+906,cow,10,100.2,difficulty walking,sores on tongue,loss of appetite,foot and mouth
+907,sheep,7,103.0,depression,loss of appetite,painless lumps,lumpy virus
+908,buffalo,13,101.2,depression,swelling in muscle,difficulty walking,blackleg
+909,sheep,5,102.8,depression,swelling in limb,crackling sound,blackleg
+910,cow,4,103.4,swelling in muscle,crackling sound,loss of appetite,blackleg
+911,cow,7,104.4,depression,loss of appetite,painless lumps,lumpy virus
+912,sheep,6,101.5,depression,painless lumps,loss of appetite,pneumonia
+913,cow,7,101.4,depression,painless lumps,loss of appetite,pneumonia
+914,sheep,5,101.5,depression,loss of appetite,painless lumps,pneumonia
+915,sheep,4,100.1,fatigue,swelling in extremities,chest discomfort,anthrax
+916,goat,10,101.5,loss of appetite,depression,painless lumps,lumpy virus
+917,sheep,10,104.1,depression,loss of appetite,painless lumps,pneumonia
+918,goat,1,101.2,loss of appetite,painless lumps,depression,pneumonia
+919,goat,7,102.5,sores on mouth,difficulty walking,loss of appetite,foot and mouth
+920,cow,9,102.5,depression,loss of appetite,painless lumps,lumpy virus
+921,goat,9,102.7,blisters on tongue,lameness,loss of appetite,foot and mouth
+922,sheep,5,100.2,depression,painless lumps,loss of appetite,pneumonia
+923,sheep,7,103.9,loss of appetite,depression,painless lumps,lumpy virus
+924,buffalo,7,102.2,blisters on mouth,difficulty walking,loss of appetite,foot and mouth
+925,goat,5,102.5,sweats,fatigue,swelling in neck,anthrax
+926,cow,7,101.4,shortness of breath,fatigue,chest discomfort,anthrax
+927,sheep,2,102.6,loss of appetite,sores on mouth,difficulty walking,foot and mouth
+928,cow,7,102.1,swelling in limb,lameness,loss of appetite,blackleg
+929,sheep,7,104.0,crackling sound,difficulty walking,swelling in limb,blackleg
+930,buffalo,4,100.4,swelling in limb,lameness,depression,blackleg
+931,buffalo,9,101.7,blisters on tongue,loss of appetite,lameness,foot and mouth
+932,cow,10,101.6,painless lumps,depression,loss of appetite,pneumonia
+933,buffalo,8,100.5,sweats,shortness of breath,swelling in extremities,anthrax
+934,sheep,3,101.0,difficulty walking,crackling sound,depression,blackleg
+935,goat,3,101.5,painless lumps,depression,loss of appetite,pneumonia
+936,cow,4,100.5,chills,fatigue,swelling in neck,anthrax
+937,buffalo,7,102.3,sweats,swelling in extremities,shortness of breath,anthrax
+938,buffalo,10,104.0,depression,painless lumps,loss of appetite,pneumonia
+939,buffalo,13,103.7,chills,chest discomfort,shortness of breath,anthrax
+940,goat,9,100.5,depression,difficulty walking,crackling sound,blackleg
+941,sheep,3,100.6,lameness,loss of appetite,blisters on gums,foot and mouth
+942,goat,3,104.3,chest discomfort,fatigue,sweats,anthrax
+943,cow,9,101.2,chills,shortness of breath,fatigue,anthrax
+944,cow,4,104.4,difficulty walking,sores on hooves,loss of appetite,foot and mouth
+945,goat,10,100.5,difficulty walking,loss of appetite,blisters on mouth,foot and mouth
+946,goat,7,102.7,blisters on gums,loss of appetite,difficulty walking,foot and mouth
+947,goat,10,101.9,swelling in neck,chills,shortness of breath,anthrax
+948,buffalo,13,101.8,loss of appetite,painless lumps,depression,pneumonia
+949,cow,6,100.4,painless lumps,loss of appetite,depression,lumpy virus
+950,cow,6,101.3,depression,loss of appetite,painless lumps,lumpy virus
+951,sheep,6,103.5,swelling in muscle,difficulty walking,loss of appetite,blackleg
+952,goat,2,104.2,blisters on tongue,loss of appetite,difficulty walking,foot and mouth
+953,cow,4,104.4,loss of appetite,difficulty walking,sores on tongue,foot and mouth
+954,sheep,1,104.9,blisters on mouth,difficulty walking,loss of appetite,foot and mouth
+955,cow,14,100.5,swelling in limb,lameness,crackling sound,blackleg
+956,cow,7,100.9,sores on gums,difficulty walking,loss of appetite,foot and mouth
+957,sheep,2,100.4,chest discomfort,shortness of breath,chills,anthrax
+958,goat,2,103.0,loss of appetite,sores on mouth,lameness,foot and mouth
+959,goat,8,103.2,depression,painless lumps,loss of appetite,lumpy virus
+960,cow,15,102.9,painless lumps,loss of appetite,depression,lumpy virus
+961,sheep,9,100.6,chills,chest discomfort,swelling in neck,anthrax
+962,buffalo,1,102.2,fatigue,chest discomfort,shortness of breath,anthrax
+963,buffalo,9,100.5,chest discomfort,sweats,chills,anthrax
+964,buffalo,7,100.6,chest discomfort,swelling in abdomen,fatigue,anthrax
+965,sheep,1,100.7,painless lumps,depression,loss of appetite,lumpy virus
+966,sheep,2,100.2,loss of appetite,depression,painless lumps,pneumonia
+967,sheep,8,104.5,fatigue,chills,chest discomfort,anthrax
+968,goat,10,101.1,lameness,loss of appetite,sores on hooves,foot and mouth
+969,buffalo,12,104.8,depression,loss of appetite,painless lumps,pneumonia
+970,buffalo,3,103.8,lameness,loss of appetite,blisters on mouth,foot and mouth
+971,cow,13,101.4,shortness of breath,sweats,chills,anthrax
+972,sheep,9,101.1,blisters on mouth,lameness,loss of appetite,foot and mouth
+973,sheep,4,102.0,chills,sweats,fatigue,anthrax
+974,cow,6,105.0,depression,loss of appetite,painless lumps,lumpy virus
+975,sheep,10,104.4,painless lumps,depression,loss of appetite,lumpy virus
+976,sheep,1,102.2,chills,swelling in neck,sweats,anthrax
+977,cow,9,101.4,loss of appetite,difficulty walking,sores on mouth,foot and mouth
+978,buffalo,5,102.9,swelling in abdomen,shortness of breath,chills,anthrax
+979,sheep,9,103.9,loss of appetite,depression,painless lumps,pneumonia
+980,buffalo,5,103.1,swelling in limb,depression,crackling sound,blackleg
+981,buffalo,6,104.0,lameness,swelling in limb,depression,blackleg
+982,sheep,2,101.8,shortness of breath,fatigue,swelling in abdomen,anthrax
+983,buffalo,9,102.4,chills,sweats,shortness of breath,anthrax
+984,goat,10,103.2,sweats,shortness of breath,chills,anthrax
+985,goat,1,103.8,depression,painless lumps,loss of appetite,pneumonia
+986,buffalo,14,100.5,chest discomfort,chills,shortness of breath,anthrax
+987,buffalo,5,100.5,loss of appetite,depression,painless lumps,lumpy virus
+988,sheep,1,102.9,loss of appetite,depression,painless lumps,pneumonia
+989,cow,13,100.8,loss of appetite,sores on gums,lameness,foot and mouth
+990,sheep,9,101.4,shortness of breath,sweats,swelling in neck,anthrax
+991,cow,11,100.7,chest discomfort,fatigue,sweats,anthrax
+992,buffalo,8,101.5,loss of appetite,painless lumps,depression,pneumonia
+993,buffalo,9,102.3,loss of appetite,crackling sound,depression,blackleg
+994,goat,6,103.3,crackling sound,loss of appetite,depression,blackleg
+995,buffalo,12,102.7,crackling sound,lameness,swelling in limb,blackleg
+996,goat,2,101.4,painless lumps,depression,loss of appetite,lumpy virus
+997,cow,1,100.5,sores on hooves,difficulty walking,loss of appetite,foot and mouth
+998,goat,5,100.9,painless lumps,loss of appetite,depression,lumpy virus
+999,buffalo,9,101.9,crackling sound,depression,loss of appetite,blackleg
+1000,cow,15,102.5,painless lumps,loss of appetite,depression,pneumonia
+1001,goat,5,104.3,sweats,chest discomfort,chills,anthrax
+1002,goat,6,104.2,loss of appetite,swelling in limb,crackling sound,blackleg
+1003,sheep,10,101.4,chills,fatigue,sweats,anthrax
+1004,cow,5,100.3,loss of appetite,blisters on mouth,difficulty walking,foot and mouth
+1005,cow,8,102.5,depression,loss of appetite,painless lumps,lumpy virus
+1006,sheep,7,103.5,sores on gums,difficulty walking,loss of appetite,foot and mouth
+1007,goat,9,100.9,depression,lameness,crackling sound,blackleg
+1008,cow,6,101.3,loss of appetite,depression,painless lumps,lumpy virus
+1009,cow,5,102.4,painless lumps,loss of appetite,depression,lumpy virus
+1010,goat,6,101.5,loss of appetite,painless lumps,depression,pneumonia
+1011,buffalo,13,102.8,painless lumps,depression,loss of appetite,pneumonia
+1012,goat,5,104.0,loss of appetite,difficulty walking,swelling in muscle,blackleg
+1013,goat,9,102.4,painless lumps,loss of appetite,depression,lumpy virus
+1014,buffalo,6,102.0,depression,loss of appetite,painless lumps,pneumonia
+1015,buffalo,2,102.6,difficulty walking,blisters on hooves,loss of appetite,foot and mouth
+1016,buffalo,8,100.8,shortness of breath,sweats,swelling in extremities,anthrax
+1017,sheep,6,104.8,loss of appetite,painless lumps,depression,lumpy virus
+1018,cow,10,103.3,loss of appetite,lameness,sores on tongue,foot and mouth
+1019,cow,10,102.7,loss of appetite,depression,painless lumps,pneumonia
+1020,cow,8,104.5,lameness,loss of appetite,sores on gums,foot and mouth
+1021,sheep,8,104.1,shortness of breath,fatigue,sweats,anthrax
+1022,cow,12,103.6,shortness of breath,sweats,fatigue,anthrax
+1023,sheep,10,104.8,chills,fatigue,shortness of breath,anthrax
+1024,sheep,7,100.1,loss of appetite,blisters on gums,difficulty walking,foot and mouth
+1025,cow,7,100.2,loss of appetite,difficulty walking,blisters on gums,foot and mouth
+1026,sheep,5,100.3,depression,painless lumps,loss of appetite,pneumonia
+1027,cow,2,101.0,depression,loss of appetite,painless lumps,pneumonia
+1028,cow,13,104.9,chills,chest discomfort,fatigue,anthrax
+1029,cow,15,101.3,loss of appetite,depression,painless lumps,lumpy virus
+1030,buffalo,10,103.1,loss of appetite,depression,painless lumps,pneumonia
+1031,buffalo,1,103.2,difficulty walking,crackling sound,swelling in muscle,blackleg
+1032,buffalo,9,102.1,swelling in muscle,crackling sound,loss of appetite,blackleg
+1033,cow,1,103.1,painless lumps,depression,loss of appetite,lumpy virus
+1034,sheep,4,103.6,loss of appetite,difficulty walking,crackling sound,blackleg
+1035,sheep,5,100.0,loss of appetite,swelling in muscle,lameness,blackleg
+1036,goat,3,102.4,lameness,loss of appetite,blisters on tongue,foot and mouth
+1037,buffalo,9,101.4,loss of appetite,difficulty walking,depression,blackleg
+1038,sheep,3,101.8,loss of appetite,lameness,blisters on mouth,foot and mouth
+1039,buffalo,10,100.6,difficulty walking,loss of appetite,sores on mouth,foot and mouth
+1040,cow,7,104.8,painless lumps,loss of appetite,depression,pneumonia
+1041,buffalo,9,104.8,crackling sound,lameness,loss of appetite,blackleg
+1042,goat,2,100.3,loss of appetite,depression,painless lumps,pneumonia
+1043,goat,7,100.9,depression,loss of appetite,painless lumps,lumpy virus
+1044,sheep,3,103.7,depression,painless lumps,loss of appetite,lumpy virus
+1045,cow,6,102.4,depression,loss of appetite,painless lumps,lumpy virus
+1046,buffalo,1,100.5,sweats,fatigue,shortness of breath,anthrax
+1047,goat,1,100.5,depression,loss of appetite,painless lumps,pneumonia
+1048,goat,2,103.0,depression,loss of appetite,painless lumps,lumpy virus
+1049,buffalo,8,103.1,swelling in neck,chest discomfort,fatigue,anthrax
+1050,cow,14,101.9,sores on mouth,loss of appetite,lameness,foot and mouth
+1051,buffalo,14,101.5,loss of appetite,lameness,swelling in limb,blackleg
+1052,goat,2,100.0,depression,loss of appetite,painless lumps,lumpy virus
+1053,sheep,8,104.5,painless lumps,loss of appetite,depression,lumpy virus
+1054,sheep,6,102.2,loss of appetite,difficulty walking,blisters on gums,foot and mouth
+1055,cow,9,100.4,depression,loss of appetite,painless lumps,pneumonia
+1056,goat,5,101.5,painless lumps,depression,loss of appetite,lumpy virus
+1057,cow,8,104.4,loss of appetite,depression,painless lumps,pneumonia
+1058,buffalo,5,104.1,sweats,fatigue,chest discomfort,anthrax
+1059,sheep,6,101.8,loss of appetite,difficulty walking,sores on tongue,foot and mouth
+1060,sheep,1,100.8,crackling sound,depression,difficulty walking,blackleg
+1061,sheep,9,101.0,chest discomfort,chills,fatigue,anthrax
+1062,sheep,4,101.1,shortness of breath,swelling in abdomen,chest discomfort,anthrax
+1063,sheep,4,100.0,depression,loss of appetite,painless lumps,pneumonia
+1064,buffalo,1,101.1,depression,painless lumps,loss of appetite,lumpy virus
+1065,sheep,8,100.9,painless lumps,loss of appetite,depression,pneumonia
+1066,cow,7,104.1,lameness,loss of appetite,blisters on tongue,foot and mouth
+1067,goat,1,102.1,loss of appetite,depression,painless lumps,lumpy virus
+1068,buffalo,11,100.4,swelling in muscle,loss of appetite,depression,blackleg
+1069,sheep,8,100.4,depression,swelling in muscle,loss of appetite,blackleg
+1070,sheep,9,101.2,depression,painless lumps,loss of appetite,lumpy virus
+1071,buffalo,10,103.3,loss of appetite,sores on tongue,difficulty walking,foot and mouth
+1072,goat,8,101.8,swelling in limb,depression,difficulty walking,blackleg
+1073,sheep,9,104.3,loss of appetite,painless lumps,depression,lumpy virus
+1074,buffalo,9,101.8,lameness,loss of appetite,blisters on hooves,foot and mouth
+1075,goat,8,102.2,painless lumps,loss of appetite,depression,pneumonia
+1076,sheep,4,101.0,loss of appetite,painless lumps,depression,lumpy virus
+1077,goat,9,102.2,depression,loss of appetite,painless lumps,pneumonia
+1078,goat,6,101.5,chills,shortness of breath,sweats,anthrax
+1079,sheep,4,101.9,depression,loss of appetite,painless lumps,pneumonia
+1080,cow,14,104.1,depression,lameness,crackling sound,blackleg
+1081,cow,7,102.3,fatigue,swelling in extremities,sweats,anthrax
+1082,buffalo,6,101.7,painless lumps,depression,loss of appetite,pneumonia
+1083,sheep,3,100.8,depression,painless lumps,loss of appetite,pneumonia
+1084,goat,2,102.3,sores on gums,difficulty walking,loss of appetite,foot and mouth
+1085,cow,5,102.3,sores on mouth,lameness,loss of appetite,foot and mouth
+1086,cow,4,101.4,loss of appetite,depression,painless lumps,lumpy virus
+1087,goat,10,101.6,chest discomfort,sweats,chills,anthrax
+1088,sheep,1,104.4,depression,painless lumps,loss of appetite,lumpy virus
+1089,buffalo,14,103.3,fatigue,swelling in neck,chest discomfort,anthrax
+1090,buffalo,3,101.9,loss of appetite,difficulty walking,blisters on gums,foot and mouth
+1091,goat,8,103.1,loss of appetite,depression,painless lumps,pneumonia
+1092,cow,11,100.5,sores on tongue,lameness,loss of appetite,foot and mouth
+1093,cow,8,103.0,swelling in abdomen,sweats,chest discomfort,anthrax
+1094,sheep,1,104.5,chills,swelling in abdomen,chest discomfort,anthrax
+1095,cow,2,104.6,sores on gums,lameness,loss of appetite,foot and mouth
+1096,cow,12,102.6,depression,painless lumps,loss of appetite,lumpy virus
+1097,sheep,5,101.4,loss of appetite,painless lumps,depression,pneumonia
+1098,sheep,2,104.3,loss of appetite,painless lumps,depression,lumpy virus
+1099,sheep,7,102.0,sores on mouth,lameness,loss of appetite,foot and mouth
+1100,sheep,5,104.9,crackling sound,depression,difficulty walking,blackleg
+1101,goat,7,100.6,loss of appetite,blisters on gums,lameness,foot and mouth
+1102,sheep,7,103.1,depression,lameness,swelling in limb,blackleg
+1103,buffalo,5,104.2,depression,painless lumps,loss of appetite,pneumonia
+1104,buffalo,1,101.4,painless lumps,loss of appetite,depression,lumpy virus
+1105,buffalo,11,102.0,loss of appetite,sores on gums,difficulty walking,foot and mouth
+1106,sheep,1,100.9,painless lumps,depression,loss of appetite,pneumonia
+1107,buffalo,15,103.7,loss of appetite,blisters on hooves,difficulty walking,foot and mouth
+1108,cow,6,101.5,crackling sound,loss of appetite,depression,blackleg
+1109,sheep,10,101.8,fatigue,sweats,shortness of breath,anthrax
+1110,buffalo,14,101.7,depression,crackling sound,swelling in limb,blackleg
+1111,sheep,8,102.1,depression,loss of appetite,painless lumps,pneumonia
+1112,sheep,7,102.4,swelling in muscle,loss of appetite,difficulty walking,blackleg
+1113,sheep,2,101.7,difficulty walking,blisters on hooves,loss of appetite,foot and mouth
+1114,cow,13,101.8,sweats,swelling in extremities,shortness of breath,anthrax
+1115,cow,1,101.2,loss of appetite,lameness,blisters on tongue,foot and mouth
+1116,buffalo,5,101.3,loss of appetite,swelling in muscle,crackling sound,blackleg
+1117,goat,1,103.9,shortness of breath,chest discomfort,chills,anthrax
+1118,buffalo,12,101.5,depression,loss of appetite,painless lumps,pneumonia
+1119,cow,11,100.8,blisters on hooves,loss of appetite,lameness,foot and mouth
+1120,sheep,1,101.2,shortness of breath,fatigue,swelling in extremities,anthrax
+1121,cow,8,103.0,depression,loss of appetite,painless lumps,pneumonia
+1122,sheep,4,104.3,fatigue,shortness of breath,sweats,anthrax
+1123,sheep,7,103.7,loss of appetite,sores on gums,lameness,foot and mouth
+1124,buffalo,5,103.5,crackling sound,loss of appetite,swelling in limb,blackleg
+1125,cow,2,103.1,depression,loss of appetite,swelling in muscle,blackleg
+1126,buffalo,12,102.7,loss of appetite,depression,crackling sound,blackleg
+1127,buffalo,9,100.0,swelling in muscle,crackling sound,depression,blackleg
+1128,cow,12,101.4,depression,loss of appetite,painless lumps,pneumonia
+1129,buffalo,12,104.5,fatigue,chills,chest discomfort,anthrax
+1130,buffalo,9,102.5,blisters on mouth,difficulty walking,loss of appetite,foot and mouth
+1131,goat,10,102.5,blisters on hooves,loss of appetite,difficulty walking,foot and mouth
+1132,goat,10,104.2,difficulty walking,loss of appetite,blisters on gums,foot and mouth
+1133,cow,8,102.0,depression,loss of appetite,painless lumps,lumpy virus
+1134,goat,1,101.8,depression,loss of appetite,painless lumps,pneumonia
+1135,buffalo,2,101.0,depression,loss of appetite,painless lumps,lumpy virus
+1136,cow,5,100.5,depression,loss of appetite,painless lumps,lumpy virus
+1137,cow,6,101.2,difficulty walking,crackling sound,swelling in limb,blackleg
+1138,cow,10,100.3,crackling sound,loss of appetite,depression,blackleg
+1139,sheep,2,101.2,blisters on mouth,difficulty walking,loss of appetite,foot and mouth
+1140,goat,6,101.9,painless lumps,depression,loss of appetite,pneumonia
+1141,buffalo,4,100.2,lameness,swelling in muscle,depression,blackleg
+1142,buffalo,13,103.9,painless lumps,loss of appetite,depression,lumpy virus
+1143,sheep,3,101.3,loss of appetite,difficulty walking,sores on tongue,foot and mouth
+1144,sheep,3,104.0,depression,loss of appetite,painless lumps,pneumonia
+1145,buffalo,14,102.7,loss of appetite,lameness,depression,blackleg
+1146,goat,4,103.2,depression,painless lumps,loss of appetite,pneumonia
+1147,sheep,9,104.1,depression,loss of appetite,painless lumps,lumpy virus
+1148,sheep,4,104.0,swelling in neck,fatigue,shortness of breath,anthrax
+1149,sheep,5,101.5,painless lumps,depression,loss of appetite,pneumonia
+1150,goat,9,104.7,painless lumps,loss of appetite,depression,pneumonia
+1151,sheep,8,104.2,sores on tongue,lameness,loss of appetite,foot and mouth
+1152,sheep,8,101.2,loss of appetite,depression,painless lumps,pneumonia
+1153,cow,5,104.7,lameness,loss of appetite,blisters on hooves,foot and mouth
+1154,sheep,7,102.5,lameness,loss of appetite,sores on mouth,foot and mouth
+1155,buffalo,9,102.0,lameness,crackling sound,loss of appetite,blackleg
+1156,buffalo,5,103.7,sweats,chest discomfort,fatigue,anthrax
+1157,goat,4,102.3,sores on hooves,lameness,loss of appetite,foot and mouth
+1158,buffalo,5,103.1,depression,loss of appetite,painless lumps,lumpy virus
+1159,cow,1,102.1,difficulty walking,loss of appetite,sores on hooves,foot and mouth
+1160,sheep,9,103.6,loss of appetite,painless lumps,depression,lumpy virus
+1161,sheep,9,101.9,crackling sound,loss of appetite,lameness,blackleg
+1162,buffalo,12,101.4,painless lumps,depression,loss of appetite,pneumonia
+1163,goat,2,104.7,depression,loss of appetite,painless lumps,pneumonia
+1164,goat,2,102.9,sores on mouth,loss of appetite,difficulty walking,foot and mouth
+1165,buffalo,5,101.0,painless lumps,loss of appetite,depression,pneumonia
+1166,buffalo,12,103.5,loss of appetite,depression,painless lumps,pneumonia
+1167,sheep,6,100.2,depression,painless lumps,loss of appetite,pneumonia
+1168,cow,2,102.2,depression,painless lumps,loss of appetite,pneumonia
+1169,cow,5,101.9,loss of appetite,difficulty walking,blisters on gums,foot and mouth
+1170,sheep,1,103.7,loss of appetite,crackling sound,depression,blackleg
+1171,cow,6,101.5,difficulty walking,sores on hooves,loss of appetite,foot and mouth
+1172,goat,9,100.4,loss of appetite,difficulty walking,sores on gums,foot and mouth
+1173,sheep,9,101.1,swelling in extremities,chest discomfort,chills,anthrax
+1174,goat,1,101.5,loss of appetite,painless lumps,depression,lumpy virus
+1175,buffalo,1,101.7,painless lumps,depression,loss of appetite,pneumonia
+1176,buffalo,1,100.9,loss of appetite,crackling sound,depression,blackleg
+1177,goat,3,104.8,painless lumps,depression,loss of appetite,pneumonia
+1178,cow,5,102.4,chest discomfort,sweats,swelling in abdomen,anthrax
+1179,buffalo,1,103.4,painless lumps,loss of appetite,depression,pneumonia
+1180,cow,4,104.1,loss of appetite,blisters on mouth,lameness,foot and mouth
+1181,buffalo,12,103.5,lameness,crackling sound,loss of appetite,blackleg
+1182,buffalo,11,104.5,chest discomfort,sweats,shortness of breath,anthrax
+1183,sheep,9,101.2,loss of appetite,painless lumps,depression,lumpy virus
+1184,buffalo,10,100.3,chest discomfort,sweats,chills,anthrax
+1185,cow,12,104.7,difficulty walking,loss of appetite,blisters on gums,foot and mouth
+1186,sheep,2,104.4,swelling in limb,crackling sound,lameness,blackleg
+1187,sheep,1,104.9,difficulty walking,swelling in muscle,depression,blackleg
+1188,cow,11,101.2,painless lumps,loss of appetite,depression,lumpy virus
+1189,goat,6,100.8,blisters on gums,loss of appetite,lameness,foot and mouth
+1190,cow,2,104.3,blisters on mouth,difficulty walking,loss of appetite,foot and mouth
+1191,buffalo,2,104.4,loss of appetite,depression,painless lumps,lumpy virus
+1192,sheep,10,104.3,painless lumps,loss of appetite,depression,pneumonia
+1193,sheep,8,100.1,difficulty walking,sores on hooves,loss of appetite,foot and mouth
+1194,cow,3,102.6,blisters on mouth,lameness,loss of appetite,foot and mouth
+1195,goat,10,102.7,swelling in extremities,chills,sweats,anthrax
+1196,goat,2,104.6,difficulty walking,crackling sound,swelling in limb,blackleg
+1197,goat,3,103.0,loss of appetite,lameness,blisters on hooves,foot and mouth
+1198,cow,8,101.7,loss of appetite,depression,painless lumps,lumpy virus
+1199,buffalo,6,104.8,depression,loss of appetite,painless lumps,pneumonia
+1200,sheep,5,104.5,loss of appetite,sores on gums,difficulty walking,foot and mouth
+1201,buffalo,15,102.4,swelling in muscle,crackling sound,depression,blackleg
+1202,sheep,5,101.3,depression,loss of appetite,painless lumps,lumpy virus
+1203,buffalo,3,104.5,painless lumps,depression,loss of appetite,pneumonia
+1204,sheep,3,104.4,swelling in limb,loss of appetite,crackling sound,blackleg
+1205,sheep,7,102.4,depression,loss of appetite,painless lumps,pneumonia
+1206,sheep,5,101.9,swelling in limb,difficulty walking,depression,blackleg
+1207,buffalo,7,100.3,loss of appetite,painless lumps,depression,lumpy virus
+1208,buffalo,6,101.0,chills,shortness of breath,swelling in neck,anthrax
+1209,cow,1,100.8,chills,swelling in extremities,shortness of breath,anthrax
+1210,buffalo,7,104.9,swelling in extremities,fatigue,sweats,anthrax
+1211,goat,6,100.0,depression,painless lumps,loss of appetite,lumpy virus
+1212,buffalo,7,100.5,depression,painless lumps,loss of appetite,lumpy virus
+1213,goat,2,101.6,loss of appetite,depression,painless lumps,pneumonia
+1214,cow,14,101.3,painless lumps,loss of appetite,depression,lumpy virus
+1215,sheep,5,103.6,sores on gums,loss of appetite,difficulty walking,foot and mouth
+1216,buffalo,15,101.5,depression,crackling sound,loss of appetite,blackleg
+1217,buffalo,3,100.4,swelling in abdomen,shortness of breath,chills,anthrax
+1218,sheep,1,102.7,depression,swelling in limb,loss of appetite,blackleg
+1219,goat,10,101.8,shortness of breath,swelling in extremities,chills,anthrax
+1220,cow,5,101.8,depression,painless lumps,loss of appetite,lumpy virus
+1221,cow,12,104.3,loss of appetite,depression,painless lumps,lumpy virus
+1222,sheep,7,100.2,depression,loss of appetite,painless lumps,lumpy virus
+1223,goat,7,100.8,difficulty walking,swelling in muscle,depression,blackleg
+1224,sheep,10,102.1,crackling sound,loss of appetite,swelling in muscle,blackleg
+1225,sheep,7,104.1,lameness,loss of appetite,sores on gums,foot and mouth
+1226,cow,1,103.8,loss of appetite,depression,painless lumps,pneumonia
+1227,goat,6,103.3,depression,loss of appetite,painless lumps,pneumonia
+1228,buffalo,11,101.7,sweats,chest discomfort,shortness of breath,anthrax
+1229,buffalo,12,100.2,chest discomfort,chills,sweats,anthrax
+1230,sheep,8,101.3,chills,swelling in abdomen,fatigue,anthrax
+1231,buffalo,11,102.1,painless lumps,depression,loss of appetite,lumpy virus
+1232,buffalo,5,104.9,loss of appetite,depression,painless lumps,lumpy virus
+1233,goat,2,103.4,loss of appetite,sores on gums,lameness,foot and mouth
+1234,goat,6,101.3,loss of appetite,blisters on tongue,difficulty walking,foot and mouth
+1235,cow,14,105.0,depression,lameness,swelling in limb,blackleg
+1236,cow,14,103.0,loss of appetite,painless lumps,depression,lumpy virus
+1237,buffalo,11,101.5,depression,painless lumps,loss of appetite,lumpy virus
+1238,sheep,3,101.3,lameness,loss of appetite,blisters on hooves,foot and mouth
+1239,goat,9,104.5,depression,loss of appetite,painless lumps,lumpy virus
+1240,sheep,7,102.4,loss of appetite,depression,difficulty walking,blackleg
+1241,cow,5,100.3,swelling in muscle,crackling sound,depression,blackleg
+1242,cow,13,101.0,depression,painless lumps,loss of appetite,lumpy virus
+1243,goat,8,103.6,loss of appetite,lameness,sores on tongue,foot and mouth
+1244,sheep,10,100.9,sweats,shortness of breath,chills,anthrax
+1245,cow,1,100.1,loss of appetite,painless lumps,depression,lumpy virus
+1246,cow,14,101.4,fatigue,shortness of breath,chest discomfort,anthrax
+1247,goat,5,102.0,depression,crackling sound,lameness,blackleg
+1248,sheep,8,100.4,loss of appetite,difficulty walking,depression,blackleg
+1249,sheep,9,104.6,loss of appetite,painless lumps,depression,lumpy virus
+1250,goat,2,100.2,loss of appetite,depression,painless lumps,lumpy virus
+1251,cow,14,100.6,crackling sound,swelling in muscle,lameness,blackleg
+1252,buffalo,7,100.3,chest discomfort,chills,shortness of breath,anthrax
+1253,buffalo,11,101.5,loss of appetite,depression,painless lumps,pneumonia
+1254,buffalo,7,102.1,chills,chest discomfort,fatigue,anthrax
+1255,goat,9,103.1,depression,loss of appetite,painless lumps,pneumonia
+1256,goat,4,100.9,sweats,swelling in neck,chills,anthrax
+1257,sheep,7,101.5,chest discomfort,swelling in abdomen,sweats,anthrax
+1258,buffalo,6,104.8,loss of appetite,sores on gums,difficulty walking,foot and mouth
+1259,buffalo,2,101.3,crackling sound,swelling in limb,depression,blackleg
+1260,goat,9,100.2,loss of appetite,lameness,sores on gums,foot and mouth
+1261,cow,1,100.1,sweats,fatigue,swelling in abdomen,anthrax
+1262,cow,7,103.4,depression,painless lumps,loss of appetite,lumpy virus
+1263,buffalo,12,100.6,depression,loss of appetite,painless lumps,pneumonia
+1264,cow,6,102.8,painless lumps,depression,loss of appetite,pneumonia
+1265,goat,9,100.2,depression,loss of appetite,painless lumps,lumpy virus
+1266,buffalo,2,100.0,difficulty walking,loss of appetite,swelling in limb,blackleg
+1267,cow,6,102.0,painless lumps,depression,loss of appetite,lumpy virus
+1268,sheep,7,101.7,chest discomfort,sweats,swelling in neck,anthrax
+1269,cow,2,104.3,sweats,shortness of breath,chills,anthrax
+1270,goat,6,102.5,swelling in abdomen,sweats,shortness of breath,anthrax
+1271,cow,5,101.6,painless lumps,depression,loss of appetite,pneumonia
+1272,goat,1,101.1,blisters on mouth,lameness,loss of appetite,foot and mouth
+1273,cow,1,104.5,loss of appetite,difficulty walking,sores on mouth,foot and mouth
+1274,sheep,2,103.1,lameness,swelling in muscle,crackling sound,blackleg
+1275,cow,13,101.3,chest discomfort,sweats,fatigue,anthrax
+1276,cow,4,103.7,painless lumps,loss of appetite,depression,pneumonia
+1277,buffalo,6,102.2,difficulty walking,blisters on hooves,loss of appetite,foot and mouth
+1278,buffalo,11,102.6,painless lumps,depression,loss of appetite,pneumonia
+1279,goat,10,100.3,painless lumps,loss of appetite,depression,lumpy virus
+1280,cow,10,100.8,loss of appetite,depression,painless lumps,lumpy virus
+1281,buffalo,4,100.8,painless lumps,loss of appetite,depression,lumpy virus
+1282,buffalo,9,102.3,depression,painless lumps,loss of appetite,lumpy virus
+1283,sheep,9,101.8,loss of appetite,lameness,blisters on gums,foot and mouth
+1284,buffalo,6,100.1,crackling sound,depression,lameness,blackleg
+1285,goat,5,102.8,loss of appetite,lameness,blisters on mouth,foot and mouth
+1286,goat,1,100.8,lameness,blisters on tongue,loss of appetite,foot and mouth
+1287,buffalo,8,102.1,loss of appetite,painless lumps,depression,lumpy virus
+1288,goat,8,104.4,shortness of breath,chest discomfort,fatigue,anthrax
+1289,sheep,2,101.2,difficulty walking,depression,crackling sound,blackleg
+1290,sheep,7,100.0,chills,chest discomfort,sweats,anthrax
+1291,sheep,8,102.7,sweats,chest discomfort,shortness of breath,anthrax
+1292,buffalo,11,101.8,loss of appetite,swelling in muscle,depression,blackleg
+1293,buffalo,12,103.6,depression,loss of appetite,painless lumps,pneumonia
+1294,buffalo,15,100.7,painless lumps,depression,loss of appetite,lumpy virus
+1295,buffalo,13,102.0,crackling sound,depression,lameness,blackleg
+1296,cow,5,100.3,lameness,loss of appetite,blisters on tongue,foot and mouth
+1297,goat,8,101.7,fatigue,swelling in neck,chills,anthrax
+1298,goat,1,101.3,sores on hooves,loss of appetite,difficulty walking,foot and mouth
+1299,buffalo,14,102.0,lameness,loss of appetite,swelling in muscle,blackleg
+1300,cow,15,102.0,loss of appetite,painless lumps,depression,lumpy virus
+1301,goat,4,104.8,loss of appetite,painless lumps,depression,lumpy virus
+1302,goat,2,102.0,painless lumps,loss of appetite,depression,lumpy virus
+1303,sheep,9,100.4,loss of appetite,lameness,crackling sound,blackleg
+1304,buffalo,1,100.1,painless lumps,loss of appetite,depression,pneumonia
+1305,cow,5,101.2,depression,loss of appetite,painless lumps,lumpy virus
+1306,cow,2,100.9,chest discomfort,fatigue,swelling in extremities,anthrax
+1307,cow,4,101.3,difficulty walking,blisters on mouth,loss of appetite,foot and mouth
+1308,cow,12,101.4,loss of appetite,painless lumps,depression,pneumonia
+1309,sheep,5,103.6,loss of appetite,crackling sound,swelling in muscle,blackleg
+1310,goat,8,100.7,sores on hooves,loss of appetite,difficulty walking,foot and mouth
+1311,sheep,1,101.1,painless lumps,depression,loss of appetite,lumpy virus
+1312,cow,12,100.4,depression,loss of appetite,difficulty walking,blackleg
+1313,buffalo,9,102.6,chills,sweats,shortness of breath,anthrax
+1314,goat,7,103.6,loss of appetite,swelling in muscle,lameness,blackleg
+1315,sheep,5,103.6,chills,swelling in neck,fatigue,anthrax
+1316,goat,3,104.2,depression,loss of appetite,painless lumps,lumpy virus
+1317,buffalo,10,101.0,shortness of breath,sweats,chills,anthrax
+1318,goat,7,104.6,swelling in extremities,chest discomfort,chills,anthrax
+1319,goat,3,100.9,depression,painless lumps,loss of appetite,pneumonia
+1320,sheep,7,101.7,fatigue,chills,swelling in abdomen,anthrax
+1321,cow,15,103.6,sweats,shortness of breath,chest discomfort,anthrax
+1322,goat,5,100.8,shortness of breath,chills,swelling in extremities,anthrax
+1323,sheep,8,101.8,lameness,blisters on gums,loss of appetite,foot and mouth
+1324,buffalo,5,101.9,loss of appetite,swelling in muscle,lameness,blackleg
+1325,goat,9,101.0,blisters on tongue,loss of appetite,lameness,foot and mouth
+1326,sheep,3,101.6,depression,painless lumps,loss of appetite,lumpy virus
+1327,sheep,1,102.3,lameness,loss of appetite,blisters on hooves,foot and mouth
+1328,sheep,1,104.8,painless lumps,loss of appetite,depression,lumpy virus
+1329,cow,4,103.9,difficulty walking,crackling sound,depression,blackleg
+1330,buffalo,14,100.1,loss of appetite,sores on gums,lameness,foot and mouth
+1331,cow,6,101.8,chills,fatigue,sweats,anthrax
+1332,sheep,2,100.1,swelling in neck,fatigue,sweats,anthrax
+1333,buffalo,10,103.8,loss of appetite,blisters on gums,difficulty walking,foot and mouth
+1334,buffalo,13,101.2,sores on tongue,difficulty walking,loss of appetite,foot and mouth
+1335,buffalo,13,100.5,depression,painless lumps,loss of appetite,lumpy virus
+1336,cow,1,102.1,chest discomfort,sweats,shortness of breath,anthrax
+1337,buffalo,5,100.6,swelling in limb,loss of appetite,depression,blackleg
+1338,buffalo,15,104.8,sores on mouth,loss of appetite,lameness,foot and mouth
+1339,goat,9,103.7,lameness,swelling in limb,crackling sound,blackleg
+1340,sheep,2,102.4,sores on gums,lameness,loss of appetite,foot and mouth
+1341,sheep,10,104.3,lameness,loss of appetite,swelling in muscle,blackleg
+1342,cow,1,100.7,depression,painless lumps,loss of appetite,pneumonia
+1343,buffalo,11,101.6,sweats,chills,shortness of breath,anthrax
+1344,sheep,1,100.6,difficulty walking,loss of appetite,sores on gums,foot and mouth
+1345,sheep,1,102.9,swelling in neck,chest discomfort,fatigue,anthrax
+1346,cow,14,104.7,painless lumps,depression,loss of appetite,lumpy virus
+1347,cow,14,104.2,chest discomfort,swelling in extremities,sweats,anthrax
+1348,goat,8,103.8,depression,loss of appetite,painless lumps,lumpy virus
+1349,sheep,3,101.9,swelling in muscle,depression,crackling sound,blackleg
+1350,goat,4,104.6,loss of appetite,painless lumps,depression,lumpy virus
+1351,goat,10,100.7,fatigue,chills,swelling in abdomen,anthrax
+1352,goat,4,101.4,sores on mouth,loss of appetite,difficulty walking,foot and mouth
+1353,buffalo,2,102.6,chills,fatigue,swelling in abdomen,anthrax
+1354,goat,5,103.0,sweats,chills,swelling in neck,anthrax
+1355,goat,2,100.4,depression,loss of appetite,painless lumps,pneumonia
+1356,cow,7,100.5,loss of appetite,painless lumps,depression,lumpy virus
+1357,sheep,5,103.4,painless lumps,depression,loss of appetite,lumpy virus
+1358,buffalo,1,102.2,crackling sound,depression,loss of appetite,blackleg
+1359,cow,4,101.0,chest discomfort,shortness of breath,chills,anthrax
+1360,buffalo,3,101.9,loss of appetite,lameness,sores on hooves,foot and mouth
+1361,cow,12,102.4,depression,painless lumps,loss of appetite,lumpy virus
+1362,cow,2,101.0,depression,loss of appetite,lameness,blackleg
+1363,goat,6,100.8,swelling in extremities,chills,shortness of breath,anthrax
+1364,goat,9,100.3,loss of appetite,painless lumps,depression,lumpy virus
+1365,cow,14,103.3,lameness,loss of appetite,sores on mouth,foot and mouth
+1366,goat,10,102.4,loss of appetite,depression,painless lumps,pneumonia
+1367,sheep,6,101.2,loss of appetite,painless lumps,depression,lumpy virus
+1368,goat,5,104.5,sores on tongue,difficulty walking,loss of appetite,foot and mouth
+1369,cow,7,102.3,fatigue,shortness of breath,chills,anthrax
+1370,goat,8,102.4,loss of appetite,lameness,sores on tongue,foot and mouth
+1371,buffalo,3,102.3,loss of appetite,depression,painless lumps,pneumonia
+1372,goat,4,103.7,loss of appetite,painless lumps,depression,pneumonia
+1373,sheep,2,101.1,depression,loss of appetite,painless lumps,pneumonia
+1374,sheep,3,103.8,fatigue,swelling in neck,sweats,anthrax
+1375,buffalo,13,102.7,loss of appetite,blisters on hooves,lameness,foot and mouth
+1376,cow,14,101.5,loss of appetite,painless lumps,depression,pneumonia
+1377,buffalo,3,101.7,painless lumps,loss of appetite,depression,lumpy virus
+1378,sheep,1,100.4,crackling sound,depression,loss of appetite,blackleg
+1379,buffalo,2,102.6,painless lumps,loss of appetite,depression,lumpy virus
+1380,cow,2,102.3,painless lumps,loss of appetite,depression,lumpy virus
+1381,goat,7,103.7,shortness of breath,swelling in extremities,chills,anthrax
+1382,buffalo,11,101.9,loss of appetite,painless lumps,depression,lumpy virus
+1383,cow,10,104.9,painless lumps,depression,loss of appetite,pneumonia
+1384,buffalo,1,104.3,loss of appetite,depression,painless lumps,pneumonia
+1385,cow,11,102.2,loss of appetite,sores on tongue,difficulty walking,foot and mouth
+1386,sheep,3,103.3,loss of appetite,blisters on hooves,difficulty walking,foot and mouth
+1387,buffalo,15,103.2,depression,loss of appetite,painless lumps,pneumonia
+1388,buffalo,11,103.1,painless lumps,depression,loss of appetite,pneumonia
+1389,goat,10,102.7,loss of appetite,painless lumps,depression,lumpy virus
+1390,goat,3,101.3,swelling in muscle,loss of appetite,difficulty walking,blackleg
+1391,goat,7,101.6,sweats,chest discomfort,fatigue,anthrax
+1392,goat,2,101.2,swelling in neck,fatigue,chest discomfort,anthrax
+1393,buffalo,3,102.6,difficulty walking,sores on hooves,loss of appetite,foot and mouth
+1394,buffalo,7,100.8,swelling in extremities,chest discomfort,sweats,anthrax
+1395,cow,11,103.6,depression,painless lumps,loss of appetite,pneumonia
+1396,buffalo,13,103.2,depression,loss of appetite,painless lumps,pneumonia
+1397,cow,10,101.7,fatigue,chills,swelling in abdomen,anthrax
+1398,goat,7,101.3,swelling in neck,shortness of breath,sweats,anthrax
+1399,goat,1,102.4,blisters on gums,loss of appetite,lameness,foot and mouth
+1400,buffalo,15,103.3,swelling in muscle,crackling sound,depression,blackleg
+1401,cow,2,104.5,depression,loss of appetite,painless lumps,pneumonia
+1402,sheep,9,102.3,painless lumps,loss of appetite,depression,pneumonia
+1403,sheep,7,101.3,swelling in limb,depression,difficulty walking,blackleg
+1404,sheep,10,102.1,depression,painless lumps,loss of appetite,pneumonia
+1405,goat,3,104.8,loss of appetite,painless lumps,depression,lumpy virus
+1406,buffalo,9,102.0,depression,painless lumps,loss of appetite,pneumonia
+1407,cow,13,100.1,fatigue,chills,chest discomfort,anthrax
+1408,cow,10,101.2,painless lumps,depression,loss of appetite,lumpy virus
+1409,cow,15,102.0,difficulty walking,loss of appetite,swelling in limb,blackleg
+1410,sheep,4,102.7,sores on hooves,lameness,loss of appetite,foot and mouth
+1411,buffalo,3,100.6,shortness of breath,chills,fatigue,anthrax
+1412,goat,9,100.0,difficulty walking,loss of appetite,sores on hooves,foot and mouth
+1413,buffalo,15,102.1,loss of appetite,painless lumps,depression,lumpy virus
+1414,goat,4,102.4,blisters on gums,lameness,loss of appetite,foot and mouth
+1415,goat,7,102.1,sweats,chest discomfort,swelling in abdomen,anthrax
+1416,buffalo,15,100.7,shortness of breath,swelling in neck,chest discomfort,anthrax
+1417,buffalo,5,101.7,sweats,chills,shortness of breath,anthrax
+1418,buffalo,14,102.9,swelling in limb,depression,loss of appetite,blackleg
+1419,cow,3,101.9,swelling in limb,difficulty walking,depression,blackleg
+1420,sheep,7,101.9,loss of appetite,crackling sound,depression,blackleg
+1421,goat,4,101.8,crackling sound,swelling in muscle,depression,blackleg
+1422,buffalo,2,104.5,swelling in neck,shortness of breath,chills,anthrax
+1423,cow,14,100.4,crackling sound,swelling in muscle,difficulty walking,blackleg
+1424,sheep,2,100.3,shortness of breath,swelling in neck,chills,anthrax
+1425,sheep,6,102.0,painless lumps,depression,loss of appetite,lumpy virus
+1426,sheep,2,100.5,lameness,crackling sound,loss of appetite,blackleg
+1427,goat,1,102.4,chills,chest discomfort,sweats,anthrax
+1428,goat,8,103.5,chills,shortness of breath,sweats,anthrax
+1429,cow,15,103.5,difficulty walking,blisters on gums,loss of appetite,foot and mouth
+1430,cow,12,104.9,depression,swelling in muscle,crackling sound,blackleg
+1431,buffalo,6,101.2,lameness,sores on tongue,loss of appetite,foot and mouth
+1432,sheep,9,100.1,difficulty walking,loss of appetite,depression,blackleg
+1433,buffalo,10,101.5,painless lumps,loss of appetite,depression,pneumonia
+1434,cow,7,104.3,swelling in muscle,depression,difficulty walking,blackleg
+1435,cow,3,100.4,swelling in extremities,chest discomfort,sweats,anthrax
+1436,buffalo,6,101.0,depression,painless lumps,loss of appetite,pneumonia
+1437,buffalo,12,100.2,loss of appetite,depression,painless lumps,lumpy virus
+1438,goat,9,100.5,sores on hooves,loss of appetite,difficulty walking,foot and mouth
+1439,cow,9,104.8,lameness,loss of appetite,blisters on mouth,foot and mouth
+1440,buffalo,14,100.7,crackling sound,lameness,depression,blackleg
+1441,sheep,3,104.3,painless lumps,loss of appetite,depression,pneumonia
+1442,cow,7,102.0,painless lumps,loss of appetite,depression,lumpy virus
+1443,goat,2,102.9,painless lumps,depression,loss of appetite,pneumonia
+1444,cow,2,102.4,loss of appetite,painless lumps,depression,pneumonia
+1445,cow,11,102.4,lameness,blisters on mouth,loss of appetite,foot and mouth
+1446,sheep,2,100.8,painless lumps,loss of appetite,depression,pneumonia
+1447,cow,4,101.4,painless lumps,loss of appetite,depression,lumpy virus
+1448,goat,5,104.4,difficulty walking,swelling in muscle,loss of appetite,blackleg
+1449,cow,10,103.6,depression,painless lumps,loss of appetite,pneumonia
+1450,cow,2,102.6,loss of appetite,lameness,depression,blackleg
+1451,goat,6,102.4,swelling in abdomen,shortness of breath,sweats,anthrax
+1452,buffalo,4,101.1,painless lumps,loss of appetite,depression,pneumonia
+1453,goat,1,104.8,swelling in neck,shortness of breath,sweats,anthrax
+1454,goat,4,102.3,loss of appetite,sores on hooves,lameness,foot and mouth
+1455,cow,13,101.6,depression,lameness,loss of appetite,blackleg
+1456,sheep,10,102.5,depression,loss of appetite,painless lumps,pneumonia
+1457,cow,11,103.0,difficulty walking,sores on mouth,loss of appetite,foot and mouth
+1458,sheep,8,100.6,lameness,depression,loss of appetite,blackleg
+1459,goat,10,100.7,chest discomfort,fatigue,swelling in abdomen,anthrax
+1460,cow,9,100.6,chills,chest discomfort,fatigue,anthrax
+1461,sheep,2,102.2,crackling sound,lameness,depression,blackleg
+1462,cow,7,103.7,shortness of breath,sweats,chills,anthrax
+1463,goat,1,103.5,swelling in limb,depression,lameness,blackleg
+1464,goat,5,102.7,swelling in abdomen,sweats,chest discomfort,anthrax
+1465,cow,9,101.0,depression,loss of appetite,painless lumps,lumpy virus
+1466,buffalo,15,104.5,painless lumps,loss of appetite,depression,pneumonia
+1467,buffalo,2,100.4,swelling in muscle,crackling sound,loss of appetite,blackleg
+1468,goat,4,103.8,loss of appetite,depression,painless lumps,lumpy virus
+1469,goat,3,104.6,loss of appetite,depression,painless lumps,pneumonia
+1470,goat,9,102.0,loss of appetite,painless lumps,depression,pneumonia
+1471,buffalo,11,103.2,depression,painless lumps,loss of appetite,lumpy virus
+1472,goat,7,103.6,painless lumps,depression,loss of appetite,lumpy virus
+1473,sheep,10,102.5,sweats,fatigue,swelling in abdomen,anthrax
+1474,goat,8,104.6,painless lumps,loss of appetite,depression,pneumonia
+1475,sheep,5,104.0,depression,painless lumps,loss of appetite,lumpy virus
+1476,cow,4,100.3,shortness of breath,swelling in neck,chest discomfort,anthrax
+1477,sheep,2,101.8,swelling in extremities,chills,shortness of breath,anthrax
+1478,cow,5,105.0,shortness of breath,swelling in neck,fatigue,anthrax
+1479,sheep,2,101.6,depression,painless lumps,loss of appetite,lumpy virus
+1480,sheep,3,101.9,loss of appetite,difficulty walking,depression,blackleg
+1481,goat,6,102.6,shortness of breath,swelling in extremities,chills,anthrax
+1482,cow,11,100.9,depression,painless lumps,loss of appetite,pneumonia
+1483,goat,4,102.5,painless lumps,depression,loss of appetite,pneumonia
+1484,cow,7,103.3,fatigue,sweats,chest discomfort,anthrax
+1485,sheep,4,101.9,crackling sound,swelling in limb,loss of appetite,blackleg
+1486,cow,15,104.7,depression,loss of appetite,painless lumps,lumpy virus
+1487,buffalo,7,102.7,loss of appetite,depression,painless lumps,pneumonia
+1488,sheep,6,101.0,depression,painless lumps,loss of appetite,pneumonia
+1489,sheep,2,103.0,chills,shortness of breath,fatigue,anthrax
+1490,buffalo,8,103.2,sores on hooves,lameness,loss of appetite,foot and mouth
+1491,buffalo,13,103.4,shortness of breath,fatigue,sweats,anthrax
+1492,cow,3,102.8,crackling sound,lameness,depression,blackleg
+1493,cow,9,100.2,sores on hooves,loss of appetite,difficulty walking,foot and mouth
+1494,cow,10,100.0,sweats,shortness of breath,fatigue,anthrax
+1495,buffalo,5,101.9,fatigue,swelling in extremities,sweats,anthrax
+1496,sheep,1,102.9,loss of appetite,lameness,blisters on hooves,foot and mouth
+1497,buffalo,14,101.2,crackling sound,lameness,depression,blackleg
+1498,sheep,7,100.6,loss of appetite,lameness,blisters on mouth,foot and mouth
+1499,buffalo,10,100.3,sores on hooves,lameness,loss of appetite,foot and mouth
+1500,sheep,4,103.8,difficulty walking,sores on mouth,loss of appetite,foot and mouth
+1501,goat,10,100.9,blisters on tongue,lameness,loss of appetite,foot and mouth
+1502,goat,8,100.6,shortness of breath,fatigue,swelling in neck,anthrax
+1503,buffalo,11,100.9,painless lumps,loss of appetite,depression,pneumonia
+1504,sheep,3,101.6,lameness,loss of appetite,blisters on tongue,foot and mouth
+1505,cow,3,101.5,fatigue,shortness of breath,swelling in neck,anthrax
+1506,cow,7,100.4,swelling in extremities,sweats,chills,anthrax
+1507,goat,2,102.0,loss of appetite,depression,crackling sound,blackleg
+1508,cow,7,103.3,painless lumps,depression,loss of appetite,pneumonia
+1509,buffalo,9,103.0,crackling sound,loss of appetite,swelling in muscle,blackleg
+1510,cow,12,101.7,difficulty walking,crackling sound,loss of appetite,blackleg
+1511,cow,6,101.7,painless lumps,depression,loss of appetite,lumpy virus
+1512,cow,2,104.4,depression,loss of appetite,painless lumps,pneumonia
+1513,buffalo,15,102.0,swelling in limb,depression,crackling sound,blackleg
+1514,sheep,8,102.2,difficulty walking,loss of appetite,sores on tongue,foot and mouth
+1515,cow,6,101.5,loss of appetite,blisters on tongue,difficulty walking,foot and mouth
+1516,cow,10,101.1,painless lumps,depression,loss of appetite,pneumonia
+1517,sheep,8,101.1,chest discomfort,sweats,chills,anthrax
+1518,goat,7,101.6,loss of appetite,depression,painless lumps,lumpy virus
+1519,goat,1,104.6,loss of appetite,depression,painless lumps,pneumonia
+1520,cow,7,100.6,loss of appetite,sores on mouth,difficulty walking,foot and mouth
+1521,cow,6,102.2,depression,loss of appetite,painless lumps,pneumonia
+1522,goat,4,102.0,depression,loss of appetite,painless lumps,pneumonia
+1523,goat,5,100.8,depression,loss of appetite,painless lumps,lumpy virus
+1524,cow,14,103.1,crackling sound,loss of appetite,swelling in limb,blackleg
+1525,sheep,5,102.8,depression,crackling sound,swelling in limb,blackleg
+1526,buffalo,8,100.9,depression,painless lumps,loss of appetite,pneumonia
+1527,goat,7,104.0,loss of appetite,painless lumps,depression,pneumonia
+1528,sheep,3,102.8,crackling sound,difficulty walking,depression,blackleg
+1529,sheep,10,102.6,loss of appetite,depression,painless lumps,lumpy virus
+1530,goat,8,101.5,loss of appetite,crackling sound,depression,blackleg
+1531,cow,1,104.4,fatigue,sweats,shortness of breath,anthrax
+1532,cow,1,104.9,swelling in abdomen,chills,shortness of breath,anthrax
+1533,buffalo,13,102.5,chills,sweats,swelling in extremities,anthrax
+1534,goat,4,101.1,crackling sound,lameness,swelling in muscle,blackleg
+1535,sheep,9,101.1,lameness,loss of appetite,crackling sound,blackleg
+1536,goat,7,103.3,painless lumps,depression,loss of appetite,pneumonia
+1537,cow,3,100.6,loss of appetite,painless lumps,depression,pneumonia
+1538,sheep,3,102.7,painless lumps,loss of appetite,depression,lumpy virus
+1539,buffalo,12,102.2,loss of appetite,sores on hooves,difficulty walking,foot and mouth
+1540,sheep,2,101.8,depression,painless lumps,loss of appetite,lumpy virus
+1541,sheep,9,102.9,loss of appetite,painless lumps,depression,lumpy virus
+1542,sheep,10,101.1,loss of appetite,depression,difficulty walking,blackleg
+1543,sheep,1,103.8,loss of appetite,depression,painless lumps,pneumonia
+1544,buffalo,1,101.8,blisters on gums,lameness,loss of appetite,foot and mouth
+1545,sheep,4,101.7,painless lumps,loss of appetite,depression,pneumonia
+1546,cow,13,101.0,loss of appetite,painless lumps,depression,lumpy virus
+1547,cow,14,102.0,swelling in limb,difficulty walking,crackling sound,blackleg
+1548,sheep,8,103.8,loss of appetite,depression,painless lumps,lumpy virus
+1549,buffalo,1,103.7,chest discomfort,fatigue,chills,anthrax
+1550,sheep,1,100.6,depression,loss of appetite,painless lumps,pneumonia
+1551,cow,12,100.1,loss of appetite,depression,painless lumps,pneumonia
+1552,buffalo,12,101.7,loss of appetite,depression,painless lumps,pneumonia
+1553,goat,4,102.9,depression,loss of appetite,painless lumps,pneumonia
+1554,sheep,7,104.9,loss of appetite,painless lumps,depression,pneumonia
+1555,goat,3,102.5,sores on hooves,loss of appetite,difficulty walking,foot and mouth
+1556,cow,14,101.9,loss of appetite,lameness,sores on hooves,foot and mouth
+1557,buffalo,5,100.8,crackling sound,loss of appetite,difficulty walking,blackleg
+1558,goat,9,103.9,loss of appetite,depression,painless lumps,pneumonia
+1559,goat,8,100.5,chills,sweats,chest discomfort,anthrax
+1560,sheep,1,101.3,depression,painless lumps,loss of appetite,lumpy virus
+1561,cow,3,103.8,depression,lameness,crackling sound,blackleg
+1562,sheep,7,101.3,painless lumps,depression,loss of appetite,pneumonia
+1563,buffalo,10,101.3,loss of appetite,sores on hooves,difficulty walking,foot and mouth
+1564,goat,4,104.8,painless lumps,loss of appetite,depression,pneumonia
+1565,cow,12,102.4,loss of appetite,blisters on hooves,lameness,foot and mouth
+1566,goat,4,102.3,loss of appetite,painless lumps,depression,lumpy virus
+1567,buffalo,15,101.8,lameness,loss of appetite,blisters on mouth,foot and mouth
+1568,cow,5,100.1,difficulty walking,depression,crackling sound,blackleg
+1569,cow,7,101.7,loss of appetite,sores on mouth,difficulty walking,foot and mouth
+1570,goat,7,101.0,chills,sweats,fatigue,anthrax
+1571,goat,5,104.7,loss of appetite,painless lumps,depression,pneumonia
+1572,cow,8,104.8,depression,painless lumps,loss of appetite,lumpy virus
+1573,sheep,10,103.7,loss of appetite,difficulty walking,blisters on tongue,foot and mouth
+1574,cow,3,100.3,depression,loss of appetite,painless lumps,lumpy virus
+1575,sheep,2,104.1,lameness,swelling in muscle,crackling sound,blackleg
+1576,cow,2,100.4,difficulty walking,swelling in limb,depression,blackleg
+1577,sheep,1,103.0,loss of appetite,depression,painless lumps,lumpy virus
+1578,buffalo,11,102.4,loss of appetite,painless lumps,depression,lumpy virus
+1579,buffalo,12,104.0,loss of appetite,painless lumps,depression,lumpy virus
+1580,cow,3,104.8,sores on hooves,loss of appetite,lameness,foot and mouth
+1581,goat,4,101.7,crackling sound,lameness,loss of appetite,blackleg
+1582,buffalo,5,100.2,difficulty walking,loss of appetite,sores on hooves,foot and mouth
+1583,cow,4,102.5,loss of appetite,painless lumps,depression,lumpy virus
+1584,sheep,7,100.7,shortness of breath,sweats,chills,anthrax
+1585,buffalo,15,102.1,loss of appetite,depression,painless lumps,pneumonia
+1586,buffalo,8,101.4,loss of appetite,swelling in limb,crackling sound,blackleg
+1587,buffalo,12,104.8,loss of appetite,lameness,blisters on hooves,foot and mouth
+1588,cow,6,103.6,depression,loss of appetite,painless lumps,pneumonia
+1589,goat,1,100.8,loss of appetite,blisters on mouth,lameness,foot and mouth
+1590,buffalo,7,104.1,lameness,swelling in muscle,loss of appetite,blackleg
+1591,goat,1,104.6,depression,painless lumps,loss of appetite,lumpy virus
+1592,buffalo,3,101.4,chest discomfort,fatigue,chills,anthrax
+1593,cow,2,100.1,depression,painless lumps,loss of appetite,lumpy virus
+1594,buffalo,12,102.3,loss of appetite,painless lumps,depression,pneumonia
+1595,sheep,2,104.7,lameness,sores on gums,loss of appetite,foot and mouth
+1596,buffalo,10,103.2,lameness,blisters on hooves,loss of appetite,foot and mouth
+1597,buffalo,2,101.4,sores on mouth,difficulty walking,loss of appetite,foot and mouth
+1598,cow,5,104.0,painless lumps,loss of appetite,depression,lumpy virus
+1599,buffalo,4,104.5,swelling in muscle,loss of appetite,lameness,blackleg
+1600,cow,4,102.6,loss of appetite,depression,painless lumps,pneumonia
+1601,sheep,8,101.4,swelling in muscle,crackling sound,lameness,blackleg
+1602,goat,5,101.7,loss of appetite,depression,painless lumps,lumpy virus
+1603,cow,11,101.7,fatigue,swelling in abdomen,sweats,anthrax
+1604,goat,1,103.7,loss of appetite,depression,painless lumps,pneumonia
+1605,buffalo,13,104.6,painless lumps,depression,loss of appetite,lumpy virus
+1606,cow,13,103.7,depression,loss of appetite,painless lumps,lumpy virus
+1607,sheep,3,100.0,painless lumps,depression,loss of appetite,lumpy virus
+1608,buffalo,10,100.9,swelling in extremities,chills,chest discomfort,anthrax
+1609,buffalo,12,104.1,depression,painless lumps,loss of appetite,pneumonia
+1610,buffalo,13,100.5,blisters on hooves,loss of appetite,lameness,foot and mouth
+1611,buffalo,3,102.4,swelling in limb,depression,crackling sound,blackleg
+1612,sheep,5,101.7,chest discomfort,fatigue,shortness of breath,anthrax
+1613,goat,10,103.0,swelling in extremities,shortness of breath,fatigue,anthrax
+1614,buffalo,11,103.5,swelling in limb,depression,lameness,blackleg
+1615,goat,6,102.8,blisters on tongue,loss of appetite,lameness,foot and mouth
+1616,goat,7,102.0,depression,crackling sound,lameness,blackleg
+1617,goat,3,101.1,loss of appetite,lameness,sores on hooves,foot and mouth
+1618,buffalo,4,102.0,difficulty walking,swelling in muscle,crackling sound,blackleg
+1619,sheep,2,101.3,blisters on gums,difficulty walking,loss of appetite,foot and mouth
+1620,buffalo,15,103.4,blisters on hooves,difficulty walking,loss of appetite,foot and mouth
+1621,sheep,4,104.1,swelling in neck,fatigue,chest discomfort,anthrax
+1622,cow,3,101.6,depression,painless lumps,loss of appetite,lumpy virus
+1623,sheep,4,100.1,swelling in limb,depression,difficulty walking,blackleg
+1624,goat,4,100.0,lameness,sores on tongue,loss of appetite,foot and mouth
+1625,goat,9,102.6,crackling sound,depression,swelling in muscle,blackleg
+1626,sheep,6,103.5,chills,swelling in neck,sweats,anthrax
+1627,cow,11,101.9,loss of appetite,sores on gums,lameness,foot and mouth
+1628,cow,1,100.6,swelling in neck,fatigue,shortness of breath,anthrax
+1629,buffalo,6,104.8,blisters on tongue,difficulty walking,loss of appetite,foot and mouth
+1630,goat,6,100.3,chills,sweats,fatigue,anthrax
+1631,goat,4,100.7,difficulty walking,swelling in limb,loss of appetite,blackleg
+1632,cow,10,102.6,sweats,fatigue,chest discomfort,anthrax
+1633,cow,1,101.9,painless lumps,depression,loss of appetite,pneumonia
+1634,goat,1,104.4,difficulty walking,sores on gums,loss of appetite,foot and mouth
+1635,goat,9,101.0,loss of appetite,swelling in muscle,crackling sound,blackleg
+1636,sheep,2,104.7,crackling sound,lameness,loss of appetite,blackleg
+1637,cow,1,102.3,loss of appetite,lameness,swelling in limb,blackleg
+1638,sheep,4,103.7,chest discomfort,chills,swelling in abdomen,anthrax
+1639,cow,9,101.7,fatigue,sweats,shortness of breath,anthrax
+1640,goat,1,104.1,lameness,loss of appetite,blisters on gums,foot and mouth
+1641,goat,2,100.2,loss of appetite,lameness,sores on tongue,foot and mouth
+1642,cow,1,101.0,painless lumps,loss of appetite,depression,pneumonia
+1643,cow,2,101.1,swelling in abdomen,chest discomfort,sweats,anthrax
+1644,goat,3,104.7,chills,fatigue,shortness of breath,anthrax
+1645,sheep,8,102.6,shortness of breath,fatigue,chest discomfort,anthrax
+1646,cow,6,102.8,crackling sound,swelling in muscle,difficulty walking,blackleg
+1647,buffalo,13,103.2,lameness,loss of appetite,depression,blackleg
+1648,buffalo,15,101.5,loss of appetite,depression,difficulty walking,blackleg
+1649,cow,10,100.9,painless lumps,loss of appetite,depression,lumpy virus
+1650,buffalo,14,102.1,lameness,swelling in muscle,loss of appetite,blackleg
+1651,goat,9,102.8,loss of appetite,depression,painless lumps,lumpy virus
+1652,buffalo,6,102.1,loss of appetite,depression,painless lumps,lumpy virus
+1653,sheep,10,100.4,depression,loss of appetite,painless lumps,pneumonia
+1654,goat,5,101.3,painless lumps,loss of appetite,depression,lumpy virus
+1655,cow,4,101.8,sores on mouth,loss of appetite,lameness,foot and mouth
+1656,buffalo,3,100.1,loss of appetite,sores on tongue,difficulty walking,foot and mouth
+1657,cow,9,102.9,difficulty walking,loss of appetite,sores on tongue,foot and mouth
+1658,goat,7,102.8,swelling in abdomen,fatigue,chills,anthrax
+1659,goat,9,104.3,painless lumps,loss of appetite,depression,lumpy virus
+1660,cow,9,100.7,chills,fatigue,shortness of breath,anthrax
+1661,sheep,2,100.9,lameness,blisters on mouth,loss of appetite,foot and mouth
+1662,cow,4,103.9,loss of appetite,painless lumps,depression,lumpy virus
+1663,sheep,10,102.5,loss of appetite,difficulty walking,sores on hooves,foot and mouth
+1664,cow,9,104.3,lameness,sores on tongue,loss of appetite,foot and mouth
+1665,buffalo,10,104.0,chills,sweats,shortness of breath,anthrax
+1666,cow,6,103.9,difficulty walking,sores on tongue,loss of appetite,foot and mouth
+1667,cow,5,102.0,depression,painless lumps,loss of appetite,lumpy virus
+1668,sheep,2,100.0,lameness,blisters on hooves,loss of appetite,foot and mouth
+1669,buffalo,14,100.5,fatigue,swelling in neck,chest discomfort,anthrax
+1670,cow,7,102.8,painless lumps,depression,loss of appetite,pneumonia
+1671,goat,6,104.0,depression,loss of appetite,painless lumps,pneumonia
+1672,goat,5,101.3,crackling sound,loss of appetite,depression,blackleg
+1673,sheep,3,104.8,swelling in abdomen,chest discomfort,shortness of breath,anthrax
+1674,goat,9,102.4,lameness,blisters on hooves,loss of appetite,foot and mouth
+1675,goat,6,103.6,lameness,blisters on mouth,loss of appetite,foot and mouth
+1676,cow,6,101.1,depression,painless lumps,loss of appetite,lumpy virus
+1677,goat,7,101.9,loss of appetite,difficulty walking,blisters on hooves,foot and mouth
+1678,sheep,5,102.5,difficulty walking,loss of appetite,depression,blackleg
+1679,goat,8,104.6,depression,painless lumps,loss of appetite,lumpy virus
+1680,buffalo,12,102.2,shortness of breath,chills,sweats,anthrax
+1681,sheep,3,101.7,fatigue,sweats,shortness of breath,anthrax
+1682,sheep,8,103.9,swelling in limb,loss of appetite,crackling sound,blackleg
+1683,sheep,6,101.6,painless lumps,depression,loss of appetite,lumpy virus
+1684,cow,5,102.8,painless lumps,depression,loss of appetite,pneumonia
+1685,sheep,10,104.3,fatigue,sweats,swelling in extremities,anthrax
+1686,sheep,7,102.5,crackling sound,loss of appetite,swelling in limb,blackleg
+1687,sheep,5,101.9,shortness of breath,chest discomfort,sweats,anthrax
+1688,sheep,2,104.1,loss of appetite,depression,swelling in limb,blackleg
+1689,buffalo,3,100.9,shortness of breath,fatigue,chills,anthrax
+1690,cow,8,101.5,painless lumps,loss of appetite,depression,pneumonia
+1691,buffalo,15,102.9,loss of appetite,depression,painless lumps,pneumonia
+1692,buffalo,12,102.8,loss of appetite,painless lumps,depression,pneumonia
+1693,sheep,2,104.8,shortness of breath,chills,sweats,anthrax
+1694,cow,6,104.0,chest discomfort,sweats,shortness of breath,anthrax
+1695,sheep,8,101.1,painless lumps,depression,loss of appetite,lumpy virus
+1696,goat,8,100.4,loss of appetite,crackling sound,lameness,blackleg
+1697,goat,3,101.0,lameness,depression,crackling sound,blackleg
+1698,buffalo,4,101.2,depression,loss of appetite,painless lumps,pneumonia
+1699,cow,2,102.6,painless lumps,depression,loss of appetite,lumpy virus
+1700,goat,7,101.8,difficulty walking,loss of appetite,blisters on mouth,foot and mouth
+1701,sheep,3,101.7,painless lumps,depression,loss of appetite,lumpy virus
+1702,buffalo,9,103.3,shortness of breath,chills,chest discomfort,anthrax
+1703,buffalo,6,104.4,loss of appetite,blisters on tongue,lameness,foot and mouth
+1704,buffalo,15,103.3,crackling sound,loss of appetite,lameness,blackleg
+1705,goat,7,101.3,chest discomfort,swelling in abdomen,shortness of breath,anthrax
+1706,goat,1,103.6,depression,painless lumps,loss of appetite,pneumonia
+1707,goat,9,101.0,loss of appetite,sores on mouth,difficulty walking,foot and mouth
+1708,sheep,9,104.5,swelling in muscle,depression,loss of appetite,blackleg
+1709,cow,4,101.4,painless lumps,depression,loss of appetite,lumpy virus
+1710,buffalo,3,104.2,loss of appetite,blisters on hooves,lameness,foot and mouth
+1711,goat,3,101.5,depression,loss of appetite,painless lumps,lumpy virus
+1712,goat,9,100.7,chest discomfort,chills,shortness of breath,anthrax
+1713,sheep,7,102.1,loss of appetite,depression,lameness,blackleg
+1714,buffalo,5,102.9,depression,swelling in muscle,lameness,blackleg
+1715,goat,1,100.4,loss of appetite,lameness,sores on hooves,foot and mouth
+1716,sheep,3,101.0,painless lumps,loss of appetite,depression,pneumonia
+1717,sheep,5,101.9,loss of appetite,painless lumps,depression,pneumonia
+1718,cow,10,103.9,loss of appetite,sores on gums,difficulty walking,foot and mouth
+1719,cow,14,101.5,swelling in neck,chest discomfort,sweats,anthrax
+1720,cow,12,101.1,chills,shortness of breath,fatigue,anthrax
+1721,cow,10,100.7,loss of appetite,depression,crackling sound,blackleg
+1722,cow,7,101.7,blisters on gums,loss of appetite,lameness,foot and mouth
+1723,sheep,5,104.3,depression,crackling sound,loss of appetite,blackleg
+1724,buffalo,15,102.7,fatigue,chills,swelling in neck,anthrax
+1725,cow,8,104.9,depression,painless lumps,loss of appetite,pneumonia
+1726,sheep,6,100.1,painless lumps,loss of appetite,depression,lumpy virus
+1727,buffalo,5,100.0,loss of appetite,painless lumps,depression,pneumonia
+1728,cow,12,104.7,crackling sound,difficulty walking,swelling in muscle,blackleg
+1729,buffalo,1,102.8,depression,loss of appetite,painless lumps,pneumonia
+1730,cow,14,104.6,loss of appetite,depression,painless lumps,lumpy virus
+1731,sheep,8,102.7,depression,painless lumps,loss of appetite,lumpy virus
+1732,sheep,4,100.1,sores on mouth,difficulty walking,loss of appetite,foot and mouth
+1733,cow,14,100.3,depression,loss of appetite,crackling sound,blackleg
+1734,buffalo,13,103.4,crackling sound,depression,loss of appetite,blackleg
+1735,goat,6,102.3,loss of appetite,depression,painless lumps,lumpy virus
+1736,sheep,6,102.3,depression,swelling in limb,loss of appetite,blackleg
+1737,cow,10,100.1,loss of appetite,blisters on hooves,difficulty walking,foot and mouth
+1738,goat,6,102.6,painless lumps,loss of appetite,depression,pneumonia
+1739,cow,7,101.5,painless lumps,depression,loss of appetite,lumpy virus
+1740,sheep,7,104.5,loss of appetite,lameness,sores on tongue,foot and mouth
+1741,sheep,10,101.6,blisters on mouth,difficulty walking,loss of appetite,foot and mouth
+1742,buffalo,11,103.2,loss of appetite,difficulty walking,sores on gums,foot and mouth
+1743,sheep,7,104.8,loss of appetite,swelling in limb,depression,blackleg
+1744,cow,13,102.9,chills,swelling in abdomen,sweats,anthrax
+1745,cow,2,104.1,painless lumps,loss of appetite,depression,pneumonia
+1746,goat,9,104.6,difficulty walking,blisters on gums,loss of appetite,foot and mouth
+1747,buffalo,4,100.0,painless lumps,depression,loss of appetite,pneumonia
+1748,sheep,9,100.8,fatigue,swelling in extremities,chills,anthrax
+1749,sheep,5,101.7,painless lumps,loss of appetite,depression,lumpy virus
+1750,buffalo,14,101.5,loss of appetite,painless lumps,depression,pneumonia
+1751,buffalo,7,100.0,crackling sound,swelling in limb,difficulty walking,blackleg
+1752,goat,9,103.1,swelling in muscle,depression,crackling sound,blackleg
+1753,goat,7,100.4,loss of appetite,crackling sound,swelling in muscle,blackleg
+1754,goat,10,101.4,painless lumps,loss of appetite,depression,pneumonia
+1755,cow,14,100.8,chest discomfort,sweats,fatigue,anthrax
+1756,buffalo,11,102.0,fatigue,chest discomfort,swelling in neck,anthrax
+1757,cow,4,101.5,loss of appetite,depression,painless lumps,pneumonia
+1758,goat,2,101.3,swelling in limb,depression,loss of appetite,blackleg
+1759,sheep,10,101.5,loss of appetite,difficulty walking,sores on tongue,foot and mouth
+1760,sheep,2,103.4,depression,crackling sound,lameness,blackleg
+1761,goat,1,100.7,painless lumps,depression,loss of appetite,lumpy virus
+1762,buffalo,2,102.9,depression,crackling sound,loss of appetite,blackleg
+1763,goat,7,101.8,chest discomfort,chills,swelling in extremities,anthrax
+1764,cow,4,100.1,swelling in muscle,crackling sound,loss of appetite,blackleg
+1765,buffalo,12,103.3,loss of appetite,difficulty walking,sores on hooves,foot and mouth
+1766,sheep,2,104.1,painless lumps,loss of appetite,depression,pneumonia
+1767,goat,6,103.9,depression,loss of appetite,painless lumps,lumpy virus
+1768,sheep,3,102.5,painless lumps,depression,loss of appetite,pneumonia
+1769,buffalo,5,104.2,lameness,swelling in muscle,crackling sound,blackleg
+1770,goat,2,101.4,loss of appetite,difficulty walking,sores on tongue,foot and mouth
+1771,sheep,2,103.9,swelling in extremities,fatigue,shortness of breath,anthrax
+1772,goat,4,104.1,depression,loss of appetite,painless lumps,pneumonia
+1773,buffalo,13,100.1,depression,difficulty walking,loss of appetite,blackleg
+1774,goat,5,101.9,fatigue,shortness of breath,swelling in extremities,anthrax
+1775,cow,12,101.7,crackling sound,swelling in limb,loss of appetite,blackleg
+1776,sheep,9,101.8,fatigue,sweats,chest discomfort,anthrax
+1777,buffalo,11,100.3,loss of appetite,lameness,blisters on hooves,foot and mouth
+1778,buffalo,5,102.5,chills,chest discomfort,swelling in neck,anthrax
+1779,goat,7,102.6,loss of appetite,lameness,blisters on hooves,foot and mouth
+1780,buffalo,11,104.2,fatigue,chills,swelling in extremities,anthrax
+1781,sheep,10,103.4,sweats,chills,swelling in extremities,anthrax
+1782,goat,8,100.9,sweats,chills,swelling in extremities,anthrax
+1783,sheep,1,101.5,painless lumps,loss of appetite,depression,lumpy virus
+1784,goat,2,101.5,painless lumps,loss of appetite,depression,lumpy virus
+1785,sheep,3,100.5,sores on hooves,loss of appetite,difficulty walking,foot and mouth
+1786,goat,9,101.3,loss of appetite,depression,swelling in limb,blackleg
+1787,buffalo,14,100.8,depression,painless lumps,loss of appetite,pneumonia
+1788,buffalo,5,101.9,chest discomfort,sweats,fatigue,anthrax
+1789,sheep,5,100.7,painless lumps,loss of appetite,depression,pneumonia
+1790,sheep,2,100.4,chest discomfort,shortness of breath,swelling in neck,anthrax
+1791,buffalo,4,101.7,depression,painless lumps,loss of appetite,lumpy virus
+1792,sheep,1,100.8,swelling in neck,sweats,chest discomfort,anthrax
+1793,goat,1,102.3,painless lumps,depression,loss of appetite,pneumonia
+1794,buffalo,5,100.3,sores on mouth,difficulty walking,loss of appetite,foot and mouth
+1795,sheep,1,104.4,sores on mouth,difficulty walking,loss of appetite,foot and mouth
+1796,cow,14,101.4,painless lumps,depression,loss of appetite,pneumonia
+1797,sheep,3,101.3,sores on mouth,lameness,loss of appetite,foot and mouth
+1798,goat,7,103.6,loss of appetite,depression,painless lumps,lumpy virus
+1799,sheep,7,100.2,blisters on tongue,loss of appetite,lameness,foot and mouth
+1800,buffalo,11,103.8,blisters on mouth,difficulty walking,loss of appetite,foot and mouth
+1801,buffalo,6,102.9,painless lumps,loss of appetite,depression,pneumonia
+1802,buffalo,15,104.2,depression,painless lumps,loss of appetite,lumpy virus
+1803,sheep,4,101.4,loss of appetite,crackling sound,depression,blackleg
+1804,goat,3,102.6,depression,swelling in limb,crackling sound,blackleg
+1805,sheep,5,101.5,sores on gums,loss of appetite,difficulty walking,foot and mouth
+1806,sheep,5,100.2,painless lumps,loss of appetite,depression,pneumonia
+1807,sheep,4,100.2,loss of appetite,depression,painless lumps,pneumonia
+1808,sheep,6,102.7,depression,painless lumps,loss of appetite,pneumonia
+1809,sheep,8,101.7,chest discomfort,swelling in abdomen,sweats,anthrax
+1810,goat,8,104.2,swelling in muscle,loss of appetite,difficulty walking,blackleg
+1811,cow,8,104.8,loss of appetite,depression,painless lumps,lumpy virus
+1812,sheep,9,101.7,painless lumps,depression,loss of appetite,pneumonia
+1813,buffalo,3,102.2,difficulty walking,loss of appetite,blisters on gums,foot and mouth
+1814,cow,14,102.9,depression,loss of appetite,painless lumps,lumpy virus
+1815,buffalo,13,103.3,loss of appetite,depression,painless lumps,lumpy virus
+1816,cow,12,102.5,loss of appetite,painless lumps,depression,lumpy virus
+1817,buffalo,3,102.1,sores on mouth,loss of appetite,difficulty walking,foot and mouth
+1818,sheep,10,103.6,loss of appetite,depression,painless lumps,pneumonia
+1819,sheep,5,102.9,loss of appetite,lameness,sores on tongue,foot and mouth
+1820,buffalo,14,100.7,painless lumps,depression,loss of appetite,pneumonia
+1821,sheep,8,101.4,chills,chest discomfort,sweats,anthrax
+1822,goat,10,102.2,painless lumps,loss of appetite,depression,pneumonia
+1823,buffalo,2,103.5,loss of appetite,blisters on hooves,difficulty walking,foot and mouth
+1824,cow,11,100.4,depression,painless lumps,loss of appetite,pneumonia
+1825,goat,9,104.3,swelling in abdomen,sweats,shortness of breath,anthrax
+1826,sheep,3,101.0,swelling in neck,sweats,chest discomfort,anthrax
+1827,cow,5,101.4,chest discomfort,shortness of breath,sweats,anthrax
+1828,sheep,9,102.3,crackling sound,depression,loss of appetite,blackleg
+1829,goat,2,104.6,difficulty walking,depression,swelling in limb,blackleg
+1830,goat,6,104.3,loss of appetite,painless lumps,depression,pneumonia
+1831,cow,3,102.5,loss of appetite,depression,painless lumps,lumpy virus
+1832,buffalo,5,101.3,painless lumps,depression,loss of appetite,pneumonia
+1833,buffalo,2,102.7,painless lumps,depression,loss of appetite,lumpy virus
+1834,cow,10,103.9,fatigue,sweats,shortness of breath,anthrax
+1835,goat,4,102.6,depression,painless lumps,loss of appetite,pneumonia
+1836,cow,11,102.2,loss of appetite,crackling sound,depression,blackleg
+1837,cow,5,100.7,painless lumps,loss of appetite,depression,pneumonia
+1838,goat,4,101.4,depression,loss of appetite,painless lumps,pneumonia
+1839,buffalo,8,104.0,swelling in abdomen,sweats,shortness of breath,anthrax
+1840,cow,2,100.6,swelling in extremities,chills,fatigue,anthrax
+1841,cow,11,101.1,difficulty walking,loss of appetite,blisters on hooves,foot and mouth
+1842,buffalo,12,104.4,shortness of breath,chills,fatigue,anthrax
+1843,sheep,9,101.7,loss of appetite,depression,painless lumps,lumpy virus
+1844,goat,4,101.3,lameness,crackling sound,swelling in limb,blackleg
+1845,buffalo,2,102.2,painless lumps,loss of appetite,depression,pneumonia
+1846,goat,7,103.9,loss of appetite,blisters on tongue,difficulty walking,foot and mouth
+1847,sheep,2,100.8,painless lumps,depression,loss of appetite,lumpy virus
+1848,cow,1,103.4,loss of appetite,painless lumps,depression,lumpy virus
+1849,goat,2,101.9,loss of appetite,depression,painless lumps,pneumonia
+1850,cow,9,102.5,fatigue,sweats,chest discomfort,anthrax
+1851,goat,3,101.9,lameness,swelling in limb,crackling sound,blackleg
+1852,goat,8,102.5,shortness of breath,chills,swelling in extremities,anthrax
+1853,goat,3,103.4,difficulty walking,loss of appetite,sores on tongue,foot and mouth
+1854,sheep,6,101.6,fatigue,chest discomfort,swelling in neck,anthrax
+1855,buffalo,4,102.9,depression,loss of appetite,painless lumps,lumpy virus
+1856,sheep,7,104.1,lameness,blisters on hooves,loss of appetite,foot and mouth
+1857,buffalo,4,102.1,loss of appetite,crackling sound,swelling in limb,blackleg
+1858,sheep,7,103.2,loss of appetite,difficulty walking,sores on mouth,foot and mouth
+1859,sheep,2,100.8,loss of appetite,difficulty walking,blisters on tongue,foot and mouth
+1860,cow,14,103.2,painless lumps,depression,loss of appetite,pneumonia
+1861,buffalo,10,100.3,painless lumps,loss of appetite,depression,lumpy virus
+1862,goat,2,102.1,loss of appetite,difficulty walking,sores on gums,foot and mouth
+1863,goat,9,100.2,loss of appetite,sores on tongue,lameness,foot and mouth
+1864,buffalo,15,102.4,chills,shortness of breath,fatigue,anthrax
+1865,sheep,6,104.8,painless lumps,depression,loss of appetite,pneumonia
+1866,sheep,2,103.4,depression,loss of appetite,swelling in limb,blackleg
+1867,sheep,4,101.9,painless lumps,depression,loss of appetite,lumpy virus
+1868,cow,5,102.1,fatigue,chest discomfort,sweats,anthrax
+1869,goat,2,101.8,loss of appetite,painless lumps,depression,pneumonia
+1870,buffalo,4,102.8,depression,loss of appetite,painless lumps,lumpy virus
+1871,buffalo,8,101.5,blisters on tongue,difficulty walking,loss of appetite,foot and mouth
+1872,goat,2,103.0,depression,painless lumps,loss of appetite,pneumonia
+1873,buffalo,4,103.3,fatigue,chest discomfort,sweats,anthrax
+1874,goat,8,104.8,loss of appetite,depression,painless lumps,lumpy virus
+1875,cow,3,102.9,loss of appetite,painless lumps,depression,pneumonia
+1876,goat,1,101.2,depression,painless lumps,loss of appetite,lumpy virus
+1877,goat,2,101.8,loss of appetite,lameness,sores on hooves,foot and mouth
+1878,sheep,4,100.2,crackling sound,difficulty walking,depression,blackleg
+1879,buffalo,12,100.3,painless lumps,depression,loss of appetite,lumpy virus
+1880,sheep,9,102.7,difficulty walking,blisters on mouth,loss of appetite,foot and mouth
+1881,buffalo,8,101.3,loss of appetite,difficulty walking,sores on mouth,foot and mouth
+1882,buffalo,7,100.2,painless lumps,depression,loss of appetite,lumpy virus
+1883,sheep,7,100.2,loss of appetite,painless lumps,depression,pneumonia
+1884,buffalo,7,102.1,depression,loss of appetite,painless lumps,pneumonia
+1885,buffalo,12,100.1,difficulty walking,loss of appetite,sores on gums,foot and mouth
+1886,cow,13,100.2,sores on tongue,lameness,loss of appetite,foot and mouth
+1887,goat,10,100.3,loss of appetite,lameness,blisters on mouth,foot and mouth
+1888,goat,3,103.5,loss of appetite,painless lumps,depression,lumpy virus
+1889,goat,8,101.7,depression,painless lumps,loss of appetite,pneumonia
+1890,buffalo,3,100.2,painless lumps,loss of appetite,depression,lumpy virus
+1891,goat,9,103.2,painless lumps,depression,loss of appetite,lumpy virus
+1892,goat,8,102.3,painless lumps,loss of appetite,depression,lumpy virus
+1893,buffalo,10,100.9,depression,painless lumps,loss of appetite,pneumonia
+1894,goat,6,102.0,depression,lameness,swelling in muscle,blackleg
+1895,goat,8,100.7,sores on tongue,loss of appetite,lameness,foot and mouth
+1896,cow,3,102.5,loss of appetite,lameness,sores on gums,foot and mouth
+1897,buffalo,10,102.1,depression,loss of appetite,painless lumps,lumpy virus
+1898,goat,6,101.4,lameness,sores on hooves,loss of appetite,foot and mouth
+1899,buffalo,11,102.5,chills,shortness of breath,sweats,anthrax
+1900,cow,3,103.1,fatigue,chest discomfort,sweats,anthrax
+1901,sheep,9,100.5,chest discomfort,chills,swelling in extremities,anthrax
+1902,buffalo,3,101.5,crackling sound,swelling in limb,lameness,blackleg
+1903,cow,13,100.5,depression,difficulty walking,swelling in muscle,blackleg
+1904,sheep,4,104.4,loss of appetite,painless lumps,depression,pneumonia
+1905,sheep,3,101.2,loss of appetite,painless lumps,depression,pneumonia
+1906,sheep,8,102.2,loss of appetite,depression,painless lumps,pneumonia
+1907,cow,12,100.7,lameness,loss of appetite,blisters on mouth,foot and mouth
+1908,cow,11,103.4,swelling in limb,loss of appetite,difficulty walking,blackleg
+1909,sheep,3,101.0,sweats,chest discomfort,chills,anthrax
+1910,buffalo,15,103.1,depression,painless lumps,loss of appetite,pneumonia
+1911,goat,3,102.1,depression,loss of appetite,painless lumps,pneumonia
+1912,buffalo,13,101.4,loss of appetite,painless lumps,depression,pneumonia
+1913,sheep,8,103.6,loss of appetite,blisters on mouth,lameness,foot and mouth
+1914,sheep,3,102.4,loss of appetite,swelling in limb,crackling sound,blackleg
+1915,goat,9,103.4,depression,loss of appetite,painless lumps,lumpy virus
+1916,sheep,2,104.5,depression,lameness,crackling sound,blackleg
+1917,cow,2,104.6,loss of appetite,lameness,sores on hooves,foot and mouth
+1918,buffalo,3,100.1,depression,loss of appetite,painless lumps,lumpy virus
+1919,sheep,5,102.9,loss of appetite,crackling sound,depression,blackleg
+1920,cow,8,100.7,fatigue,chest discomfort,shortness of breath,anthrax
+1921,cow,4,102.2,loss of appetite,sores on mouth,lameness,foot and mouth
+1922,buffalo,13,102.4,painless lumps,loss of appetite,depression,pneumonia
+1923,buffalo,11,101.2,depression,loss of appetite,painless lumps,pneumonia
+1924,buffalo,6,100.2,loss of appetite,lameness,blisters on gums,foot and mouth
+1925,buffalo,9,100.5,blisters on gums,loss of appetite,difficulty walking,foot and mouth
+1926,cow,3,100.1,crackling sound,loss of appetite,swelling in muscle,blackleg
+1927,goat,8,100.6,sores on tongue,loss of appetite,difficulty walking,foot and mouth
+1928,buffalo,11,100.2,lameness,loss of appetite,sores on tongue,foot and mouth
+1929,buffalo,4,100.4,crackling sound,lameness,depression,blackleg
+1930,buffalo,3,102.9,loss of appetite,lameness,blisters on gums,foot and mouth
+1931,goat,3,104.9,loss of appetite,painless lumps,depression,pneumonia
+1932,goat,1,104.6,painless lumps,depression,loss of appetite,lumpy virus
+1933,sheep,8,101.3,swelling in extremities,sweats,chest discomfort,anthrax
+1934,goat,4,102.2,swelling in limb,difficulty walking,loss of appetite,blackleg
+1935,buffalo,3,101.2,loss of appetite,painless lumps,depression,lumpy virus
+1936,sheep,5,101.8,chest discomfort,shortness of breath,swelling in abdomen,anthrax
+1937,buffalo,1,102.9,difficulty walking,crackling sound,loss of appetite,blackleg
+1938,sheep,2,104.8,shortness of breath,fatigue,sweats,anthrax
+1939,goat,2,104.6,loss of appetite,sores on hooves,difficulty walking,foot and mouth
+1940,buffalo,14,101.6,difficulty walking,loss of appetite,sores on tongue,foot and mouth
+1941,cow,14,102.1,chills,fatigue,shortness of breath,anthrax
+1942,cow,7,103.9,depression,painless lumps,loss of appetite,pneumonia
+1943,buffalo,2,102.1,chills,chest discomfort,fatigue,anthrax
+1944,sheep,10,102.9,difficulty walking,swelling in muscle,depression,blackleg
+1945,cow,11,101.2,chest discomfort,shortness of breath,fatigue,anthrax
+1946,cow,1,102.5,sweats,chills,shortness of breath,anthrax
+1947,sheep,8,100.0,loss of appetite,painless lumps,depression,lumpy virus
+1948,goat,3,100.4,depression,painless lumps,loss of appetite,lumpy virus
+1949,cow,7,103.7,painless lumps,loss of appetite,depression,lumpy virus
+1950,goat,6,102.0,fatigue,chills,shortness of breath,anthrax
+1951,cow,10,103.0,loss of appetite,depression,painless lumps,pneumonia
+1952,buffalo,1,100.9,depression,painless lumps,loss of appetite,lumpy virus
+1953,sheep,1,102.2,depression,painless lumps,loss of appetite,pneumonia
+1954,buffalo,8,103.8,difficulty walking,blisters on gums,loss of appetite,foot and mouth
+1955,goat,1,101.3,loss of appetite,depression,lameness,blackleg
+1956,cow,13,100.5,depression,painless lumps,loss of appetite,pneumonia
+1957,cow,2,104.3,crackling sound,difficulty walking,swelling in limb,blackleg
+1958,buffalo,1,104.6,chills,swelling in neck,chest discomfort,anthrax
+1959,buffalo,3,100.0,chills,shortness of breath,fatigue,anthrax
+1960,cow,11,101.0,depression,loss of appetite,painless lumps,pneumonia
+1961,goat,10,102.6,painless lumps,loss of appetite,depression,lumpy virus
+1962,goat,2,101.7,chills,fatigue,swelling in neck,anthrax
+1963,goat,9,101.6,difficulty walking,loss of appetite,sores on mouth,foot and mouth
+1964,buffalo,6,102.0,difficulty walking,depression,swelling in limb,blackleg
+1965,goat,4,100.4,loss of appetite,painless lumps,depression,lumpy virus
+1966,goat,8,100.7,loss of appetite,difficulty walking,sores on tongue,foot and mouth
+1967,goat,4,104.3,loss of appetite,painless lumps,depression,lumpy virus
+1968,buffalo,3,104.5,crackling sound,difficulty walking,depression,blackleg
+1969,buffalo,13,100.4,chills,chest discomfort,fatigue,anthrax
+1970,buffalo,13,100.4,sores on gums,lameness,loss of appetite,foot and mouth
+1971,goat,7,102.6,blisters on mouth,difficulty walking,loss of appetite,foot and mouth
+1972,cow,8,103.0,depression,painless lumps,loss of appetite,lumpy virus
+1973,sheep,4,101.6,shortness of breath,chest discomfort,sweats,anthrax
+1974,buffalo,12,100.3,depression,painless lumps,loss of appetite,lumpy virus
+1975,goat,10,104.4,swelling in neck,shortness of breath,chest discomfort,anthrax
+1976,buffalo,1,100.4,lameness,depression,loss of appetite,blackleg
+1977,sheep,1,100.7,painless lumps,loss of appetite,depression,pneumonia
+1978,cow,1,100.0,depression,loss of appetite,painless lumps,pneumonia
+1979,cow,15,101.0,painless lumps,depression,loss of appetite,lumpy virus
+1980,goat,1,100.4,chest discomfort,sweats,shortness of breath,anthrax
+1981,goat,7,102.6,swelling in neck,chills,sweats,anthrax
+1982,goat,7,101.8,shortness of breath,chills,sweats,anthrax
+1983,sheep,9,102.0,blisters on mouth,loss of appetite,difficulty walking,foot and mouth
+1984,cow,13,101.7,sores on gums,loss of appetite,difficulty walking,foot and mouth
+1985,buffalo,3,102.3,loss of appetite,blisters on mouth,lameness,foot and mouth
+1986,buffalo,3,104.7,depression,swelling in muscle,crackling sound,blackleg
+1987,sheep,3,101.3,painless lumps,depression,loss of appetite,lumpy virus
+1988,goat,7,105.0,sores on hooves,lameness,loss of appetite,foot and mouth
+1989,cow,2,104.8,loss of appetite,difficulty walking,crackling sound,blackleg
+1990,buffalo,15,100.3,difficulty walking,crackling sound,depression,blackleg
+1991,cow,10,103.7,depression,painless lumps,loss of appetite,lumpy virus
+1992,buffalo,13,100.2,loss of appetite,painless lumps,depression,pneumonia
+1993,buffalo,6,102.8,chest discomfort,chills,sweats,anthrax
+1994,buffalo,7,101.7,fatigue,sweats,chills,anthrax
+1995,cow,3,102.2,lameness,loss of appetite,sores on mouth,foot and mouth
+1996,goat,8,103.0,chills,shortness of breath,chest discomfort,anthrax
+1997,sheep,4,100.9,fatigue,shortness of breath,sweats,anthrax
+1998,goat,4,102.2,loss of appetite,depression,painless lumps,lumpy virus
+1999,goat,9,102.6,shortness of breath,fatigue,chest discomfort,anthrax
+2000,buffalo,15,100.6,painless lumps,depression,loss of appetite,lumpy virus
+2001,buffalo,2,102.8,painless lumps,loss of appetite,depression,lumpy virus
+2002,cow,2,102.6,loss of appetite,blisters on hooves,difficulty walking,foot and mouth
+2003,goat,9,104.4,loss of appetite,difficulty walking,sores on mouth,foot and mouth
+2004,goat,3,102.1,sweats,chills,shortness of breath,anthrax
+2005,cow,2,101.8,loss of appetite,depression,painless lumps,lumpy virus
+2006,cow,12,101.2,swelling in limb,loss of appetite,depression,blackleg
+2007,buffalo,14,101.0,chills,fatigue,swelling in extremities,anthrax
+2008,sheep,6,100.1,sweats,fatigue,chills,anthrax
+2009,cow,7,100.9,depression,painless lumps,loss of appetite,pneumonia
+2010,cow,4,100.6,chills,chest discomfort,shortness of breath,anthrax
+2011,buffalo,10,102.0,chest discomfort,sweats,swelling in neck,anthrax
+2012,goat,4,100.8,loss of appetite,depression,painless lumps,lumpy virus
+2013,goat,8,102.8,painless lumps,loss of appetite,depression,pneumonia
+2014,goat,8,104.7,chills,fatigue,chest discomfort,anthrax
+2015,goat,1,100.0,loss of appetite,lameness,blisters on tongue,foot and mouth
+2016,buffalo,2,102.7,depression,loss of appetite,painless lumps,lumpy virus
+2017,goat,7,101.5,lameness,swelling in muscle,crackling sound,blackleg
+2018,cow,11,102.9,crackling sound,loss of appetite,difficulty walking,blackleg
+2019,buffalo,8,104.4,loss of appetite,sores on hooves,difficulty walking,foot and mouth
+2020,goat,3,100.8,loss of appetite,depression,painless lumps,lumpy virus
+2021,sheep,2,100.6,swelling in muscle,loss of appetite,crackling sound,blackleg
+2022,sheep,7,104.1,sores on hooves,loss of appetite,difficulty walking,foot and mouth
+2023,sheep,6,104.4,swelling in muscle,crackling sound,depression,blackleg
+2024,cow,12,101.3,shortness of breath,chest discomfort,fatigue,anthrax
+2025,buffalo,1,104.7,difficulty walking,blisters on hooves,loss of appetite,foot and mouth
+2026,cow,9,102.4,lameness,crackling sound,swelling in muscle,blackleg
+2027,sheep,9,100.5,crackling sound,loss of appetite,swelling in limb,blackleg
+2028,sheep,7,104.3,blisters on hooves,loss of appetite,difficulty walking,foot and mouth
+2029,buffalo,2,101.2,loss of appetite,painless lumps,depression,pneumonia
+2030,sheep,5,104.4,loss of appetite,depression,painless lumps,lumpy virus
+2031,goat,9,100.1,depression,crackling sound,lameness,blackleg
+2032,sheep,3,100.5,crackling sound,swelling in muscle,depression,blackleg
+2033,cow,14,101.1,difficulty walking,loss of appetite,blisters on gums,foot and mouth
+2034,sheep,3,101.4,depression,loss of appetite,painless lumps,pneumonia
+2035,sheep,8,100.0,painless lumps,loss of appetite,depression,pneumonia
+2036,sheep,3,104.7,blisters on mouth,difficulty walking,loss of appetite,foot and mouth
+2037,buffalo,5,103.5,painless lumps,loss of appetite,depression,lumpy virus
+2038,buffalo,14,103.0,loss of appetite,painless lumps,depression,pneumonia
+2039,sheep,3,101.3,painless lumps,loss of appetite,depression,lumpy virus
+2040,goat,9,102.2,painless lumps,depression,loss of appetite,pneumonia
+2041,buffalo,4,102.5,loss of appetite,painless lumps,depression,lumpy virus
+2042,goat,3,100.8,blisters on tongue,loss of appetite,difficulty walking,foot and mouth
+2043,cow,8,100.4,loss of appetite,depression,painless lumps,pneumonia
+2044,goat,7,102.2,loss of appetite,difficulty walking,sores on mouth,foot and mouth
+2045,buffalo,13,102.1,loss of appetite,painless lumps,depression,lumpy virus
+2046,cow,15,100.6,swelling in muscle,loss of appetite,difficulty walking,blackleg
+2047,sheep,3,101.2,painless lumps,depression,loss of appetite,pneumonia
+2048,buffalo,15,100.6,difficulty walking,loss of appetite,depression,blackleg
+2049,sheep,4,102.5,shortness of breath,fatigue,chest discomfort,anthrax
+2050,cow,14,101.4,lameness,blisters on tongue,loss of appetite,foot and mouth
+2051,buffalo,13,104.6,swelling in neck,fatigue,sweats,anthrax
+2052,buffalo,4,101.9,depression,painless lumps,loss of appetite,pneumonia
+2053,goat,6,101.1,crackling sound,depression,swelling in limb,blackleg
+2054,buffalo,2,101.7,difficulty walking,swelling in limb,depression,blackleg
+2055,goat,10,104.5,loss of appetite,depression,painless lumps,lumpy virus
+2056,sheep,10,103.1,depression,loss of appetite,painless lumps,lumpy virus
+2057,buffalo,2,101.8,swelling in extremities,shortness of breath,fatigue,anthrax
+2058,sheep,5,100.8,loss of appetite,painless lumps,depression,pneumonia
+2059,buffalo,7,104.5,shortness of breath,fatigue,chest discomfort,anthrax
+2060,cow,4,102.1,lameness,loss of appetite,swelling in muscle,blackleg
+2061,goat,1,105.0,sores on hooves,difficulty walking,loss of appetite,foot and mouth
+2062,goat,10,103.5,depression,loss of appetite,painless lumps,lumpy virus
+2063,buffalo,10,100.6,depression,swelling in muscle,crackling sound,blackleg
+2064,goat,4,100.5,sweats,shortness of breath,fatigue,anthrax
+2065,cow,9,100.6,depression,painless lumps,loss of appetite,lumpy virus
+2066,goat,8,102.3,painless lumps,depression,loss of appetite,pneumonia
+2067,cow,6,100.1,painless lumps,loss of appetite,depression,lumpy virus
+2068,buffalo,4,101.2,sweats,swelling in abdomen,chest discomfort,anthrax
+2069,cow,4,102.6,loss of appetite,painless lumps,depression,lumpy virus
+2070,cow,10,101.8,loss of appetite,painless lumps,depression,lumpy virus
+2071,cow,12,104.7,loss of appetite,depression,painless lumps,pneumonia
+2072,cow,10,104.2,chest discomfort,chills,fatigue,anthrax
+2073,cow,9,104.6,sores on mouth,difficulty walking,loss of appetite,foot and mouth
+2074,sheep,2,104.0,loss of appetite,painless lumps,depression,lumpy virus
+2075,goat,5,100.3,painless lumps,depression,loss of appetite,pneumonia
+2076,goat,7,103.7,painless lumps,depression,loss of appetite,lumpy virus
+2077,sheep,6,104.7,loss of appetite,depression,painless lumps,lumpy virus
+2078,cow,2,102.5,painless lumps,loss of appetite,depression,pneumonia
+2079,buffalo,9,102.9,difficulty walking,blisters on gums,loss of appetite,foot and mouth
+2080,buffalo,9,102.1,loss of appetite,painless lumps,depression,lumpy virus
+2081,goat,4,101.7,swelling in limb,crackling sound,difficulty walking,blackleg
+2082,sheep,8,103.4,depression,crackling sound,loss of appetite,blackleg
+2083,sheep,4,101.8,painless lumps,loss of appetite,depression,lumpy virus
+2084,sheep,6,103.1,swelling in limb,crackling sound,depression,blackleg
+2085,buffalo,5,104.9,sweats,chest discomfort,shortness of breath,anthrax
+2086,buffalo,9,104.5,crackling sound,difficulty walking,depression,blackleg
+2087,goat,3,100.4,lameness,loss of appetite,sores on mouth,foot and mouth
+2088,goat,3,104.3,depression,painless lumps,loss of appetite,pneumonia
+2089,sheep,6,101.5,depression,loss of appetite,painless lumps,pneumonia
+2090,cow,12,103.9,loss of appetite,depression,painless lumps,pneumonia
+2091,cow,9,102.5,chest discomfort,fatigue,chills,anthrax
+2092,sheep,7,104.8,painless lumps,loss of appetite,depression,lumpy virus
+2093,buffalo,1,102.6,painless lumps,depression,loss of appetite,pneumonia
+2094,sheep,9,101.0,painless lumps,loss of appetite,depression,lumpy virus
+2095,cow,9,100.5,depression,painless lumps,loss of appetite,pneumonia
+2096,sheep,3,104.2,painless lumps,depression,loss of appetite,pneumonia
+2097,sheep,9,101.6,swelling in limb,crackling sound,loss of appetite,blackleg
+2098,buffalo,12,101.3,loss of appetite,swelling in limb,lameness,blackleg
+2099,cow,7,101.4,painless lumps,loss of appetite,depression,lumpy virus
+2100,goat,8,101.9,shortness of breath,sweats,chills,anthrax
+2101,buffalo,9,103.1,sweats,shortness of breath,chills,anthrax
+2102,cow,12,101.8,loss of appetite,painless lumps,depression,pneumonia
+2103,cow,3,102.2,swelling in limb,lameness,depression,blackleg
+2104,sheep,8,100.5,loss of appetite,depression,painless lumps,pneumonia
+2105,goat,5,101.0,loss of appetite,depression,painless lumps,pneumonia
+2106,goat,3,103.0,swelling in extremities,sweats,chills,anthrax
+2107,cow,5,104.6,loss of appetite,swelling in muscle,depression,blackleg
+2108,sheep,4,103.1,depression,loss of appetite,painless lumps,lumpy virus
+2109,sheep,4,102.7,depression,difficulty walking,swelling in limb,blackleg
+2110,sheep,4,104.7,sweats,swelling in abdomen,chills,anthrax
+2111,sheep,2,103.8,depression,painless lumps,loss of appetite,pneumonia
+2112,sheep,7,100.2,lameness,loss of appetite,depression,blackleg
+2113,goat,2,103.2,difficulty walking,loss of appetite,blisters on mouth,foot and mouth
+2114,goat,6,103.8,lameness,blisters on mouth,loss of appetite,foot and mouth
+2115,buffalo,14,100.5,swelling in extremities,fatigue,sweats,anthrax
+2116,goat,9,102.3,painless lumps,depression,loss of appetite,pneumonia
+2117,cow,11,102.9,shortness of breath,sweats,swelling in neck,anthrax
+2118,sheep,9,101.4,fatigue,chest discomfort,sweats,anthrax
+2119,buffalo,7,101.7,depression,swelling in limb,crackling sound,blackleg
+2120,buffalo,14,100.6,depression,loss of appetite,painless lumps,pneumonia
+2121,buffalo,2,103.8,loss of appetite,blisters on hooves,difficulty walking,foot and mouth
+2122,sheep,6,103.1,loss of appetite,difficulty walking,blisters on gums,foot and mouth
+2123,buffalo,4,102.8,shortness of breath,chills,swelling in extremities,anthrax
+2124,cow,4,101.0,chest discomfort,chills,shortness of breath,anthrax
+2125,buffalo,4,101.5,difficulty walking,sores on gums,loss of appetite,foot and mouth
+2126,goat,9,100.8,depression,loss of appetite,painless lumps,lumpy virus
+2127,cow,13,100.7,painless lumps,depression,loss of appetite,pneumonia
+2128,buffalo,3,100.1,depression,loss of appetite,painless lumps,pneumonia
+2129,goat,9,102.5,shortness of breath,chills,fatigue,anthrax
+2130,buffalo,12,100.8,loss of appetite,painless lumps,depression,lumpy virus
+2131,goat,10,102.6,lameness,sores on gums,loss of appetite,foot and mouth
+2132,sheep,1,104.2,loss of appetite,blisters on mouth,difficulty walking,foot and mouth
+2133,goat,5,102.3,blisters on hooves,loss of appetite,lameness,foot and mouth
+2134,goat,4,102.6,loss of appetite,depression,painless lumps,pneumonia
+2135,goat,8,103.2,painless lumps,loss of appetite,depression,lumpy virus
+2136,sheep,8,103.7,loss of appetite,depression,painless lumps,pneumonia
+2137,goat,9,101.3,swelling in muscle,depression,crackling sound,blackleg
+2138,buffalo,13,103.4,swelling in abdomen,shortness of breath,chest discomfort,anthrax
+2139,sheep,1,101.3,painless lumps,depression,loss of appetite,pneumonia
+2140,sheep,10,101.5,painless lumps,loss of appetite,depression,lumpy virus
+2141,goat,7,102.6,depression,swelling in limb,difficulty walking,blackleg
+2142,cow,9,100.1,difficulty walking,blisters on mouth,loss of appetite,foot and mouth
+2143,goat,9,102.1,loss of appetite,depression,painless lumps,pneumonia
+2144,sheep,8,102.1,loss of appetite,blisters on mouth,difficulty walking,foot and mouth
+2145,buffalo,8,101.5,sores on gums,difficulty walking,loss of appetite,foot and mouth
+2146,goat,9,100.3,chest discomfort,fatigue,sweats,anthrax
+2147,goat,5,101.0,difficulty walking,crackling sound,loss of appetite,blackleg
+2148,cow,3,101.7,painless lumps,loss of appetite,depression,lumpy virus
+2149,sheep,2,100.7,loss of appetite,painless lumps,depression,lumpy virus
+2150,cow,4,104.3,blisters on hooves,loss of appetite,difficulty walking,foot and mouth
+2151,sheep,6,101.5,difficulty walking,sores on tongue,loss of appetite,foot and mouth
+2152,buffalo,6,100.1,loss of appetite,painless lumps,depression,lumpy virus
+2153,goat,2,102.3,lameness,loss of appetite,sores on gums,foot and mouth
+2154,goat,3,104.8,crackling sound,lameness,swelling in muscle,blackleg
+2155,goat,7,102.1,painless lumps,loss of appetite,depression,pneumonia
+2156,cow,12,103.3,sores on gums,loss of appetite,difficulty walking,foot and mouth
+2157,buffalo,15,100.1,chills,fatigue,chest discomfort,anthrax
+2158,goat,4,102.6,depression,painless lumps,loss of appetite,lumpy virus
+2159,cow,7,104.6,swelling in muscle,depression,crackling sound,blackleg
+2160,cow,7,100.7,fatigue,chills,sweats,anthrax
+2161,buffalo,3,104.6,swelling in extremities,sweats,shortness of breath,anthrax
+2162,goat,3,101.5,loss of appetite,painless lumps,depression,pneumonia
+2163,buffalo,7,102.4,sweats,fatigue,chills,anthrax
+2164,sheep,1,102.5,painless lumps,loss of appetite,depression,lumpy virus
+2165,sheep,8,103.7,depression,painless lumps,loss of appetite,lumpy virus
+2166,cow,13,101.0,shortness of breath,chest discomfort,sweats,anthrax
+2167,buffalo,4,101.0,depression,painless lumps,loss of appetite,lumpy virus
+2168,sheep,1,103.1,loss of appetite,depression,painless lumps,pneumonia
+2169,buffalo,13,100.3,painless lumps,depression,loss of appetite,pneumonia
+2170,sheep,8,100.6,loss of appetite,depression,swelling in limb,blackleg
+2171,sheep,4,104.0,fatigue,chills,shortness of breath,anthrax
+2172,goat,10,103.8,crackling sound,depression,loss of appetite,blackleg
+2173,cow,9,104.1,painless lumps,depression,loss of appetite,pneumonia
+2174,sheep,5,101.6,chills,fatigue,shortness of breath,anthrax
+2175,buffalo,12,102.5,painless lumps,loss of appetite,depression,lumpy virus
+2176,sheep,2,101.6,loss of appetite,painless lumps,depression,lumpy virus
+2177,sheep,3,101.9,crackling sound,depression,loss of appetite,blackleg
+2178,goat,1,101.2,loss of appetite,depression,painless lumps,pneumonia
+2179,buffalo,13,101.4,difficulty walking,depression,crackling sound,blackleg
+2180,sheep,5,100.9,depression,lameness,swelling in limb,blackleg
+2181,cow,8,103.9,painless lumps,depression,loss of appetite,pneumonia
+2182,goat,8,104.2,painless lumps,loss of appetite,depression,lumpy virus
+2183,goat,7,101.7,depression,lameness,swelling in limb,blackleg
+2184,goat,10,101.3,loss of appetite,depression,painless lumps,pneumonia
+2185,goat,7,103.0,crackling sound,loss of appetite,depression,blackleg
+2186,cow,1,102.7,depression,loss of appetite,painless lumps,pneumonia
+2187,goat,9,105.0,loss of appetite,depression,painless lumps,lumpy virus
+2188,cow,3,102.6,loss of appetite,depression,painless lumps,lumpy virus
+2189,cow,10,101.0,loss of appetite,painless lumps,depression,lumpy virus
+2190,buffalo,15,100.8,chills,chest discomfort,shortness of breath,anthrax
+2191,buffalo,9,103.0,loss of appetite,painless lumps,depression,lumpy virus
+2192,buffalo,13,102.5,depression,loss of appetite,painless lumps,lumpy virus
+2193,buffalo,5,102.2,lameness,crackling sound,loss of appetite,blackleg
+2194,cow,13,103.9,depression,painless lumps,loss of appetite,pneumonia
+2195,goat,1,101.9,swelling in abdomen,fatigue,sweats,anthrax
+2196,sheep,10,101.6,depression,crackling sound,lameness,blackleg
+2197,goat,1,102.6,depression,painless lumps,loss of appetite,lumpy virus
+2198,sheep,5,102.9,lameness,loss of appetite,blisters on hooves,foot and mouth
+2199,goat,8,101.8,loss of appetite,difficulty walking,swelling in muscle,blackleg
+2200,buffalo,13,101.1,shortness of breath,chest discomfort,sweats,anthrax
+2201,buffalo,4,104.0,chills,sweats,shortness of breath,anthrax
+2202,goat,1,101.1,loss of appetite,difficulty walking,sores on hooves,foot and mouth
+2203,cow,8,101.7,fatigue,chest discomfort,sweats,anthrax
+2204,buffalo,4,102.5,lameness,sores on gums,loss of appetite,foot and mouth
+2205,sheep,5,100.6,painless lumps,depression,loss of appetite,pneumonia
+2206,sheep,1,100.2,loss of appetite,painless lumps,depression,lumpy virus
+2207,goat,9,102.9,painless lumps,depression,loss of appetite,lumpy virus
+2208,goat,9,102.3,painless lumps,depression,loss of appetite,lumpy virus
+2209,sheep,9,102.1,swelling in abdomen,chills,fatigue,anthrax
+2210,cow,13,104.3,chills,sweats,swelling in neck,anthrax
+2211,cow,6,103.0,loss of appetite,painless lumps,depression,lumpy virus
+2212,sheep,1,101.4,blisters on mouth,difficulty walking,loss of appetite,foot and mouth
+2213,sheep,4,101.1,loss of appetite,painless lumps,depression,lumpy virus
+2214,sheep,10,102.4,blisters on tongue,loss of appetite,lameness,foot and mouth
+2215,goat,6,103.1,painless lumps,depression,loss of appetite,pneumonia
+2216,buffalo,12,100.9,painless lumps,loss of appetite,depression,lumpy virus
+2217,cow,1,104.5,depression,crackling sound,lameness,blackleg
+2218,cow,4,100.5,depression,loss of appetite,painless lumps,lumpy virus
+2219,sheep,7,101.0,fatigue,shortness of breath,sweats,anthrax
+2220,sheep,2,101.8,loss of appetite,depression,lameness,blackleg
+2221,goat,4,103.3,chest discomfort,swelling in neck,sweats,anthrax
+2222,buffalo,3,102.8,sweats,swelling in extremities,fatigue,anthrax
+2223,sheep,9,101.9,painless lumps,loss of appetite,depression,pneumonia
+2224,buffalo,15,100.8,painless lumps,depression,loss of appetite,lumpy virus
+2225,goat,4,101.7,sores on tongue,difficulty walking,loss of appetite,foot and mouth
+2226,cow,11,102.7,depression,painless lumps,loss of appetite,pneumonia
+2227,sheep,3,102.1,loss of appetite,painless lumps,depression,pneumonia
+2228,cow,3,100.7,painless lumps,depression,loss of appetite,pneumonia
+2229,buffalo,9,101.3,loss of appetite,painless lumps,depression,pneumonia
+2230,cow,14,101.7,crackling sound,depression,swelling in limb,blackleg
+2231,sheep,9,104.9,depression,loss of appetite,painless lumps,pneumonia
+2232,sheep,8,102.3,lameness,loss of appetite,blisters on gums,foot and mouth
+2233,sheep,5,102.4,depression,painless lumps,loss of appetite,lumpy virus
+2234,buffalo,15,103.9,sores on gums,lameness,loss of appetite,foot and mouth
+2235,goat,6,102.9,depression,loss of appetite,painless lumps,lumpy virus
+2236,buffalo,8,102.7,loss of appetite,blisters on mouth,difficulty walking,foot and mouth
+2237,goat,8,101.0,depression,loss of appetite,painless lumps,pneumonia
+2238,goat,8,102.6,difficulty walking,loss of appetite,swelling in limb,blackleg
+2239,sheep,4,102.4,painless lumps,depression,loss of appetite,lumpy virus
+2240,goat,2,101.6,loss of appetite,blisters on gums,difficulty walking,foot and mouth
+2241,goat,9,101.9,depression,loss of appetite,painless lumps,pneumonia
+2242,buffalo,15,100.2,lameness,loss of appetite,sores on gums,foot and mouth
+2243,buffalo,13,102.5,depression,loss of appetite,painless lumps,pneumonia
+2244,goat,6,104.3,depression,loss of appetite,painless lumps,lumpy virus
+2245,buffalo,11,100.3,painless lumps,loss of appetite,depression,pneumonia
+2246,goat,2,101.0,sores on gums,lameness,loss of appetite,foot and mouth
+2247,sheep,7,104.5,fatigue,shortness of breath,swelling in neck,anthrax
+2248,cow,12,102.9,crackling sound,swelling in muscle,loss of appetite,blackleg
+2249,cow,12,102.9,depression,painless lumps,loss of appetite,pneumonia
+2250,cow,4,103.7,depression,loss of appetite,painless lumps,pneumonia
+2251,sheep,2,103.5,depression,painless lumps,loss of appetite,pneumonia
+2252,buffalo,10,104.0,chills,swelling in abdomen,sweats,anthrax
+2253,sheep,4,100.6,loss of appetite,depression,painless lumps,lumpy virus
+2254,goat,2,102.8,swelling in neck,shortness of breath,sweats,anthrax
+2255,goat,10,101.6,chest discomfort,fatigue,sweats,anthrax
+2256,buffalo,1,101.6,depression,loss of appetite,painless lumps,lumpy virus
+2257,goat,9,102.7,painless lumps,loss of appetite,depression,lumpy virus
+2258,buffalo,12,100.5,shortness of breath,swelling in abdomen,sweats,anthrax
+2259,cow,9,104.3,depression,loss of appetite,painless lumps,lumpy virus
+2260,buffalo,13,104.3,depression,loss of appetite,painless lumps,lumpy virus
+2261,cow,5,101.1,blisters on hooves,difficulty walking,loss of appetite,foot and mouth
+2262,buffalo,7,100.6,crackling sound,depression,swelling in muscle,blackleg
+2263,goat,8,102.7,loss of appetite,sores on gums,lameness,foot and mouth
+2264,goat,5,100.5,depression,crackling sound,loss of appetite,blackleg
+2265,goat,2,101.7,chills,sweats,chest discomfort,anthrax
+2266,buffalo,4,100.7,blisters on gums,loss of appetite,lameness,foot and mouth
+2267,sheep,3,104.1,shortness of breath,swelling in extremities,chills,anthrax
+2268,goat,1,101.6,chest discomfort,chills,swelling in abdomen,anthrax
+2269,buffalo,10,102.9,painless lumps,loss of appetite,depression,pneumonia
+2270,buffalo,12,102.7,depression,painless lumps,loss of appetite,pneumonia
+2271,cow,8,103.1,swelling in limb,difficulty walking,loss of appetite,blackleg
+2272,sheep,9,101.6,loss of appetite,depression,painless lumps,lumpy virus
+2273,sheep,1,100.8,loss of appetite,painless lumps,depression,lumpy virus
+2274,sheep,9,101.2,crackling sound,depression,swelling in limb,blackleg
+2275,sheep,7,101.4,sores on tongue,loss of appetite,difficulty walking,foot and mouth
+2276,cow,10,101.1,depression,loss of appetite,painless lumps,pneumonia
+2277,goat,6,100.0,difficulty walking,depression,swelling in limb,blackleg
+2278,sheep,5,104.2,depression,loss of appetite,difficulty walking,blackleg
+2279,sheep,5,104.0,loss of appetite,painless lumps,depression,lumpy virus
+2280,goat,7,103.0,loss of appetite,depression,painless lumps,lumpy virus
+2281,sheep,6,103.6,depression,painless lumps,loss of appetite,pneumonia
+2282,goat,9,102.7,painless lumps,loss of appetite,depression,pneumonia
+2283,buffalo,2,102.5,sweats,chills,fatigue,anthrax
+2284,cow,15,100.8,chills,shortness of breath,fatigue,anthrax
+2285,buffalo,13,103.3,depression,loss of appetite,painless lumps,lumpy virus
+2286,sheep,3,101.1,swelling in neck,chills,shortness of breath,anthrax
+2287,cow,1,104.5,loss of appetite,depression,painless lumps,lumpy virus
+2288,buffalo,3,100.1,swelling in extremities,chest discomfort,fatigue,anthrax
+2289,goat,3,102.6,loss of appetite,depression,painless lumps,pneumonia
+2290,cow,11,100.5,swelling in muscle,loss of appetite,depression,blackleg
+2291,buffalo,2,103.0,shortness of breath,fatigue,chest discomfort,anthrax
+2292,cow,8,101.1,depression,painless lumps,loss of appetite,pneumonia
+2293,buffalo,5,104.3,depression,loss of appetite,painless lumps,lumpy virus
+2294,sheep,9,101.9,loss of appetite,depression,painless lumps,pneumonia
+2295,cow,2,100.9,chest discomfort,swelling in abdomen,chills,anthrax
+2296,buffalo,1,102.3,painless lumps,depression,loss of appetite,lumpy virus
+2297,goat,7,100.5,lameness,blisters on hooves,loss of appetite,foot and mouth
+2298,buffalo,3,100.2,lameness,depression,crackling sound,blackleg
+2299,sheep,6,104.0,loss of appetite,depression,painless lumps,pneumonia
+2300,sheep,5,100.1,chills,chest discomfort,fatigue,anthrax
+2301,buffalo,15,100.3,painless lumps,loss of appetite,depression,pneumonia
+2302,buffalo,10,101.7,sores on hooves,loss of appetite,difficulty walking,foot and mouth
+2303,buffalo,2,100.1,loss of appetite,painless lumps,depression,pneumonia
+2304,goat,9,103.9,loss of appetite,painless lumps,depression,lumpy virus
+2305,goat,3,101.6,blisters on mouth,difficulty walking,loss of appetite,foot and mouth
+2306,sheep,10,102.0,painless lumps,depression,loss of appetite,pneumonia
+2307,sheep,1,102.3,loss of appetite,depression,painless lumps,pneumonia
+2308,sheep,9,101.2,crackling sound,swelling in limb,depression,blackleg
+2309,goat,3,100.8,swelling in neck,shortness of breath,fatigue,anthrax
+2310,sheep,5,101.3,chills,sweats,fatigue,anthrax
+2311,goat,3,100.1,lameness,loss of appetite,blisters on mouth,foot and mouth
+2312,buffalo,10,103.8,depression,loss of appetite,painless lumps,lumpy virus
+2313,cow,6,103.9,loss of appetite,swelling in limb,crackling sound,blackleg
+2314,buffalo,3,103.7,chest discomfort,shortness of breath,chills,anthrax
+2315,sheep,2,102.9,painless lumps,depression,loss of appetite,lumpy virus
+2316,buffalo,10,102.4,loss of appetite,painless lumps,depression,lumpy virus
+2317,buffalo,3,101.1,loss of appetite,depression,painless lumps,lumpy virus
+2318,sheep,9,102.5,depression,loss of appetite,crackling sound,blackleg
+2319,goat,2,101.9,painless lumps,loss of appetite,depression,pneumonia
+2320,buffalo,4,100.1,painless lumps,depression,loss of appetite,pneumonia
+2321,cow,12,101.2,loss of appetite,depression,painless lumps,lumpy virus
+2322,goat,7,102.5,fatigue,chest discomfort,chills,anthrax
+2323,buffalo,12,100.4,depression,painless lumps,loss of appetite,pneumonia
+2324,buffalo,2,100.2,loss of appetite,depression,crackling sound,blackleg
+2325,sheep,10,103.3,loss of appetite,painless lumps,depression,lumpy virus
+2326,sheep,10,102.7,depression,painless lumps,loss of appetite,lumpy virus
+2327,cow,14,100.8,chills,swelling in neck,sweats,anthrax
+2328,buffalo,4,102.0,lameness,loss of appetite,blisters on mouth,foot and mouth
+2329,goat,9,104.1,depression,loss of appetite,crackling sound,blackleg
+2330,buffalo,15,104.5,lameness,crackling sound,swelling in muscle,blackleg
+2331,sheep,8,103.8,swelling in abdomen,shortness of breath,chest discomfort,anthrax
+2332,goat,4,102.8,loss of appetite,depression,painless lumps,pneumonia
+2333,buffalo,3,102.9,shortness of breath,chest discomfort,sweats,anthrax
+2334,buffalo,8,103.0,painless lumps,depression,loss of appetite,pneumonia
+2335,buffalo,12,100.2,sores on hooves,lameness,loss of appetite,foot and mouth
+2336,buffalo,7,101.0,difficulty walking,loss of appetite,swelling in muscle,blackleg
+2337,goat,1,103.9,swelling in limb,crackling sound,depression,blackleg
+2338,sheep,6,104.3,difficulty walking,sores on mouth,loss of appetite,foot and mouth
+2339,goat,6,100.9,difficulty walking,crackling sound,depression,blackleg
+2340,sheep,9,100.4,loss of appetite,painless lumps,depression,lumpy virus
+2341,sheep,3,102.7,sores on hooves,difficulty walking,loss of appetite,foot and mouth
+2342,goat,3,101.6,lameness,loss of appetite,depression,blackleg
+2343,goat,2,103.6,depression,painless lumps,loss of appetite,pneumonia
+2344,sheep,8,103.6,depression,loss of appetite,painless lumps,pneumonia
+2345,buffalo,1,101.2,depression,loss of appetite,painless lumps,lumpy virus
+2346,buffalo,12,101.0,fatigue,sweats,chest discomfort,anthrax
+2347,goat,5,101.3,depression,painless lumps,loss of appetite,pneumonia
+2348,buffalo,4,102.4,sweats,fatigue,shortness of breath,anthrax
+2349,sheep,3,102.3,difficulty walking,sores on tongue,loss of appetite,foot and mouth
+2350,sheep,4,103.7,loss of appetite,lameness,blisters on gums,foot and mouth
+2351,goat,10,101.2,loss of appetite,painless lumps,depression,pneumonia
+2352,buffalo,4,103.2,depression,loss of appetite,painless lumps,lumpy virus
+2353,sheep,2,104.8,painless lumps,loss of appetite,depression,pneumonia
+2354,buffalo,12,102.2,loss of appetite,depression,painless lumps,lumpy virus
+2355,goat,2,102.9,painless lumps,depression,loss of appetite,lumpy virus
+2356,sheep,9,103.8,shortness of breath,chills,chest discomfort,anthrax
+2357,sheep,5,100.3,loss of appetite,depression,painless lumps,pneumonia
+2358,goat,3,100.9,swelling in abdomen,shortness of breath,sweats,anthrax
+2359,buffalo,3,102.5,loss of appetite,depression,swelling in muscle,blackleg
+2360,goat,6,103.8,loss of appetite,lameness,blisters on gums,foot and mouth
+2361,cow,12,102.2,painless lumps,loss of appetite,depression,pneumonia
+2362,sheep,8,101.1,loss of appetite,depression,difficulty walking,blackleg
+2363,buffalo,6,102.1,loss of appetite,painless lumps,depression,pneumonia
+2364,buffalo,7,104.4,painless lumps,depression,loss of appetite,pneumonia
+2365,buffalo,4,101.3,sweats,swelling in neck,fatigue,anthrax
+2366,buffalo,3,102.0,depression,painless lumps,loss of appetite,pneumonia
+2367,sheep,6,103.6,painless lumps,depression,loss of appetite,lumpy virus
+2368,sheep,9,101.8,sweats,swelling in neck,chills,anthrax
+2369,buffalo,3,103.9,loss of appetite,depression,painless lumps,lumpy virus
+2370,buffalo,12,103.7,loss of appetite,depression,painless lumps,lumpy virus
+2371,goat,10,104.9,depression,painless lumps,loss of appetite,pneumonia
+2372,goat,4,100.3,lameness,swelling in muscle,crackling sound,blackleg
+2373,goat,7,104.6,painless lumps,loss of appetite,depression,lumpy virus
+2374,cow,5,103.0,loss of appetite,difficulty walking,sores on tongue,foot and mouth
+2375,cow,13,101.4,depression,painless lumps,loss of appetite,lumpy virus
+2376,buffalo,8,100.6,depression,painless lumps,loss of appetite,lumpy virus
+2377,cow,8,100.1,loss of appetite,depression,difficulty walking,blackleg
+2378,goat,9,103.7,depression,loss of appetite,painless lumps,lumpy virus
+2379,sheep,3,100.5,loss of appetite,lameness,sores on gums,foot and mouth
+2380,goat,4,103.0,blisters on hooves,loss of appetite,lameness,foot and mouth
+2381,buffalo,9,100.6,painless lumps,depression,loss of appetite,pneumonia
+2382,buffalo,9,100.1,swelling in limb,lameness,depression,blackleg
+2383,sheep,2,104.1,depression,loss of appetite,painless lumps,pneumonia
+2384,cow,5,102.6,painless lumps,loss of appetite,depression,pneumonia
+2385,sheep,8,102.4,loss of appetite,depression,painless lumps,lumpy virus
+2386,cow,1,103.8,blisters on tongue,loss of appetite,difficulty walking,foot and mouth
+2387,buffalo,8,103.5,lameness,loss of appetite,sores on gums,foot and mouth
+2388,goat,8,103.9,depression,painless lumps,loss of appetite,lumpy virus
+2389,sheep,1,103.5,fatigue,chills,chest discomfort,anthrax
+2390,buffalo,10,102.1,chills,fatigue,sweats,anthrax
+2391,buffalo,7,102.7,painless lumps,depression,loss of appetite,lumpy virus
+2392,goat,5,104.9,fatigue,chest discomfort,sweats,anthrax
+2393,buffalo,5,101.3,depression,difficulty walking,swelling in limb,blackleg
+2394,cow,13,103.2,painless lumps,loss of appetite,depression,pneumonia
+2395,buffalo,11,101.6,depression,painless lumps,loss of appetite,lumpy virus
+2396,cow,1,104.5,lameness,loss of appetite,crackling sound,blackleg
+2397,goat,6,100.9,blisters on gums,difficulty walking,loss of appetite,foot and mouth
+2398,goat,1,102.5,loss of appetite,painless lumps,depression,lumpy virus
+2399,cow,11,102.0,swelling in extremities,sweats,chest discomfort,anthrax
+2400,sheep,7,100.4,loss of appetite,lameness,blisters on mouth,foot and mouth
+2401,buffalo,11,102.2,painless lumps,loss of appetite,depression,pneumonia
+2402,cow,12,100.2,blisters on hooves,difficulty walking,loss of appetite,foot and mouth
+2403,goat,1,100.7,fatigue,chest discomfort,swelling in extremities,anthrax
+2404,goat,7,103.0,shortness of breath,swelling in abdomen,chills,anthrax
+2405,buffalo,10,101.1,depression,painless lumps,loss of appetite,pneumonia
+2406,cow,9,101.2,swelling in muscle,crackling sound,loss of appetite,blackleg
+2407,buffalo,3,102.3,loss of appetite,painless lumps,depression,lumpy virus
+2408,goat,1,104.7,crackling sound,loss of appetite,depression,blackleg
+2409,cow,5,101.4,difficulty walking,blisters on tongue,loss of appetite,foot and mouth
+2410,goat,3,103.7,depression,painless lumps,loss of appetite,pneumonia
+2411,sheep,2,100.9,loss of appetite,blisters on gums,difficulty walking,foot and mouth
+2412,cow,5,102.4,loss of appetite,difficulty walking,swelling in limb,blackleg
+2413,buffalo,13,104.9,depression,painless lumps,loss of appetite,lumpy virus
+2414,goat,2,104.0,swelling in abdomen,sweats,fatigue,anthrax
+2415,cow,2,102.5,painless lumps,depression,loss of appetite,lumpy virus
+2416,cow,1,102.3,crackling sound,loss of appetite,depression,blackleg
+2417,sheep,9,101.6,fatigue,swelling in extremities,shortness of breath,anthrax
+2418,sheep,4,104.2,swelling in muscle,depression,lameness,blackleg
+2419,sheep,10,101.0,sores on mouth,lameness,loss of appetite,foot and mouth
+2420,cow,5,102.2,depression,painless lumps,loss of appetite,pneumonia
+2421,buffalo,7,100.6,painless lumps,depression,loss of appetite,pneumonia
+2422,goat,5,100.4,loss of appetite,lameness,sores on gums,foot and mouth
+2423,sheep,4,102.3,depression,painless lumps,loss of appetite,pneumonia
+2424,cow,5,103.7,painless lumps,loss of appetite,depression,lumpy virus
+2425,cow,9,101.3,shortness of breath,swelling in extremities,chills,anthrax
+2426,goat,5,102.9,loss of appetite,blisters on tongue,difficulty walking,foot and mouth
+2427,buffalo,7,102.7,depression,loss of appetite,painless lumps,pneumonia
+2428,cow,7,104.3,sores on hooves,difficulty walking,loss of appetite,foot and mouth
+2429,buffalo,10,101.6,swelling in extremities,shortness of breath,chest discomfort,anthrax
+2430,buffalo,4,100.4,swelling in muscle,crackling sound,difficulty walking,blackleg
+2431,cow,9,100.4,chest discomfort,chills,swelling in neck,anthrax
+2432,cow,1,102.3,depression,loss of appetite,painless lumps,pneumonia
+2433,sheep,9,103.4,crackling sound,swelling in limb,lameness,blackleg
+2434,cow,4,103.2,depression,painless lumps,loss of appetite,pneumonia
+2435,buffalo,7,102.6,depression,painless lumps,loss of appetite,lumpy virus
+2436,sheep,2,100.7,depression,loss of appetite,painless lumps,pneumonia
+2437,goat,6,100.6,loss of appetite,difficulty walking,sores on hooves,foot and mouth
+2438,goat,4,102.0,swelling in muscle,loss of appetite,depression,blackleg
+2439,sheep,1,101.4,sweats,chest discomfort,chills,anthrax
+2440,buffalo,15,103.1,shortness of breath,sweats,chest discomfort,anthrax
+2441,buffalo,15,101.9,painless lumps,depression,loss of appetite,lumpy virus
+2442,sheep,5,101.3,lameness,loss of appetite,crackling sound,blackleg
+2443,goat,10,100.3,fatigue,swelling in abdomen,shortness of breath,anthrax
+2444,goat,8,100.7,loss of appetite,painless lumps,depression,pneumonia
+2445,buffalo,10,101.8,loss of appetite,depression,painless lumps,pneumonia
+2446,sheep,8,104.4,difficulty walking,loss of appetite,sores on mouth,foot and mouth
+2447,goat,2,102.3,loss of appetite,depression,painless lumps,pneumonia
+2448,goat,4,103.3,painless lumps,loss of appetite,depression,pneumonia
+2449,buffalo,5,102.0,crackling sound,lameness,loss of appetite,blackleg
+2450,buffalo,15,100.1,depression,painless lumps,loss of appetite,lumpy virus
+2451,goat,3,102.6,swelling in limb,difficulty walking,depression,blackleg
+2452,cow,7,100.8,swelling in extremities,sweats,fatigue,anthrax
+2453,goat,1,100.5,depression,lameness,swelling in limb,blackleg
+2454,goat,1,104.8,shortness of breath,chills,chest discomfort,anthrax
+2455,goat,8,102.6,loss of appetite,swelling in limb,crackling sound,blackleg
+2456,goat,3,103.3,fatigue,chills,chest discomfort,anthrax
+2457,goat,6,103.3,blisters on hooves,difficulty walking,loss of appetite,foot and mouth
+2458,goat,7,101.4,loss of appetite,depression,painless lumps,pneumonia
+2459,buffalo,5,103.5,loss of appetite,depression,painless lumps,lumpy virus
+2460,buffalo,9,101.5,sweats,fatigue,swelling in neck,anthrax
+2461,sheep,3,104.3,lameness,blisters on gums,loss of appetite,foot and mouth
+2462,buffalo,14,103.0,lameness,loss of appetite,blisters on tongue,foot and mouth
+2463,sheep,4,102.5,difficulty walking,loss of appetite,swelling in limb,blackleg
+2464,goat,2,100.7,depression,loss of appetite,painless lumps,lumpy virus
+2465,sheep,9,101.0,depression,loss of appetite,painless lumps,pneumonia
+2466,sheep,7,101.5,lameness,blisters on tongue,loss of appetite,foot and mouth
+2467,cow,11,101.6,painless lumps,loss of appetite,depression,pneumonia
+2468,cow,10,100.3,loss of appetite,difficulty walking,blisters on mouth,foot and mouth
+2469,buffalo,9,102.6,swelling in limb,crackling sound,lameness,blackleg
+2470,cow,7,104.4,lameness,blisters on tongue,loss of appetite,foot and mouth
+2471,sheep,3,100.1,painless lumps,loss of appetite,depression,lumpy virus
+2472,sheep,4,100.5,chest discomfort,fatigue,swelling in neck,anthrax
+2473,goat,9,100.0,painless lumps,loss of appetite,depression,lumpy virus
+2474,buffalo,15,100.5,sores on tongue,difficulty walking,loss of appetite,foot and mouth
+2475,goat,5,102.3,lameness,blisters on gums,loss of appetite,foot and mouth
+2476,buffalo,11,103.8,difficulty walking,swelling in muscle,loss of appetite,blackleg
+2477,buffalo,8,100.2,chills,swelling in neck,chest discomfort,anthrax
+2478,cow,11,100.5,depression,painless lumps,loss of appetite,pneumonia
+2479,buffalo,3,103.1,painless lumps,depression,loss of appetite,pneumonia
+2480,goat,7,104.0,loss of appetite,depression,painless lumps,pneumonia
+2481,buffalo,12,103.8,sweats,swelling in abdomen,chest discomfort,anthrax
+2482,cow,9,104.9,painless lumps,depression,loss of appetite,lumpy virus
+2483,cow,2,102.8,crackling sound,depression,swelling in muscle,blackleg
+2484,cow,11,102.8,chest discomfort,fatigue,chills,anthrax
+2485,buffalo,14,102.2,depression,painless lumps,loss of appetite,lumpy virus
+2486,buffalo,11,100.1,blisters on gums,loss of appetite,difficulty walking,foot and mouth
+2487,sheep,2,104.3,painless lumps,loss of appetite,depression,pneumonia
+2488,cow,2,103.9,lameness,loss of appetite,sores on gums,foot and mouth
+2489,sheep,5,104.4,loss of appetite,lameness,depression,blackleg
+2490,buffalo,5,102.1,painless lumps,depression,loss of appetite,pneumonia
+2491,goat,9,103.2,loss of appetite,crackling sound,lameness,blackleg
+2492,goat,4,104.7,swelling in neck,chills,sweats,anthrax
+2493,cow,5,100.3,loss of appetite,painless lumps,depression,pneumonia
+2494,buffalo,8,101.3,painless lumps,loss of appetite,depression,lumpy virus
+2495,buffalo,5,104.1,lameness,loss of appetite,depression,blackleg
+2496,cow,9,101.5,crackling sound,loss of appetite,depression,blackleg
+2497,cow,11,102.9,sores on mouth,difficulty walking,loss of appetite,foot and mouth
+2498,goat,10,103.4,depression,painless lumps,loss of appetite,pneumonia
+2499,sheep,3,103.0,depression,loss of appetite,painless lumps,pneumonia

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Features - VetAI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    
+    <style>
+        .feature-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: var(--shadow-medium);
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-heavy);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .export-section {
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            color: white;
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .weather-widget {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .disease-info-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .disease-info-card:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateX(10px);
+        }
+        
+        .severity-critical { border-left: 5px solid #ff6b6b; }
+        .severity-very-high { border-left: 5px solid #ff4757; }
+        .severity-high { border-left: 5px solid #ff8c00; }
+        .severity-moderate { border-left: 5px solid #feca57; }
+        .severity-low { border-left: 5px solid #51cf66; }
+        
+        .stat-widget {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 1.5rem;
+            text-align: center;
+            margin-bottom: 1rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        
+        .modal-content {
+            border-radius: var(--border-radius);
+            border: none;
+            box-shadow: var(--shadow-heavy);
+        }
+        
+        .btn-feature {
+            background: var(--gradient-primary);
+            border: none;
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-feature:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-light);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-animated"></div>
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-heartbeat me-2"></i>VetAI
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"><i class="fas fa-search me-1"></i>Predict</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dashboard"><i class="fas fa-chart-line me-1"></i>Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/features"><i class="fas fa-cogs me-1"></i>Features</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <!-- Header -->
+        <div class="text-center text-white mb-5">
+            <h1 class="hero-title">Advanced Features</h1>
+            <p class="hero-subtitle">Explore powerful tools and insights for livestock health management</p>
+        </div>
+
+        <div class="row">
+            <!-- Data Export Section -->
+            <div class="col-md-6 mb-4">
+                <div class="export-section">
+                    <div class="text-center">
+                        <i class="fas fa-download display-4 mb-3"></i>
+                        <h3>Data Export</h3>
+                        <p>Export your prediction history and analytics data</p>
+                        <button class="btn btn-light btn-lg" onclick="exportData()">
+                            <i class="fas fa-file-csv me-2"></i>Export CSV
+                        </button>
+                    </div>
+                    <div class="mt-3" id="exportStatus"></div>
+                </div>
+            </div>
+
+            <!-- Weather Impact Section -->
+            <div class="col-md-6 mb-4">
+                <div class="weather-widget">
+                    <div class="text-center">
+                        <i class="fas fa-cloud-sun display-4 mb-3"></i>
+                        <h3>Weather Impact</h3>
+                        <p>Understand how weather affects disease patterns</p>
+                        <button class="btn btn-light btn-lg" onclick="loadWeatherInfo()">
+                            <i class="fas fa-info-circle me-2"></i>View Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Advanced Statistics -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="feature-card">
+                    <h3 class="text-center mb-4">
+                        <i class="fas fa-chart-pie feature-icon"></i>
+                        Advanced Statistics
+                    </h3>
+                    <div class="row" id="advancedStats">
+                        <div class="col-md-3">
+                            <div class="stat-widget">
+                                <div class="stat-number" id="totalPredictions">0</div>
+                                <div class="small text-muted">Total Predictions</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stat-widget">
+                                <div class="stat-number" id="avgConfidence">0%</div>
+                                <div class="small text-muted">Avg Confidence</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stat-widget">
+                                <div class="stat-number" id="highConfCount">0</div>
+                                <div class="small text-muted">High Confidence</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stat-widget">
+                                <div class="stat-number" id="thisMonth">0</div>
+                                <div class="small text-muted">This Month</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Disease Information Library -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="feature-card">
+                    <h3 class="text-center mb-4">
+                        <i class="fas fa-book-medical feature-icon"></i>
+                        Disease Information Library
+                    </h3>
+                    <div class="row" id="diseaseLibrary">
+                        <!-- Disease cards will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- API Documentation -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="feature-card">
+                    <h3 class="text-center mb-4">
+                        <i class="fas fa-code feature-icon"></i>
+                        API Documentation
+                    </h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>Available Endpoints:</h5>
+                            <ul class="list-unstyled">
+                                <li><code class="text-primary">GET /api/health-check</code> - System health</li>
+                                <li><code class="text-primary">GET /api/analytics</code> - Prediction analytics</li>
+                                <li><code class="text-primary">GET /api/model-info</code> - Model information</li>
+                                <li><code class="text-primary">GET /api/symptoms</code> - Available symptoms</li>
+                                <li><code class="text-primary">POST /predict</code> - Make prediction</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Advanced Endpoints:</h5>
+                            <ul class="list-unstyled">
+                                <li><code class="text-success">GET /api/prediction-stats</code> - Detailed stats</li>
+                                <li><code class="text-success">GET /api/export-data</code> - Export data</li>
+                                <li><code class="text-success">GET /api/weather-impact</code> - Weather info</li>
+                                <li><code class="text-success">GET /api/disease-info/&lt;name&gt;</code> - Disease details</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Disease Info Modal -->
+    <div class="modal fade" id="diseaseModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="diseaseModalTitle">Disease Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="diseaseModalBody">
+                    <!-- Disease details will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Weather Info Modal -->
+    <div class="modal fade" id="weatherModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Weather Impact on Livestock Diseases</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="weatherModalBody">
+                    <!-- Weather info will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/vetai-enhancer.js') }}"></script>
+    
+    <script>
+        // Load advanced statistics
+        async function loadAdvancedStats() {
+            try {
+                const response = await fetch('/api/prediction-stats');
+                const data = await response.json();
+                
+                document.getElementById('totalPredictions').textContent = data.total_predictions || 0;
+                document.getElementById('avgConfidence').textContent = (data.average_confidence || 0).toFixed(1) + '%';
+                document.getElementById('highConfCount').textContent = data.high_confidence_count || 0;
+                
+                // Calculate this month's predictions
+                const currentMonth = new Date().toISOString().slice(0, 7);
+                const thisMonth = data.monthly_predictions?.[currentMonth] || 0;
+                document.getElementById('thisMonth').textContent = thisMonth;
+                
+            } catch (error) {
+                console.error('Error loading advanced stats:', error);
+            }
+        }
+
+        // Load disease library
+        async function loadDiseaseLibrary() {
+            const diseases = ['pneumonia', 'lumpy virus', 'blackleg', 'foot and mouth', 'anthrax'];
+            const severityMap = {
+                'pneumonia': 'moderate',
+                'lumpy virus': 'high',
+                'blackleg': 'high',
+                'foot and mouth': 'very-high',
+                'anthrax': 'critical'
+            };
+            
+            const libraryContainer = document.getElementById('diseaseLibrary');
+            libraryContainer.innerHTML = '';
+            
+            diseases.forEach(disease => {
+                const severity = severityMap[disease];
+                const card = document.createElement('div');
+                card.className = 'col-md-6 mb-3';
+                card.innerHTML = `
+                    <div class="disease-info-card severity-${severity}" onclick="showDiseaseInfo('${disease}')">
+                        <h5>${disease.charAt(0).toUpperCase() + disease.slice(1)}</h5>
+                        <p class="small mb-0">Click for detailed information</p>
+                        <div class="mt-2">
+                            <span class="badge bg-${severity === 'critical' ? 'danger' : severity === 'very-high' ? 'warning' : severity === 'high' ? 'warning' : 'success'}">
+                                ${severity.charAt(0).toUpperCase() + severity.slice(1)} Risk
+                            </span>
+                        </div>
+                    </div>
+                `;
+                libraryContainer.appendChild(card);
+            });
+        }
+
+        // Show disease information
+        async function showDiseaseInfo(diseaseName) {
+            try {
+                const response = await fetch(`/api/disease-info/${diseaseName}`);
+                const disease = await response.json();
+                
+                document.getElementById('diseaseModalTitle').textContent = disease.name;
+                document.getElementById('diseaseModalBody').innerHTML = `
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Basic Information</h6>
+                            <p><strong>Scientific Name:</strong> ${disease.scientific_name}</p>
+                            <p><strong>Description:</strong> ${disease.description}</p>
+                            <p><strong>Mortality Rate:</strong> ${disease.mortality_rate}</p>
+                            <p><strong>Incubation Period:</strong> ${disease.incubation_period}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Symptoms</h6>
+                            <ul>
+                                ${disease.common_symptoms.map(symptom => `<li>${symptom}</li>`).join('')}
+                            </ul>
+                            <h6>Affected Animals</h6>
+                            <p>${disease.affected_animals.join(', ')}</p>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <h6>Transmission & Prevention</h6>
+                            <p><strong>Transmission:</strong> ${disease.transmission}</p>
+                            <p><strong>Seasonal Pattern:</strong> ${disease.seasonal_pattern}</p>
+                            <p><strong>Economic Impact:</strong> ${disease.economic_impact}</p>
+                        </div>
+                    </div>
+                `;
+                
+                new bootstrap.Modal(document.getElementById('diseaseModal')).show();
+            } catch (error) {
+                console.error('Error loading disease info:', error);
+            }
+        }
+
+        // Load weather information
+        async function loadWeatherInfo() {
+            try {
+                const response = await fetch('/api/weather-impact');
+                const weather = await response.json();
+                
+                let weatherHtml = `
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>High Risk Conditions by Disease</h6>
+                `;
+                
+                Object.entries(weather.high_risk_conditions).forEach(([disease, conditions]) => {
+                    weatherHtml += `
+                        <div class="mb-3">
+                            <strong>${disease.charAt(0).toUpperCase() + disease.slice(1)}:</strong>
+                            <ul class="small">
+                                ${conditions.map(condition => `<li>${condition}</li>`).join('')}
+                            </ul>
+                        </div>
+                    `;
+                });
+                
+                weatherHtml += `
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Seasonal Trends</h6>
+                `;
+                
+                Object.entries(weather.seasonal_trends).forEach(([season, trends]) => {
+                    weatherHtml += `
+                        <div class="mb-3">
+                            <strong>${season.charAt(0).toUpperCase() + season.slice(1)}:</strong>
+                            <ul class="small">
+                                ${trends.map(trend => `<li>${trend}</li>`).join('')}
+                            </ul>
+                        </div>
+                    `;
+                });
+                
+                weatherHtml += `
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <h6>Prevention by Season</h6>
+                `;
+                
+                Object.entries(weather.prevention_by_season).forEach(([season, prevention]) => {
+                    weatherHtml += `<p><strong>${season}:</strong> ${prevention}</p>`;
+                });
+                
+                weatherHtml += `
+                        </div>
+                    </div>
+                `;
+                
+                document.getElementById('weatherModalBody').innerHTML = weatherHtml;
+                new bootstrap.Modal(document.getElementById('weatherModal')).show();
+                
+            } catch (error) {
+                console.error('Error loading weather info:', error);
+            }
+        }
+
+        // Export data function
+        async function exportData() {
+            const statusDiv = document.getElementById('exportStatus');
+            statusDiv.innerHTML = '<div class="alert alert-info"><i class="fas fa-spinner fa-spin me-2"></i>Preparing export...</div>';
+            
+            try {
+                const response = await fetch('/api/export-data');
+                const result = await response.json();
+                
+                if (result.error) {
+                    statusDiv.innerHTML = `<div class="alert alert-danger">${result.error}</div>`;
+                } else {
+                    statusDiv.innerHTML = `
+                        <div class="alert alert-success">
+                            <i class="fas fa-check me-2"></i>Export ready! 
+                            <a href="${result.download_url}" class="btn btn-sm btn-light ms-2">
+                                <i class="fas fa-download me-1"></i>Download (${result.records} records)
+                            </a>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                statusDiv.innerHTML = '<div class="alert alert-danger">Export failed. Please try again.</div>';
+                console.error('Export error:', error);
+            }
+        }
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            loadAdvancedStats();
+            loadDiseaseLibrary();
+            
+            // Create particles
+            function createParticles() {
+                const particles = document.getElementById('particles');
+                for (let i = 0; i < 50; i++) {
+                    const particle = document.createElement('div');
+                    particle.className = 'particle';
+                    particle.style.left = Math.random() * 100 + '%';
+                    particle.style.animationDelay = Math.random() * 20 + 's';
+                    particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
+                    particles.appendChild(particle);
+                }
+            }
+            
+            createParticles();
+        });
+    </script>
+</body>
+</html>
